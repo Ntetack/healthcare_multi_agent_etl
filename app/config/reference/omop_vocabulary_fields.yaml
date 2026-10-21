@@ -1,0 +1,147 @@
+# OMOP CDM v5.4
+# Champs dont les valeurs doivent etre representees par des CONCEPT_ID OMOP
+# avant le chargement dans les 9 tables cliniques retenues.
+
+PERSON:
+  gender_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Gender
+  gender_source_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Gender
+  race_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Race
+  race_source_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Race
+  ethnicity_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Ethnicity
+  ethnicity_source_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Ethnicity
+
+OBSERVATION_PERIOD:
+  period_type_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Type Concept
+
+VISIT_OCCURRENCE:
+  visit_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Visit
+  visit_source_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Visit
+  visit_type_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Type Concept
+  admitted_from_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Visit
+  discharged_to_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Visit
+
+CONDITION_OCCURRENCE:
+  condition_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Condition
+  condition_type_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Type Concept
+  condition_status_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Condition Status
+  condition_source_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Condition
+
+DRUG_EXPOSURE:
+  drug_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Drug
+  drug_type_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Type Concept
+  route_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Route
+  drug_source_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Drug
+
+MEASUREMENT:
+  measurement_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Measurement
+  measurement_type_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Type Concept
+  operator_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Operator
+  value_as_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Meas Value
+  unit_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Unit
+  measurement_source_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Measurement
+  unit_source_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Unit
+  meas_event_field_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Concept
+
+PROCEDURE_OCCURRENCE:
+  procedure_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Procedure
+  procedure_type_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Type Concept
+  modifier_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Meas Value
+  procedure_source_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Procedure
+
+OBSERVATION:
+  observation_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Observation
+  observation_type_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Type Concept
+  value_as_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Meas Value
+  qualifier_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Observation
+  unit_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Unit
+  observation_source_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Observation
+  obs_event_field_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Concept
+
+DEATH:
+  death_type_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Type Concept
+  cause_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Condition
+  cause_source_concept_id:
+    vocabulary_required: true
+    vocabulary_domain: Condition

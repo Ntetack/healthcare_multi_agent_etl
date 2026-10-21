@@ -1,0 +1,75 @@
+category,omop_table,omop_field,gold_sources,agent_sources,precision,recall,f1,tp,fp,fn,notes
+MAP,person,gender_source_value,patients.GENDER,patients.GENDER,1.0000,1.0000,1.0000,1,0,0,Patients sans genre exclus
+MAP,person,year_of_birth,patients.BIRTHDATE,patients.BIRTHDATE,1.0000,1.0000,1.0000,1,0,0,Extract year
+MAP,person,month_of_birth,patients.BIRTHDATE,patients.BIRTHDATE,1.0000,1.0000,1.0000,1,0,0,Extract month
+MAP,person,day_of_birth,patients.BIRTHDATE,patients.BIRTHDATE,1.0000,1.0000,1.0000,1,0,0,Extract day
+MAP,person,birth_datetime,patients.BIRTHDATE,patients.BIRTHDATE,1.0000,1.0000,1.0000,1,0,0,Minuit
+MAP,person,race_source_value,patients.RACE,patients.RACE,1.0000,1.0000,1.0000,1,0,0,
+MAP,person,ethnicity_source_value,patients.ETHNICITY,patients.ETHNICITY,1.0000,1.0000,1.0000,1,0,0,
+MAP,person,person_source_value,patients.Id,patients.Id,1.0000,1.0000,1.0000,1,0,0,Clé de jointure avec les autres tables
+MAP,observation_period,person_id,encounters.PATIENT,patients.Id,0.0000,0.0000,0.0000,0,1,1,Via person_source_value
+MAP,observation_period,observation_period_start_date,encounters.START,encounters.START,1.0000,1.0000,1.0000,1,0,0,MIN par patient
+MAP,observation_period,observation_period_end_date,encounters.STOP,encounters.STOP,1.0000,1.0000,1.0000,1,0,0,MAX par patient
+MAP,visit_occurrence,person_id,encounters.PATIENT,patients.Id,0.0000,0.0000,0.0000,0,1,1,
+MAP,visit_occurrence,visit_start_date,encounters.START,encounters.START,1.0000,1.0000,1.0000,1,0,0,"Rencontres fusionnées : inpatient <=1 jour d'écart, urgences même jour, consultations même début ; début du groupe"
+MAP,visit_occurrence,visit_start_datetime,encounters.START,encounters.START,1.0000,1.0000,1.0000,1,0,0,Minuit
+MAP,visit_occurrence,visit_end_date,encounters.STOP,encounters.STOP,1.0000,1.0000,1.0000,1,0,0,Fin maximale du groupe fusionné
+MAP,visit_occurrence,visit_end_datetime,encounters.STOP,encounters.STOP,1.0000,1.0000,1.0000,1,0,0,Minuit
+MAP,visit_occurrence,visit_source_value,encounters.Id,encounters.CODE,0.0000,0.0000,0.0000,0,1,1,Identifiant minimal du groupe de rencontres fusionnées
+MAP,condition_occurrence,person_id,conditions.PATIENT,conditions.PATIENT;procedures.PATIENT,0.5000,1.0000,0.6667,1,1,0,
+MAP,condition_occurrence,condition_start_date,conditions.START,conditions.START;procedures.START,0.5000,1.0000,0.6667,1,1,0,
+MAP,condition_occurrence,condition_start_datetime,conditions.START,conditions.START;procedures.START,0.5000,1.0000,0.6667,1,1,0,Minuit
+MAP,condition_occurrence,condition_end_date,conditions.STOP,conditions.STOP;procedures.STOP,0.5000,1.0000,0.6667,1,1,0,
+MAP,condition_occurrence,condition_end_datetime,conditions.STOP,conditions.STOP;procedures.STOP,0.5000,1.0000,0.6667,1,1,0,Minuit
+MAP,condition_occurrence,condition_source_value,conditions.CODE,conditions.CODE;procedures.CODE,0.5000,1.0000,0.6667,1,1,0,
+MAP,condition_occurrence,visit_occurrence_id,conditions.ENCOUNTER,conditions.ENCOUNTER;procedures.ENCOUNTER,0.5000,1.0000,0.6667,1,1,0,Via la table de visites fusionnées
+MAP,procedure_occurrence,person_id,procedures.PATIENT,allergies.PATIENT;encounters.PATIENT;observations.PATIENT;procedures.PATIENT,0.2500,1.0000,0.4000,1,3,0,
+MAP,procedure_occurrence,procedure_date,procedures.START,allergies.START;encounters.START;observations.DATE;procedures.START,0.2500,1.0000,0.4000,1,3,0,
+MAP,procedure_occurrence,procedure_datetime,procedures.START,allergies.START;encounters.START;observations.DATE;procedures.START,0.2500,1.0000,0.4000,1,3,0,Minuit
+MAP,procedure_occurrence,procedure_end_date,procedures.STOP,allergies.STOP;encounters.STOP;observations.DATE;procedures.STOP,0.2500,1.0000,0.4000,1,3,0,
+MAP,procedure_occurrence,procedure_end_datetime,procedures.STOP,encounters.STOP;observations.DATE;procedures.STOP,0.3333,1.0000,0.5000,1,2,0,Minuit
+MAP,procedure_occurrence,procedure_source_value,procedures.CODE,allergies.CODE;encounters.CODE;observations.CODE;procedures.CODE,0.2500,1.0000,0.4000,1,3,0,Uniquement si domaine du code = Procedure
+MAP,procedure_occurrence,visit_occurrence_id,procedures.ENCOUNTER,allergies.ENCOUNTER;encounters.Id;observations.ENCOUNTER;procedures.ENCOUNTER,0.2500,1.0000,0.4000,1,3,0,Via la table de visites fusionnées
+MAP,drug_exposure,person_id,immunizations.PATIENT;medications.PATIENT,allergies.PATIENT;immunizations.PATIENT;medications.PATIENT;procedures.PATIENT,0.5000,1.0000,0.6667,2,2,0,
+MAP,drug_exposure,drug_exposure_start_date,immunizations.DATE;medications.START,allergies.START;immunizations.DATE;medications.START;procedures.START,0.5000,1.0000,0.6667,2,2,0,
+MAP,drug_exposure,drug_exposure_start_datetime,immunizations.DATE;medications.START,immunizations.DATE;medications.START;procedures.START,0.6667,1.0000,0.8000,2,1,0,Minuit
+MAP,drug_exposure,drug_exposure_end_date,immunizations.DATE;medications.STOP,allergies.STOP;medications.STOP;procedures.STOP,0.3333,0.5000,0.4000,1,2,1,Égal à la date de vaccination
+MAP,drug_exposure,drug_exposure_end_datetime,immunizations.DATE;medications.STOP,medications.STOP;procedures.STOP,0.5000,0.5000,0.5000,1,1,1,Égal à la date de vaccination
+MAP,drug_exposure,verbatim_end_date,immunizations.DATE;medications.STOP,medications.STOP,1.0000,0.5000,0.6667,1,0,1,
+MAP,drug_exposure,drug_source_value,immunizations.CODE;medications.CODE,allergies.CODE;immunizations.CODE;medications.DESCRIPTION;procedures.CODE,0.2500,0.5000,0.3333,1,3,1,Uniquement si domaine du code = Drug (CVX)
+MAP,drug_exposure,visit_occurrence_id,immunizations.ENCOUNTER;medications.ENCOUNTER,allergies.ENCOUNTER;immunizations.ENCOUNTER;medications.ENCOUNTER;procedures.ENCOUNTER,0.5000,1.0000,0.6667,2,2,0,Via la table de visites fusionnées
+MAP,drug_exposure,days_supply,medications.START;medications.STOP,medications.DISPENSES,0.0000,0.0000,0.0000,0,1,2,Jours entre START et STOP ; 0 si STOP absent
+MAP,measurement,person_id,observations.PATIENT;procedures.PATIENT,allergies.PATIENT;observations.PATIENT;procedures.PATIENT,0.6667,1.0000,0.8000,2,1,0,Uniquement si domaine du code = Measurement
+MAP,measurement,measurement_date,observations.DATE;procedures.START,allergies.START;observations.DATE;procedures.START,0.6667,1.0000,0.8000,2,1,0,
+MAP,measurement,measurement_datetime,observations.DATE;procedures.START,allergies.START;observations.DATE;procedures.START,0.6667,1.0000,0.8000,2,1,0,Minuit
+MAP,measurement,measurement_source_value,observations.CODE;procedures.CODE,allergies.CODE;observations.CODE;procedures.CODE,0.6667,1.0000,0.8000,2,1,0,
+MAP,measurement,value_as_number,observations.VALUE,observations.VALUE,1.0000,1.0000,1.0000,1,0,0,Seulement si VALUE est numérique
+MAP,measurement,value_source_value,observations.VALUE,allergies.DESCRIPTION;observations.VALUE,0.5000,1.0000,0.6667,1,1,0,Tronqué à 50 caractères
+MAP,measurement,unit_source_value,observations.UNITS,observations.UNITS,1.0000,1.0000,1.0000,1,0,0,
+MAP,measurement,visit_occurrence_id,observations.ENCOUNTER;procedures.ENCOUNTER,allergies.ENCOUNTER;observations.ENCOUNTER;procedures.ENCOUNTER,0.6667,1.0000,0.8000,2,1,0,Via la table de visites fusionnées
+MAP,observation,person_id,allergies.PATIENT;conditions.PATIENT;observations.PATIENT,allergies.PATIENT;conditions.PATIENT;encounters.PATIENT;observations.PATIENT;procedures.PATIENT,0.6000,1.0000,0.7500,3,2,0,Uniquement si domaine du code = Observation
+MAP,observation,observation_date,allergies.START;conditions.START;observations.DATE,allergies.START;conditions.START;encounters.START;observations.DATE;procedures.START,0.6000,1.0000,0.7500,3,2,0,
+MAP,observation,observation_datetime,allergies.START;conditions.START;observations.DATE,allergies.START;conditions.START;encounters.START;observations.DATE;procedures.START,0.6000,1.0000,0.7500,3,2,0,Minuit
+MAP,observation,observation_source_value,allergies.CODE;conditions.CODE;observations.CODE,allergies.CODE;conditions.CODE;encounters.CODE;observations.CODE;procedures.CODE,0.6000,1.0000,0.7500,3,2,0,
+MAP,observation,visit_occurrence_id,allergies.ENCOUNTER;conditions.ENCOUNTER;observations.ENCOUNTER,allergies.ENCOUNTER;conditions.ENCOUNTER;encounters.Id;observations.ENCOUNTER;procedures.ENCOUNTER,0.6000,1.0000,0.7500,3,2,0,Via la table de visites fusionnées
+MAP,observation,value_source_value,observations.VALUE,allergies.DESCRIPTION;conditions.DESCRIPTION;encounters.CODE;observations.VALUE,0.2500,1.0000,0.4000,1,3,0,Tronqué à 50 caractères (code SQL ; la doc dit null)
+MAP,death,person_id,encounters.PATIENT,patients.Id,0.0000,0.0000,0.0000,0,1,1,Filtre encounters.CODE=308646001 ; ligne exclue si REASONCODE absent ou non mappé
+MAP,death,death_date,encounters.START,patients.DEATHDATE,0.0000,0.0000,0.0000,0,1,1,
+MAP,death,death_datetime,encounters.START,patients.DEATHDATE,0.0000,0.0000,0.0000,0,1,1,
+MAP,death,cause_source_value,encounters.REASONCODE,,0.0000,0.0000,0.0000,0,0,1,
+EXTRA_AGENT,condition_occurrence,visit_detail_id,,conditions.ENCOUNTER;procedures.ENCOUNTER,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,drug_exposure,quantity,,medications.DISPENSES,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,drug_exposure,visit_detail_id,,immunizations.ENCOUNTER;medications.ENCOUNTER;procedures.ENCOUNTER,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,measurement,measurement_time,,observations.DATE;procedures.START,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,measurement,visit_detail_id,,allergies.ENCOUNTER;observations.ENCOUNTER;procedures.ENCOUNTER,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,observation,observation_event_id,,encounters.Id,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,observation,observation_id,,encounters.Id,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,observation,qualifier_source_value,,allergies.TYPE,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,observation,unit_source_value,,observations.UNITS,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,observation,value_as_number,,observations.VALUE,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,observation,value_as_string,,allergies.DESCRIPTION;conditions.DESCRIPTION;encounters.DESCRIPTION;observations.VALUE;procedures.DESCRIPTION,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,observation,visit_detail_id,,allergies.ENCOUNTER;conditions.ENCOUNTER;observations.ENCOUNTER;procedures.ENCOUNTER,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,person,person_id,,patients.Id,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,procedure_occurrence,procedure_occurrence_id,,encounters.Id,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,procedure_occurrence,visit_detail_id,,allergies.ENCOUNTER;observations.ENCOUNTER;procedures.ENCOUNTER,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,visit_occurrence,visit_occurrence_id,,encounters.Id,,,,,,,field not present in gold MAP set

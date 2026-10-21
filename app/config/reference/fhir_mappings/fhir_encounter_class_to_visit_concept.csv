@@ -1,0 +1,4 @@
+code,display,visit_concept_id
+AMB,ambulatory,9202
+EMER,emergency,9203
+IMP,inpatient encounter,9201

@@ -1,0 +1,29 @@
+DBMS:
+postgresql
+
+Error:
+org.postgresql.util.PSQLException: ERROR: relation "omop.cdm_source" does not exist
+  Position: 15
+
+SQL:
+select * from omop.cdm_source;
+
+R version:
+R version 4.1.2 (2021-11-01)
+
+Platform:
+x86_64-pc-linux-gnu
+
+Attached base packages:
+- stats
+- graphics
+- grDevices
+- utils
+- datasets
+- methods
+- base
+
+Other attached packages:
+- optparse (1.8.2)
+- DataQualityDashboard (2.8.9)
+- DatabaseConnector (7.2.0)

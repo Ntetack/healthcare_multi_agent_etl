@@ -1,0 +1,698 @@
+src,ref_concept,ref_nconcepts,ref_rows,ours_rows,ours_nz_rows,ours_concept,category,ref_name,ours_name
+1044,3034263,1,187,0,0,,ours absent,Pain severity - Reported,
+1045,3034263,1,74,0,0,,ours absent,Pain severity - Reported,
+1046,40757693,1,1648,0,0,,ours absent,Indicators of pain or possible pain,
+1087,4021323,1,1117,0,0,,ours absent,Pain assessment,
+113,21490675,1,2923,0,0,,ours absent,Central venous pressure (CVP),
+116,21490712,1,666,666,666,4208254.0,different concept,Left ventricular Cardiac index,Cardiac index
+128,4127294,1,6967,0,0,,ours absent,Resuscitation status,
+1337,21494989,1,2150,0,0,,ours absent,Level of arousal,
+152,45884382,1,289,0,0,,ours absent,Dialysis,
+184,3016335,1,1975,0,0,,ours absent,Glasgow coma score eye opening,
+189,3020716,1,20,0,0,,ours absent,Inhaled oxygen concentration,
+190,3020716,1,1223,0,0,,ours absent,Inhaled oxygen concentration,
+194,3014080,1,34,0,0,,ours absent,Oxygen gas flow Oxygen delivery system,
+198,3032652,1,1951,0,0,,ours absent,Glasgow coma scale,
+211,3027018,1,7396,7396,7396,3027018.0,same concept,Heart rate,Heart rate
+212,3022318,1,7095,0,0,,ours absent,Heart rate rhythm,
+219,3024171,1,914,0,0,,ours absent,Respiratory rate,
+220045,3027018,1,8093,8094,8094,3027018.0,same concept,Heart rate,Heart rate
+220048,3022318,1,7412,0,0,,ours absent,Heart rate rhythm,
+220050,3004249,1,3018,0,0,,ours absent,Systolic blood pressure,
+220051,3012888,1,3017,0,0,,ours absent,Diastolic blood pressure,
+220052,3027598,1,3028,0,0,,ours absent,Mean blood pressure,
+220059,3005606,1,21,0,0,,ours absent,Pulmonary artery Systolic blood pressure,
+220060,3017188,1,22,0,0,,ours absent,Pulmonary artery Diastolic blood pressure,
+220061,3028074,1,22,0,0,,ours absent,Pulmonary artery Mean blood pressure,
+220074,21490675,1,1656,1742,1742,4323687.0,different concept,Central venous pressure (CVP),Central venous pressure
+220179,3004249,1,4880,0,0,,ours absent,Systolic blood pressure,
+220180,3012888,1,4875,0,0,,ours absent,Diastolic blood pressure,
+220181,3027598,1,4891,0,0,,ours absent,Mean blood pressure,
+220210,3024171,1,8055,8056,8056,3024171.0,same concept,Respiratory rate,Respiratory rate
+220277,3016502,1,8049,0,0,,ours absent,Oxygen saturation in Arterial blood,
+220339,3016226,1,834,0,0,,ours absent,PEEP Respiratory system,
+220739,3016335,1,2029,0,0,,ours absent,Glasgow coma score eye opening,
+223753,21494989,1,2519,0,0,,ours absent,Level of arousal,
+223758,4127294,1,158,0,0,,ours absent,Resuscitation status,
+223761,3020891,1,1975,0,0,,ours absent,Body temperature,
+223762,3020891,1,30,0,0,,ours absent,Body temperature,
+223772,3018465,1,42,0,0,,ours absent,Oxygen saturation in Mixed venous blood,
+223781,40757693,1,2049,0,0,,ours absent,Indicators of pain or possible pain,
+223791,3034263,1,978,0,0,,ours absent,Pain severity - Reported,
+223792,4192791,1,2391,0,0,,ours absent,Pain management (specialty),
+223795,4021323,1,2067,0,0,,ours absent,Pain assessment,
+223834,3014080,1,613,0,0,,ours absent,Oxygen gas flow Oxygen delivery system,
+223835,3020716,1,1215,0,0,,ours absent,Inhaled oxygen concentration,
+223900,3009094,1,2024,0,0,,ours absent,Glasgow coma score verbal,
+223901,3008223,1,2012,0,0,,ours absent,Glasgow coma score motor,
+224004,4337265,1,1682,0,0,,ours absent,Bowel sounds,
+224167,3004249,1,5,0,0,,ours absent,Systolic blood pressure,
+224409,3034263,1,568,0,0,,ours absent,Pain severity - Reported,
+224422,3024171,1,65,0,0,,ours absent,Respiratory rate,
+224643,3012888,1,5,0,0,,ours absent,Diastolic blood pressure,
+224684,21490854,1,416,0,0,,ours absent,Tidal volume Ventilator --on ventilator,
+224685,21490854,1,762,0,0,,ours absent,Tidal volume Ventilator --on ventilator,
+224686,3017594,1,393,0,0,,ours absent,Tidal volume.spontaneous --on ventilator,
+224687,21490753,1,791,792,792,4353621.0,different concept,Volume expired per minute Respiratory system,Minute volume
+224689,3024171,1,743,0,0,,ours absent,Respiratory rate,
+224690,3024171,1,517,0,0,,ours absent,Respiratory rate,
+224695,21490650,1,730,0,0,,ours absent,Pressure max Respiratory system airway --during inspiration,
+224697,3028354,1,788,790,790,42527086.0,different concept,Mean pressure Respiratory system airway Calculated,Mean airway pressure
+224700,3016226,1,107,0,0,,ours absent,PEEP Respiratory system,
+225309,3004249,1,295,0,0,,ours absent,Systolic blood pressure,
+225310,3012888,1,295,0,0,,ours absent,Diastolic blood pressure,
+225312,3027598,1,296,0,0,,ours absent,Mean blood pressure,
+226,21490653,1,19,0,0,,ours absent,Intracranial pressure (ICP),
+226512,3025315,1,71,0,0,,ours absent,Body weight,
+226531,3025315,1,148,0,0,,ours absent,Body weight,
+226707,3036277,1,40,0,0,,ours absent,Body height,
+226730,3036277,1,40,0,0,,ours absent,Body height,
+226732,4036936,1,1871,0,0,,ours absent,Oxygen delivery,
+226754,3020716,1,1,0,0,,ours absent,Inhaled oxygen concentration,
+227242,3012888,1,1,0,0,,ours absent,Diastolic blood pressure,
+227243,3004249,1,1,0,0,,ours absent,Systolic blood pressure,
+227287,3014080,1,79,0,0,,ours absent,Oxygen gas flow Oxygen delivery system,
+227543,3005555,1,102,0,0,,ours absent,Left ventricular Cardiac output,
+227546,2000000000,1,98,0,0,,ours absent,Stroke Volume Variation,
+227547,3036518,1,54,0,0,,ours absent,Left ventricular Stroke volume,
+227582,3014080,1,2,0,0,,ours absent,Oxygen gas flow Oxygen delivery system,
+228096,21494989,1,133,0,0,,ours absent,Level of arousal,
+229,45882941,1,1104,0,0,,ours absent,Line 1,
+235,45880764,1,807,0,0,,ours absent,Line 2,
+241,45882279,1,435,0,0,,ours absent,Line 3,
+247,45880765,1,162,0,0,,ours absent,Line 4,
+253,45876994,1,88,0,0,,ours absent,Line 5,
+259,45876711,1,60,0,0,,ours absent,Line 6,
+265,45879196,1,5,0,0,,ours absent,Line 7,
+271,45883840,1,51,0,0,,ours absent,Line 8,
+442,3004249,1,2,0,0,,ours absent,Systolic blood pressure,
+443,3027598,1,2,0,0,,ours absent,Mean blood pressure,
+444,3028354,1,931,931,931,42527086.0,different concept,Mean pressure Respiratory system airway Calculated,Mean airway pressure
+450,21490753,1,965,0,0,,ours absent,Volume expired per minute Respiratory system,
+454,3008223,1,1965,0,0,,ours absent,Glasgow coma score motor,
+455,3004249,1,3214,0,0,,ours absent,Systolic blood pressure,
+456,3027598,1,3199,0,0,,ours absent,Mean blood pressure,
+467,4036936,1,780,0,0,,ours absent,Oxygen delivery,
+468,4036936,1,118,0,0,,ours absent,Oxygen delivery,
+470,3014080,1,582,0,0,,ours absent,Oxygen gas flow Oxygen delivery system,
+471,3014080,1,113,0,0,,ours absent,Oxygen gas flow Oxygen delivery system,
+491,3028074,1,1276,0,0,,ours absent,Pulmonary artery Mean blood pressure,
+492,3005606,1,1453,0,0,,ours absent,Pulmonary artery Systolic blood pressure,
+504,21490776,1,109,0,0,,ours absent,Pulmonary artery wedge pressure,
+506,3016226,1,1009,0,0,,ours absent,PEEP Respiratory system,
+50800,4081838,1,1222,0,0,,ours absent,Blood gas analysis,
+50801,3007913,1,64,64,64,3007913.0,same concept,Alveolar-arterial oxygen Partial pressure difference,Alveolar-arterial oxygen Partial pressure difference
+50802,3012501,1,1166,1166,1166,3012501.0,same concept,Base excess in Blood by calculation,Base excess in Blood by calculation
+50803,3006576,1,18,18,18,3006576.0,same concept,Bicarbonate [Moles/volume] in Blood,Bicarbonate [Moles/volume] in Blood
+50804,3031147,1,1166,1166,1166,3031147.0,same concept,"Carbon dioxide, total [Moles/volume] in Blood by calculation","Carbon dioxide, total [Moles/volume] in Blood by calculation"
+50805,3023081,1,5,5,5,3023081.0,same concept,Carboxyhemoglobin/Hemoglobin.total in Blood,Carboxyhemoglobin/Hemoglobin.total in Blood
+50806,3018572,1,87,87,87,3018572.0,same concept,Chloride [Moles/volume] in Blood,Chloride [Moles/volume] in Blood
+50808,3021119,1,558,558,558,3021119.0,same concept,Calcium.ionized [Moles/volume] in Blood,Calcium.ionized [Moles/volume] in Blood
+50809,3000483,1,283,283,283,3000483.0,same concept,Glucose [Mass/volume] in Blood,Glucose [Mass/volume] in Blood
+50810,3009542,1,126,126,126,3009542.0,same concept,Hematocrit [Volume Fraction] of Blood by calculation,Hematocrit [Volume Fraction] of Blood by calculation
+50811,3000963,1,126,126,126,3000963.0,same concept,Hemoglobin [Mass/volume] in Blood,Hemoglobin [Mass/volume] in Blood
+50812,45884415,1,487,0,0,,ours absent,Patient intubated,
+50813,3047181,1,578,578,578,3047181.0,same concept,Lactate [Moles/volume] in Blood,Lactate [Moles/volume] in Blood
+50814,3007930,1,5,5,5,3007930.0,same concept,Methemoglobin/Hemoglobin.total in Blood,Methemoglobin/Hemoglobin.total in Blood
+50815,3005629,1,44,44,44,3005629.0,same concept,Inhaled oxygen flow rate,Inhaled oxygen flow rate
+50816,3024882,1,338,338,338,3024882.0,same concept,Oxygen/Total gas setting [Volume Fraction] Ventilator,Oxygen/Total gas setting [Volume Fraction] Ventilator
+50817,3013502,1,343,343,343,3013502.0,same concept,Oxygen saturation in Blood,Oxygen saturation in Blood
+50818,3013290,1,1166,1166,1166,3013290.0,same concept,Carbon dioxide [Partial pressure] in Blood,Carbon dioxide [Partial pressure] in Blood
+50819,3022875,1,267,267,267,3022875.0,same concept,Positive end expiratory pressure setting Ventilator,Positive end expiratory pressure setting Ventilator
+50820,3010421,1,1230,1230,1230,3010421.0,same concept,pH of Blood,pH of Blood
+50821,3027315,1,1166,1166,1166,3027315.0,same concept,Oxygen [Partial pressure] in Blood,Oxygen [Partial pressure] in Blood
+50822,3005456,1,256,256,256,3005456.0,same concept,Potassium [Moles/volume] in Blood,Potassium [Moles/volume] in Blood
+50823,3020716,1,64,0,0,,ours absent,Inhaled oxygen concentration,
+50824,3000285,1,107,107,107,3000285.0,same concept,Sodium [Moles/volume] in Blood,Sodium [Moles/volume] in Blood
+50825,3020891,1,439,0,0,,ours absent,Body temperature,
+50826,3012410,1,229,229,229,3012410.0,same concept,Tidal volume setting Ventilator,Tidal volume setting Ventilator
+50827,3024171,1,268,0,0,,ours absent,Respiratory rate,
+50828,3004921,1,140,0,0,,ours absent,Ventilation mode Ventilator,
+50831,3018672,1,2,2,2,3018672.0,same concept,pH of Body fluid,pH of Body fluid
+50835,3026692,1,11,11,11,3026692.0,same concept,Albumin [Mass/volume] in Peritoneal fluid,Albumin [Mass/volume] in Peritoneal fluid
+50836,3008691,1,4,4,4,3008691.0,same concept,Amylase [Enzymatic activity/volume] in Peritoneal fluid,Amylase [Enzymatic activity/volume] in Peritoneal fluid
+50838,3011004,1,5,5,5,3011004.0,same concept,Bilirubin.total [Mass/volume] in Peritoneal fluid,Bilirubin.total [Mass/volume] in Peritoneal fluid
+50841,3016647,1,5,5,5,3016647.0,same concept,Creatinine [Mass/volume] in Peritoneal fluid,Creatinine [Mass/volume] in Peritoneal fluid
+50842,3002240,1,6,6,6,3002240.0,same concept,Glucose [Mass/volume] in Peritoneal fluid,Glucose [Mass/volume] in Peritoneal fluid
+50843,3008581,1,7,7,7,3008581.0,same concept,Lactate dehydrogenase [Enzymatic activity/volume] in Peritoneal fluid,Lactate dehydrogenase [Enzymatic activity/volume] in Peritoneal fluid
+50849,3002331,1,9,9,9,3002331.0,same concept,Protein [Mass/volume] in Peritoneal fluid,Protein [Mass/volume] in Peritoneal fluid
+50852,3004410,1,23,23,23,3004410.0,same concept,Hemoglobin A1c/Hemoglobin.total in Blood,Hemoglobin A1c/Hemoglobin.total in Blood
+50853,3020149,1,1,0,0,,ours absent,25-hydroxyvitamin D3 [Mass/volume] in Serum or Plasma,
+50854,3004410,1,4,4,4,3004410.0,same concept,Hemoglobin A1c/Hemoglobin.total in Blood,Hemoglobin A1c/Hemoglobin.total in Blood
+50855,3000963,1,4,4,4,3000963.0,same concept,Hemoglobin [Mass/volume] in Blood,Hemoglobin [Mass/volume] in Blood
+50856,3003709,1,25,25,25,3003709.0,same concept,Acetaminophen [Presence] in Serum or Plasma,Acetaminophen [Presence] in Serum or Plasma
+50857,3022859,1,2,2,2,3022859.0,same concept,Acetone [Presence] in Serum or Plasma,Acetone [Presence] in Serum or Plasma
+50861,3006923,1,609,609,609,3006923.0,same concept,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma
+50862,3024561,1,414,414,414,3024561.0,same concept,Albumin [Mass/volume] in Serum or Plasma,Albumin [Mass/volume] in Serum or Plasma
+50863,3035995,1,592,592,592,3035995.0,same concept,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma
+50864,3009306,1,7,7,7,3009306.0,same concept,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma
+50866,3011958,1,23,23,23,3011958.0,same concept,Ammonia [Moles/volume] in Plasma,Ammonia [Moles/volume] in Plasma
+50867,3016771,1,128,128,128,3016771.0,same concept,Amylase [Enzymatic activity/volume] in Serum or Plasma,Amylase [Enzymatic activity/volume] in Serum or Plasma
+50868,3037278,1,2134,2134,2134,3037278.0,same concept,Anion gap in Serum or Plasma by Calculated.4Ions,Anion gap in Serum or Plasma by Calculated.4Ions
+50871,3018517,1,2,2,2,3018517.0,same concept,Mitochondria Ab [Presence] in Serum,Mitochondria Ab [Presence] in Serum
+50873,3000099,1,3,3,3,3000099.0,same concept,Nuclear Ab [Units/volume] in Serum by Immunoassay,Nuclear Ab [Units/volume] in Serum by Immunoassay
+50874,3004616,1,2,2,2,3004616.0,same concept,Nuclear Ab [Presence] in Serum,Nuclear Ab [Presence] in Serum
+50876,3005932,1,1,1,1,3005932.0,same concept,Smooth muscle Ab [Presence] in Serum,Smooth muscle Ab [Presence] in Serum
+50878,3013721,1,603,603,603,3013721.0,same concept,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma
+50879,3003132,1,26,26,26,3003132.0,same concept,"Barbiturates [Presence] in Serum, Plasma or Blood","Barbiturates [Presence] in Serum, Plasma or Blood"
+50880,3031951,1,26,26,26,3031951.0,same concept,Benzodiazepines [Presence] in Blood,Benzodiazepines [Presence] in Blood
+50881,3043747,1,2,2,2,3043747.0,same concept,Beta 2 globulin [Mass/volume] in Serum or Plasma by Electrophoresis,Beta 2 globulin [Mass/volume] in Serum or Plasma by Electrophoresis
+50882,3016293,1,2151,2151,2151,3016293.0,same concept,Bicarbonate [Moles/volume] in Serum or Plasma,Bicarbonate [Moles/volume] in Serum or Plasma
+50883,3027597,1,60,60,60,3027597.0,same concept,Bilirubin.direct [Mass/volume] in Serum or Plasma,Bilirubin.direct [Mass/volume] in Serum or Plasma
+50884,3007359,1,54,54,54,3007359.0,same concept,Bilirubin.indirect [Mass/volume] in Serum or Plasma,Bilirubin.indirect [Mass/volume] in Serum or Plasma
+50885,3024128,1,629,629,629,3024128.0,same concept,Bilirubin.total [Mass/volume] in Serum or Plasma,Bilirubin.total [Mass/volume] in Serum or Plasma
+50889,3020460,1,3,3,3,3020460.0,same concept,C reactive protein [Mass/volume] in Serum or Plasma,C reactive protein [Mass/volume] in Serum or Plasma
+50890,3000620,1,1,1,1,3000620.0,same concept,Complement C3 [Mass/volume] in Serum or Plasma,Complement C3 [Mass/volume] in Serum or Plasma
+50891,3017766,1,1,1,1,3017766.0,same concept,Complement C4 [Mass/volume] in Serum or Plasma,Complement C4 [Mass/volume] in Serum or Plasma
+50892,3037551,1,1,1,1,3037551.0,same concept,Cancer Ag 125 [Units/volume] in Serum or Plasma,Cancer Ag 125 [Units/volume] in Serum or Plasma
+50893,3015377,1,1757,1757,1757,3015377.0,same concept,Calcium [Moles/volume] in Serum or Plasma,Calcium [Moles/volume] in Serum or Plasma
+50895,3017523,1,3,3,3,3017523.0,same concept,Thyroxine (T4)/Thyroxine binding globulin [Mass Ratio] in Serum or Plasma,Thyroxine (T4)/Thyroxine binding globulin [Mass Ratio] in Serum or Plasma
+50896,3000551,1,3,3,3,3000551.0,same concept,Thyroxine (T4) free index in Serum or Plasma by calculation,Thyroxine (T4) free index in Serum or Plasma by calculation
+50898,3013520,1,9,9,9,3013520.0,same concept,Cancer Ag 27-29 [Units/volume] in Serum or Plasma,Cancer Ag 27-29 [Units/volume] in Serum or Plasma
+50899,3028639,1,1,1,1,3028639.0,same concept,carBAMazepine [Mass/volume] in Serum or Plasma,carBAMazepine [Mass/volume] in Serum or Plasma
+50900,3003785,1,18,18,18,3003785.0,same concept,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma
+50902,3014576,1,2160,2160,2160,3014576.0,same concept,Chloride [Moles/volume] in Serum or Plasma,Chloride [Moles/volume] in Serum or Plasma
+50903,3001318,1,24,24,24,3001318.0,same concept,Cholesterol.total/Cholesterol in HDL [Percentile],Cholesterol.total/Cholesterol in HDL [Percentile]
+50904,3007070,1,24,24,24,3007070.0,same concept,Cholesterol in HDL [Mass/volume] in Serum or Plasma,Cholesterol in HDL [Mass/volume] in Serum or Plasma
+50905,3004169,1,24,24,24,3028437.0,different concept,Deprecated Cholesterol.in LDL [Mass/volume] in Serum or Plasma,Cholesterol in LDL [Mass/volume] in Serum or Plasma
+50907,3027114,1,25,25,25,3027114.0,same concept,Cholesterol [Mass/volume] in Serum or Plasma,Cholesterol [Mass/volume] in Serum or Plasma
+50908,3016311,1,46,46,46,3016311.0,same concept,Creatine kinase.MB/Creatine kinase.total in Serum or Plasma,Creatine kinase.MB/Creatine kinase.total in Serum or Plasma
+50909,3009682,1,64,64,64,3009682.0,same concept,Cortisol [Mass/volume] in Serum or Plasma,Cortisol [Mass/volume] in Serum or Plasma
+50910,3007220,1,334,334,334,3007220.0,same concept,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma
+50911,3036345,1,319,319,319,4265595.0,different concept,Deprecated Creatine kinase.MB,Creatine kinase measurement
+50912,3016723,1,2175,2175,2175,3016723.0,same concept,Creatinine [Mass/volume] in Serum or Plasma,Creatinine [Mass/volume] in Serum or Plasma
+50915,3051714,1,5,0,0,,ours absent,Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma,
+50917,3011335,1,18,18,18,3011335.0,same concept,Digoxin [Mass/volume] in Serum or Plasma,Digoxin [Mass/volume] in Serum or Plasma
+50920,3030354,1,207,207,207,46236952.0,different concept,Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M,"Glomerular filtration rate [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)/1.73 sq M"
+50922,3026400,1,28,28,28,3026400.0,same concept,Ethanol [Presence] in Serum or Plasma,Ethanol [Presence] in Serum or Plasma
+50924,3001122,1,50,50,50,3001122.0,same concept,Ferritin [Mass/volume] in Serum or Plasma,Ferritin [Mass/volume] in Serum or Plasma
+50925,3036987,1,33,33,33,3036987.0,same concept,Folate [Mass/volume] in Serum or Plasma,Folate [Mass/volume] in Serum or Plasma
+50926,3023323,1,5,5,5,3023323.0,same concept,Follitropin [Units/volume] in Serum or Plasma,Follitropin [Units/volume] in Serum or Plasma
+50927,3026910,1,6,6,6,3026910.0,same concept,Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma
+50929,3035510,1,6,6,6,3035510.0,same concept,Gentamicin [Mass/volume] in Serum or Plasma,Gentamicin [Mass/volume] in Serum or Plasma
+50930,3021886,1,13,13,13,3021886.0,same concept,Globulin [Mass/volume] in Serum,Globulin [Mass/volume] in Serum
+50931,3004501,1,2121,2121,2121,3004501.0,same concept,Glucose [Mass/volume] in Serum or Plasma,Glucose [Mass/volume] in Serum or Plasma
+50935,3012336,1,41,41,41,3012336.0,same concept,Haptoglobin [Mass/volume] in Serum or Plasma,Haptoglobin [Mass/volume] in Serum or Plasma
+50937,3028662,1,3,3,3,3028662.0,same concept,Hepatitis A virus Ab [Units/volume] in Serum or Plasma by Immunoassay,Hepatitis A virus Ab [Units/volume] in Serum or Plasma by Immunoassay
+50939,3013527,1,3,3,3,3013527.0,same concept,Hepatitis B virus core IgM Ab [Presence] in Serum,Hepatitis B virus core IgM Ab [Presence] in Serum
+50940,3013731,1,23,23,23,3013731.0,same concept,Hepatitis B virus surface Ab [Units/volume] in Serum or Plasma by Immunoassay,Hepatitis B virus surface Ab [Units/volume] in Serum or Plasma by Immunoassay
+50941,3019510,1,21,21,21,3019510.0,same concept,Hepatitis B virus surface Ag [Presence] in Serum or Plasma by Immunoassay,Hepatitis B virus surface Ag [Presence] in Serum or Plasma by Immunoassay
+50942,3016557,1,7,7,7,1469566.0,different concept,Deprecated Hepatitis B virus core Ab [Units/volume] in Serum by Immunoassay,Hepatitis B virus core Ab [Units/volume] in Serum or Plasma by Immunoassay
+50943,3017143,1,7,7,7,3017143.0,same concept,Hepatitis C virus Ab [Presence] in Serum,Hepatitis C virus Ab [Presence] in Serum
+50944,3037274,1,1,1,1,3037274.0,same concept,HIV 1 Ab [Units/volume] in Serum or Plasma by Immunoassay,HIV 1 Ab [Units/volume] in Serum or Plasma by Immunoassay
+50946,3002091,1,1,1,1,3002091.0,same concept,Choriogonadotropin [Moles/volume] in Serum or Plasma,Choriogonadotropin [Moles/volume] in Serum or Plasma
+50948,3052992,1,7,7,7,3052992.0,same concept,Immunofixation for Serum or Plasma Narrative,Immunofixation for Serum or Plasma Narrative
+50949,3007164,1,9,9,9,3007164.0,same concept,IgA [Mass/volume] in Serum or Plasma,IgA [Mass/volume] in Serum or Plasma
+50950,3005719,1,23,23,23,3005719.0,same concept,IgG [Mass/volume] in Serum or Plasma,IgG [Mass/volume] in Serum or Plasma
+50951,3028026,1,9,9,9,3028026.0,same concept,IgM [Mass/volume] in Serum or Plasma,IgM [Mass/volume] in Serum or Plasma
+50952,3002400,1,50,50,50,3002400.0,same concept,Iron [Mass/volume] in Serum or Plasma,Iron [Mass/volume] in Serum or Plasma
+50953,3021044,1,49,49,49,3021044.0,same concept,Iron binding capacity [Mass/volume] in Serum or Plasma,Iron binding capacity [Mass/volume] in Serum or Plasma
+50954,3016436,1,423,423,423,3016436.0,same concept,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma
+50956,3004905,1,146,146,146,3004905.0,same concept,Lipase [Enzymatic activity/volume] in Serum or Plasma,Lipase [Enzymatic activity/volume] in Serum or Plasma
+50958,3010582,1,5,5,5,3010582.0,same concept,Lutropin [Mass/volume] in Serum or Plasma --baseline,Lutropin [Mass/volume] in Serum or Plasma --baseline
+50960,3012095,1,1918,1918,1918,3012095.0,same concept,Magnesium [Moles/volume] in Serum or Plasma,Magnesium [Moles/volume] in Serum or Plasma
+50961,3017115,1,36,0,0,,ours absent,Methotrexate [Moles/volume] in Serum or Plasma,
+50963,3029187,1,31,31,31,3029187.0,same concept,Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma,Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma
+50964,3008295,1,47,47,47,3008295.0,same concept,Osmolality of Serum or Plasma,Osmolality of Serum or Plasma
+50965,3000067,1,12,12,12,3000067.0,same concept,Parathyrin.intact [Mass/volume] in Serum or Plasma,Parathyrin.intact [Mass/volume] in Serum or Plasma
+50966,3024886,1,31,31,31,3024886.0,same concept,PHENobarbital [Presence] in Serum or Plasma,PHENobarbital [Presence] in Serum or Plasma
+50967,3021595,1,58,58,58,3021595.0,same concept,Phenytoin [Presence] in Serum or Plasma,Phenytoin [Presence] in Serum or Plasma
+50968,3005893,1,9,9,9,3005893.0,same concept,Phenytoin Free [Mass/volume] in Serum or Plasma,Phenytoin Free [Mass/volume] in Serum or Plasma
+50969,3002551,1,8,8,8,3002551.0,same concept,Phenytoin Free/Phenytoin.total in Serum or Plasma,Phenytoin Free/Phenytoin.total in Serum or Plasma
+50970,3011904,1,1748,1748,1748,3011904.0,same concept,Phosphate [Mass/volume] in Serum or Plasma,Phosphate [Mass/volume] in Serum or Plasma
+50971,3023103,1,2279,2279,2279,3023103.0,same concept,Potassium [Moles/volume] in Serum or Plasma,Potassium [Moles/volume] in Serum or Plasma
+50973,3004722,1,6,6,6,3004722.0,same concept,Prolactin [Mass/volume] in Serum or Plasma,Prolactin [Mass/volume] in Serum or Plasma
+50974,3013603,1,10,10,10,3013603.0,same concept,Prostate specific Ag [Mass/volume] in Serum or Plasma,Prostate specific Ag [Mass/volume] in Serum or Plasma
+50975,3004588,1,11,11,11,3004588.0,same concept,Protein electrophoresis panel - Serum or Plasma,Protein electrophoresis panel - Serum or Plasma
+50976,3020630,1,29,29,29,3020630.0,same concept,Protein [Mass/volume] in Serum or Plasma,Protein [Mass/volume] in Serum or Plasma
+50978,3021374,1,2,2,2,3021374.0,same concept,Sirolimus [Mass/volume] in Blood,Sirolimus [Mass/volume] in Blood
+50981,3005309,1,24,24,24,3005309.0,same concept,Salicylates [Presence] in Serum or Plasma,Salicylates [Presence] in Serum or Plasma
+50983,3019550,1,2185,2185,2185,3019550.0,same concept,Sodium [Moles/volume] in Serum or Plasma,Sodium [Moles/volume] in Serum or Plasma
+50986,3026250,1,52,0,0,,ours absent,Tacrolimus [Mass/volume] in Blood,
+50988,3008893,1,2,2,2,3008893.0,same concept,Testosterone [Mass/volume] in Serum or Plasma,Testosterone [Mass/volume] in Serum or Plasma
+50993,3009201,1,73,73,73,3009201.0,same concept,Thyrotropin [Units/volume] in Serum or Plasma,Thyrotropin [Units/volume] in Serum or Plasma
+50994,3016991,1,11,11,11,3016991.0,same concept,Thyroxine (T4) [Mass/volume] in Serum or Plasma,Thyroxine (T4) [Mass/volume] in Serum or Plasma
+50995,3008598,1,22,22,22,3008598.0,same concept,Thyroxine (T4) free [Mass/volume] in Serum or Plasma,Thyroxine (T4) free [Mass/volume] in Serum or Plasma
+50997,3035509,1,6,6,6,3035509.0,same concept,Tobramycin [Mass/volume] in Serum or Plasma,Tobramycin [Mass/volume] in Serum or Plasma
+50998,3021044,1,49,49,49,3021044.0,same concept,Iron binding capacity [Mass/volume] in Serum or Plasma,Iron binding capacity [Mass/volume] in Serum or Plasma
+50999,3025478,1,24,24,24,3025478.0,same concept,Tricyclic antidepressants [Presence] in Serum or Plasma,Tricyclic antidepressants [Presence] in Serum or Plasma
+51,3004249,1,4519,0,0,,ours absent,Systolic blood pressure,
+51000,3013678,1,37,37,37,3013678.0,same concept,Triglyceride [Mass/volume] in Serum or Plasma --12 hours fasting,Triglyceride [Mass/volume] in Serum or Plasma --12 hours fasting
+51001,3010340,1,10,10,10,3010340.0,same concept,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma
+51002,3021337,1,14,14,14,3021337.0,same concept,Troponin I.cardiac [Mass/volume] in Serum or Plasma,Troponin I.cardiac [Mass/volume] in Serum or Plasma
+51003,3019800,1,288,288,288,3019800.0,same concept,Troponin T.cardiac [Mass/volume] in Serum or Plasma,Troponin T.cardiac [Mass/volume] in Serum or Plasma
+51005,3021717,1,3,3,3,3021717.0,same concept,Triiodothyronine resin uptake (T3RU) in Serum or Plasma,Triiodothyronine resin uptake (T3RU) in Serum or Plasma
+51006,3013682,1,2158,2158,2158,3013682.0,same concept,Urea nitrogen [Mass/volume] in Serum or Plasma,Urea nitrogen [Mass/volume] in Serum or Plasma
+51007,3037556,1,158,158,158,3037556.0,same concept,Urate [Mass/volume] in Serum or Plasma,Urate [Mass/volume] in Serum or Plasma
+51008,3016201,1,15,15,15,3016201.0,same concept,Valproate [Mass/volume] in Serum or Plasma,Valproate [Mass/volume] in Serum or Plasma
+51009,3005715,1,176,176,176,3005715.0,same concept,Vancomycin [Mass/volume] in Serum or Plasma,Vancomycin [Mass/volume] in Serum or Plasma
+51010,3006751,1,38,38,38,3000593.0,different concept,Deprecated Cobalamin [Mass/volume] in Serum,Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma
+51014,3022548,1,11,11,11,3022548.0,same concept,Glucose [Mass/volume] in Cerebral spinal fluid,Glucose [Mass/volume] in Cerebral spinal fluid
+51015,3016920,1,2,2,2,3016920.0,same concept,Lactate dehydrogenase [Enzymatic activity/volume] in Cerebral spinal fluid,Lactate dehydrogenase [Enzymatic activity/volume] in Cerebral spinal fluid
+51017,3004268,1,2,2,2,3004268.0,same concept,Protein electrophoresis panel - Cerebral spinal fluid,Protein electrophoresis panel - Cerebral spinal fluid
+51018,3019473,1,11,11,11,3019473.0,same concept,Protein [Mass/volume] in Cerebral spinal fluid,Protein [Mass/volume] in Cerebral spinal fluid
+51025,3025313,1,2,2,2,3025313.0,same concept,Albumin [Mass/volume] in Body fluid,Albumin [Mass/volume] in Body fluid
+51026,3012133,1,3,3,3,3012133.0,same concept,Amylase [Enzymatic activity/volume] in Body fluid,Amylase [Enzymatic activity/volume] in Body fluid
+51028,3028193,1,1,1,1,3028193.0,same concept,Bilirubin.total [Mass/volume] in Body fluid,Bilirubin.total [Mass/volume] in Body fluid
+51030,3013194,1,1,1,1,3013194.0,same concept,Chloride [Moles/volume] in Body fluid,Chloride [Moles/volume] in Body fluid
+51032,3016662,1,1,1,1,3016662.0,same concept,Creatinine [Mass/volume] in Body fluid,Creatinine [Mass/volume] in Body fluid
+51034,3019210,1,2,2,2,3019210.0,same concept,Glucose [Mass/volume] in Body fluid,Glucose [Mass/volume] in Body fluid
+51035,3008338,1,2,2,2,3008338.0,same concept,Lactate dehydrogenase [Enzymatic activity/volume] in Body fluid,Lactate dehydrogenase [Enzymatic activity/volume] in Body fluid
+51041,3036243,1,1,1,1,3036243.0,same concept,Potassium [Moles/volume] in Body fluid,Potassium [Moles/volume] in Body fluid
+51042,3022810,1,1,1,1,3022810.0,same concept,Sodium [Moles/volume] in Body fluid,Sodium [Moles/volume] in Body fluid
+51043,3005029,1,2,2,2,3005029.0,same concept,Protein [Mass/volume] in Body fluid,Protein [Mass/volume] in Body fluid
+51044,3000637,1,1,1,1,3000637.0,same concept,Triglyceride [Mass/volume] in Body fluid,Triglyceride [Mass/volume] in Body fluid
+51046,3011544,1,3,3,3,3011544.0,same concept,Albumin [Mass/volume] in Pleural fluid,Albumin [Mass/volume] in Pleural fluid
+51047,3015401,1,4,4,4,3015401.0,same concept,Amylase [Enzymatic activity/volume] in Pleural fluid,Amylase [Enzymatic activity/volume] in Pleural fluid
+51049,3013272,1,2,2,2,3013272.0,same concept,Bilirubin.total [Mass/volume] in Pleural fluid,Bilirubin.total [Mass/volume] in Pleural fluid
+51052,3025065,1,1,1,1,3025065.0,same concept,Creatinine [Mass/volume] in Pleural fluid,Creatinine [Mass/volume] in Pleural fluid
+51053,3003403,1,7,7,7,3003403.0,same concept,Glucose [Mass/volume] in Pleural fluid,Glucose [Mass/volume] in Pleural fluid
+51054,3015054,1,8,8,8,3015054.0,same concept,Lactate dehydrogenase [Enzymatic activity/volume] in Pleural fluid,Lactate dehydrogenase [Enzymatic activity/volume] in Pleural fluid
+51059,3003434,1,8,8,8,3003434.0,same concept,Protein [Mass/volume] in Pleural fluid,Protein [Mass/volume] in Pleural fluid
+51060,3034207,1,3,3,3,3034207.0,same concept,Triglyceride [Mass/volume] in Pleural fluid,Triglyceride [Mass/volume] in Pleural fluid
+51069,3012516,1,3,3,3,3012516.0,same concept,Albumin [Mass/volume] in Urine,Albumin [Mass/volume] in Urine
+51070,3002827,1,3,3,3,3002827.0,same concept,Microalbumin/Creatinine [Mass Ratio] in 24 hour Urine,Microalbumin/Creatinine [Mass Ratio] in 24 hour Urine
+51071,3027944,1,19,19,19,3027944.0,same concept,Amphetamines [Presence] in Urine,Amphetamines [Presence] in Urine
+51072,3017315,1,1,1,1,3017315.0,same concept,Amylase [Enzymatic activity/volume] in Urine,Amylase [Enzymatic activity/volume] in Urine
+51073,3044902,1,1,1,1,3044902.0,same concept,Amylase/Creatinine [Ratio] in Urine,Amylase/Creatinine [Ratio] in Urine
+51074,3002020,1,19,19,19,3002020.0,same concept,Barbiturates [Presence] in Urine,Barbiturates [Presence] in Urine
+51075,3000764,1,19,19,19,3000764.0,same concept,Benzodiazepines [Presence] in Urine,Benzodiazepines [Presence] in Urine
+51076,3008251,1,4,4,4,3008251.0,same concept,Bicarbonate [Moles/volume] in Urine,Bicarbonate [Moles/volume] in Urine
+51078,3007733,1,25,25,25,3007733.0,same concept,Chloride [Moles/volume] in Urine,Chloride [Moles/volume] in Urine
+51079,3016879,1,19,19,19,3016879.0,same concept,Cocaine [Presence] in Urine,Cocaine [Presence] in Urine
+51082,3017250,1,97,97,97,3017250.0,same concept,Creatinine [Mass/volume] in Urine,Creatinine [Mass/volume] in Urine
+51086,3053294,1,4,4,4,3053294.0,same concept,Immunofixation for Urine Narrative,Immunofixation for Urine Narrative
+51087,3016750,1,162,162,162,3016750.0,same concept,Specimen collection [Time] of Urine,Specimen collection [Time] of Urine
+51090,3036180,1,19,19,19,3036180.0,same concept,Methadone [Presence] in Urine,Methadone [Presence] in Urine
+51091,3011470,1,1,1,1,3011470.0,same concept,Myoglobin [Presence] in Urine,Myoglobin [Presence] in Urine
+51092,3027008,1,19,19,19,3027008.0,same concept,Opiates [Presence] in Urine,Opiates [Presence] in Urine
+51093,3026782,1,67,67,67,3026782.0,same concept,Osmolality of Urine,Osmolality of Urine
+51094,3015736,1,5,5,5,3015736.0,same concept,pH of Urine,pH of Urine
+51095,3026729,1,1,1,1,3026729.0,same concept,Phosphate [Mass/volume] in Urine,Phosphate [Mass/volume] in Urine
+51096,3034719,1,1,1,1,3034719.0,same concept,Porphobilinogen [Presence] in Urine,Porphobilinogen [Presence] in Urine
+51097,3016038,1,26,26,26,3016038.0,same concept,Potassium [Moles/volume] in Urine,Potassium [Moles/volume] in Urine
+51098,3007822,1,8,8,8,3007822.0,same concept,Protein Fractions [Interpretation] in Urine by Electrophoresis,Protein Fractions [Interpretation] in Urine by Electrophoresis
+51099,3001582,1,12,12,12,3001582.0,same concept,Protein/Creatinine [Mass Ratio] in Urine,Protein/Creatinine [Mass Ratio] in Urine
+51100,3003181,1,92,92,92,3003181.0,same concept,Sodium [Moles/volume] in Urine,Sodium [Moles/volume] in Urine
+51102,3037185,1,17,17,17,3037185.0,same concept,Protein [Presence] in Urine,Protein [Presence] in Urine
+51104,3011965,1,44,44,44,3011965.0,same concept,Urea nitrogen [Mass/volume] in Urine,Urea nitrogen [Mass/volume] in Urine
+51105,3033526,1,1,1,1,3033526.0,same concept,Urate [Mass/volume] in Urine,Urate [Mass/volume] in Urine
+51108,3036603,1,5,5,5,3036603.0,same concept,Volume of Urine,Volume of Urine
+51114,3019298,1,5,5,5,3019298.0,same concept,Eosinophils/Leukocytes in Peritoneal fluid,Eosinophils/Leukocytes in Peritoneal fluid
+51116,3004437,1,19,19,19,3004437.0,same concept,Lymphocytes/Leukocytes in Peritoneal fluid,Lymphocytes/Leukocytes in Peritoneal fluid
+51117,3041635,1,13,13,13,3041635.0,same concept,Macrophages/Leukocytes in Peritoneal fluid by Manual count,Macrophages/Leukocytes in Peritoneal fluid by Manual count
+51118,3024271,1,13,13,13,3024271.0,same concept,Mesothelial cells/Leukocytes in Peritoneal fluid,Mesothelial cells/Leukocytes in Peritoneal fluid
+51120,3033483,1,19,19,19,3033483.0,same concept,Monocytes/Leukocytes in Peritoneal fluid,Monocytes/Leukocytes in Peritoneal fluid
+51122,40761514,1,2,0,0,,ours absent,Nucleated erythrocytes/Leukocytes [Ratio] in Blood by Automated count,
+51124,3041137,1,1,1,1,3041137.0,same concept,Plasma cells/Leukocytes in Peritoneal fluid by Manual count,Plasma cells/Leukocytes in Peritoneal fluid by Manual count
+51125,3008838,1,19,19,19,3008838.0,same concept,Granulocytes/Leukocytes in Peritoneal fluid,Granulocytes/Leukocytes in Peritoneal fluid
+51127,3009613,1,19,19,19,3009613.0,same concept,Erythrocytes [#/volume] in Peritoneal fluid,Erythrocytes [#/volume] in Peritoneal fluid
+51128,3023487,1,19,19,19,3023487.0,same concept,Leukocytes [#/volume] in Peritoneal fluid,Leukocytes [#/volume] in Peritoneal fluid
+51130,3022533,1,1,1,1,3022533.0,same concept,CD3 cells/cells in Blood,CD3 cells/cells in Blood
+51131,3003381,1,1,1,1,3014037.0,different concept,Deprecated CD4 cells/100 cells in Blood,CD3+CD4+ (T4 helper) cells/cells in Blood
+51132,3036974,1,1,1,1,3007449.0,different concept,Deprecated CD8 cells/100 cells in Blood,CD3+CD8+ (T8 suppressor) cells/cells in Blood
+51133,3019198,1,1,1,1,3019198.0,same concept,Lymphocytes [#/volume] in Blood,Lymphocytes [#/volume] in Blood
+51134,3019416,1,7,7,7,3019416.0,same concept,Acanthocytes [Presence] in Blood by Light microscopy,Acanthocytes [Presence] in Blood by Light microscopy
+51137,3026314,1,215,215,215,3026314.0,same concept,Anisocytosis [Presence] in Blood by Light microscopy,Anisocytosis [Presence] in Blood by Light microscopy
+51143,3002113,1,176,176,176,3002113.0,same concept,Variant lymphocytes [Presence] in Blood by Light microscopy,Variant lymphocytes [Presence] in Blood by Light microscopy
+51144,3008939,1,231,231,231,3008939.0,same concept,Band form neutrophils [#/volume] in Blood by Manual count,Band form neutrophils [#/volume] in Blood by Manual count
+51145,3026904,1,20,20,20,3026904.0,same concept,Basophilic stippling [Presence] in Blood by Light microscopy,Basophilic stippling [Presence] in Blood by Light microscopy
+51146,3013429,1,547,547,547,3013429.0,same concept,Basophils [#/volume] in Blood by Automated count,Basophils [#/volume] in Blood by Automated count
+51147,3005686,1,4,4,4,3005686.0,same concept,Bite cells [Presence] in Blood by Light microscopy,Bite cells [Presence] in Blood by Light microscopy
+51148,3015280,1,10,10,10,3015280.0,same concept,Blasts [#/volume] in Blood by Manual count,Blasts [#/volume] in Blood by Manual count
+51150,3037772,1,1,1,1,3037772.0,same concept,Parasite identified in Blood,Parasite identified in Blood
+51151,3005854,1,31,31,31,3005854.0,same concept,Burr cells [Presence] in Blood by Light microscopy,Burr cells [Presence] in Blood by Light microscopy
+51152,3010287,1,3,3,3,3010287.0,same concept,CD10 cells/cells in Blood,CD10 cells/cells in Blood
+51154,3026595,1,2,2,2,3026595.0,same concept,CD117 cells/cells in Blood,CD117 cells/cells in Blood
+51155,3009295,1,2,2,2,3009295.0,same concept,CD11c cells/cells in Blood,CD11c cells/cells in Blood
+51156,3025842,1,3,3,3,3025842.0,same concept,CD13 cells/cells in Blood,CD13 cells/cells in Blood
+51158,3026992,1,2,2,2,3026992.0,same concept,CD14 cells/cells in Blood,CD14 cells/cells in Blood
+51159,3010143,1,2,2,2,3010143.0,same concept,CD15 cells/cells in Blood,CD15 cells/cells in Blood
+51164,3016228,1,3,3,3,3016228.0,same concept,CD19 cells/cells in Blood,CD19 cells/cells in Blood
+51167,3021562,1,2,2,2,3021562.0,same concept,CD2 cells/cells in Blood,CD2 cells/cells in Blood
+51168,3022878,1,3,3,3,3022878.0,same concept,CD20 cells/cells in Blood,CD20 cells/cells in Blood
+51176,3011412,1,3,3,3,3011412.0,same concept,CD3 cells [#/volume] in Blood,CD3 cells [#/volume] in Blood
+51177,3006501,1,2,2,2,3006501.0,same concept,CD33 cells/cells in Blood,CD33 cells/cells in Blood
+51178,3023256,1,3,3,3,3023256.0,same concept,CD34 cells/cells in Blood,CD34 cells/cells in Blood
+51180,3000298,1,3,3,3,3028167.0,different concept,Deprecated CD4 cells [#/volume] in Blood,CD3+CD4+ (T4 helper) cells [#/volume] in Blood
+51181,3002269,1,1,1,1,40757349.0,different concept,Deprecated CD4 cells/CD8 Cells [# Ratio] in Blood,CD3+CD4+ (T4 helper) cells/CD3+CD8+ (T8 suppressor cells) cells [# Ratio] in Blood
+51182,3021854,1,2,2,2,3021854.0,same concept,CD41 cells/cells in Blood,CD41 cells/cells in Blood
+51183,3023116,1,3,3,3,3023116.0,same concept,CD45 (Lymphs) cells/cells in Blood,CD45 (Lymphs) cells/cells in Blood
+51184,3020383,1,3,3,3,3020383.0,same concept,CD5 cells/cells in Blood,CD5 cells/cells in Blood
+51188,3005460,1,2,2,2,3005460.0,same concept,CD56 cells/cells in Blood,CD56 cells/cells in Blood
+51191,3027120,1,2,2,2,3027120.0,same concept,CD64 cells/cells in Blood,CD64 cells/cells in Blood
+51192,3003255,1,2,2,2,3003255.0,same concept,CD7 cells/cells in Blood,CD7 cells/cells in Blood
+51193,3002153,1,2,2,2,3002153.0,same concept,CD71 cells/cells in Blood,CD71 cells/cells in Blood
+51194,3023654,1,3,3,3,3001405.0,different concept,Deprecated CD8 cells [#/volume] in Blood,CD3+CD8+ (T8 suppressor) cells [#/volume] in Blood
+51196,3051714,1,26,26,26,3051714.0,same concept,Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma,Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma
+51197,3019634,1,9,9,9,3019634.0,same concept,Microscopic observation [Identifier] in Tissue by Wright stain,Microscopic observation [Identifier] in Tissue by Wright stain
+51198,3017196,1,2,2,2,3017196.0,same concept,Microscopic observation [Identifier] in Specimen by Wright stain,Microscopic observation [Identifier] in Specimen by Wright stain
+51199,3013115,1,1,1,1,3013115.0,same concept,Eosinophils [#/volume] in Blood,Eosinophils [#/volume] in Blood
+51200,3028615,1,547,547,547,3028615.0,same concept,Eosinophils [#/volume] in Blood by Automated count,Eosinophils [#/volume] in Blood by Automated count
+51204,3005757,1,1,1,1,3005757.0,same concept,Coagulation factor V activity actual/normal in Platelet poor plasma by Coagulation assay,Coagulation factor V activity actual/normal in Platelet poor plasma by Coagulation assay
+51206,3019250,1,2,2,2,3019250.0,same concept,Coagulation factor VIII activity actual/normal in Platelet poor plasma by Coagulation assay,Coagulation factor VIII activity actual/normal in Platelet poor plasma by Coagulation assay
+51211,3019757,1,1,1,1,3019757.0,same concept,Coagulation factor XIII coagulum dissolution [Units/volume] in Platelet poor plasma by Coagulation assay,Coagulation factor XIII coagulum dissolution [Units/volume] in Platelet poor plasma by Coagulation assay
+51213,3000401,1,21,21,21,3000401.0,same concept,Fibrin+Fibrinogen fragments [Mass/volume] in Platelet poor plasma,Fibrin+Fibrinogen fragments [Mass/volume] in Platelet poor plasma
+51214,3016407,1,130,130,130,3016407.0,same concept,Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay,Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay
+51216,3028468,1,9,9,9,3028468.0,same concept,Fragments [Presence] in Blood by Light microscopy,Fragments [Presence] in Blood by Light microscopy
+51217,3001707,1,2,2,2,3001707.0,same concept,CD235a cells/cells in Blood,CD235a cells/cells in Blood
+51218,3035715,1,99,99,99,3035715.0,same concept,Granulocytes [#/volume] in Blood,Granulocytes [#/volume] in Blood
+51219,3039504,1,4,4,4,3039504.0,same concept,TBX5 gene mutations found [Identifier] in Blood or Tissue by Molecular genetics method Nominal,TBX5 gene mutations found [Identifier] in Blood or Tissue by Molecular genetics method Nominal
+51221,3023314,1,2317,2317,2317,3023314.0,same concept,Hematocrit [Volume Fraction] of Blood by Automated count,Hematocrit [Volume Fraction] of Blood by Automated count
+51222,3000963,1,2024,2024,2024,3000963.0,same concept,Hemoglobin [Mass/volume] in Blood,Hemoglobin [Mass/volume] in Blood
+51229,3045452,1,4,4,4,3045452.0,same concept,LMW Heparin [Units/volume] in Platelet poor plasma,LMW Heparin [Units/volume] in Platelet poor plasma
+51230,3047187,1,2,2,2,3047187.0,same concept,HLA-DR [Presence],HLA-DR [Presence]
+51232,3005937,1,1,1,1,3005937.0,same concept,Neutrophils.hypersegmented [#/volume] in Blood by Manual count,Neutrophils.hypersegmented [#/volume] in Blood by Manual count
+51233,3021303,1,216,216,216,3021303.0,same concept,Hypochromia [Presence] in Blood by Light microscopy,Hypochromia [Presence] in Blood by Light microscopy
+51234,4276031,1,2,0,0,,ours absent,Flow cytometry,
+51235,3031335,1,1,0,0,,ours absent,Mixing studies [Interpretation] in Platelet poor plasma Narrative,
+51236,3018760,1,7,0,0,,ours absent,Blood smear finding [Identifier] in Blood by Light microscopy,
+51237,3034795,1,1378,1378,1378,3022217.0,different concept,Deprecated INR in Platelet poor plasma by Coagulation assay,INR in Platelet poor plasma by Coagulation assay
+51238,4005508,1,3,0,0,,ours absent,Kappa light chain measurement,
+51239,4007662,1,3,0,0,,ours absent,Lambda light chain measurement,
+51240,3044935,1,23,23,23,3044935.0,same concept,Platelets Large [Presence] in Blood by Automated count,Platelets Large [Presence] in Blood by Automated count
+51243,4268621,1,2,0,0,,ours absent,Lupus anticoagulant assay,
+51244,3004327,1,547,547,547,3004327.0,same concept,Lymphocytes [#/volume] in Blood by Automated count,Lymphocytes [#/volume] in Blood by Automated count
+51245,3002030,1,1,1,1,3002030.0,same concept,Lymphocytes/Leukocytes in Blood,Lymphocytes/Leukocytes in Blood
+51246,3021502,1,213,213,213,3021502.0,same concept,Macrocytes [Presence] in Blood by Light microscopy,Macrocytes [Presence] in Blood by Light microscopy
+51247,3010950,1,1,1,1,3010950.0,same concept,Oval macrocytes [Presence] in Blood by Light microscopy,Oval macrocytes [Presence] in Blood by Light microscopy
+51248,3012030,1,2007,2007,2007,3012030.0,same concept,MCH [Entitic mass] by Automated count,MCH [Entitic mass] by Automated count
+51249,3009744,1,2008,2008,2008,3009744.0,same concept,MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count,MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count
+51250,3023599,1,2007,2007,2007,3023599.0,same concept,MCV [Entitic mean volume] in Red Blood Cells by Automated count,MCV [Entitic mean volume] in Red Blood Cells by Automated count
+51251,3002179,1,176,176,176,3002179.0,same concept,Metamyelocytes/Leukocytes in Blood,Metamyelocytes/Leukocytes in Blood
+51252,3037885,1,201,201,201,3037885.0,same concept,Microcytes [Presence] in Blood by Light microscopy,Microcytes [Presence] in Blood by Light microscopy
+51254,3033575,1,547,547,547,3033575.0,same concept,Monocytes [#/volume] in Blood by Automated count,Monocytes [#/volume] in Blood by Automated count
+51255,3017181,1,176,176,176,3017181.0,same concept,Myelocytes/Leukocytes in Blood,Myelocytes/Leukocytes in Blood
+51256,3014886,1,547,547,547,3014886.0,same concept,Neutrophils [#/volume] in Urine by Automated count,Neutrophils [#/volume] in Urine by Automated count
+51257,3006135,1,33,33,33,3006135.0,same concept,Nucleated erythrocytes [#/volume] in Blood by Manual count,Nucleated erythrocytes [#/volume] in Blood by Manual count
+51259,3036354,1,6,6,6,3036354.0,same concept,Leukocytes other [#/volume] in Blood by Manual count,Leukocytes other [#/volume] in Blood by Manual count
+51260,3027920,1,80,80,80,3027920.0,same concept,Ovalocytes [Presence] in Blood by Light microscopy,Ovalocytes [Presence] in Blood by Light microscopy
+51262,3011151,1,2,2,2,3011151.0,same concept,Pencil cells [Presence] in Blood by Light microscopy,Pencil cells [Presence] in Blood by Light microscopy
+51263,3018718,1,4,4,4,3018718.0,same concept,Plasma cells/Leukocytes in Blood,Plasma cells/Leukocytes in Blood
+51264,3038256,1,1,1,1,3038256.0,same concept,Platelet clump [Presence] in Blood by Automated count,Platelet clump [Presence] in Blood by Automated count
+51265,3024929,1,2088,2088,2088,3024929.0,same concept,Platelets [#/volume] in Blood by Automated count,Platelets [#/volume] in Blood by Automated count
+51266,3010834,1,172,172,172,3010834.0,same concept,Platelets [#/volume] in Blood by Manual count,Platelets [#/volume] in Blood by Manual count
+51267,3011368,1,191,191,191,3011368.0,same concept,Poikilocytosis [Presence] in Blood by Light microscopy,Poikilocytosis [Presence] in Blood by Light microscopy
+51268,3011987,1,174,174,174,3011987.0,same concept,Polychromasia [Presence] in Blood by Light microscopy,Polychromasia [Presence] in Blood by Light microscopy
+51269,3024153,1,9,9,9,3024153.0,same concept,Promyelocytes [#/volume] in Blood by Manual count,Promyelocytes [#/volume] in Blood by Manual count
+51274,3034426,1,1378,1378,1378,3034426.0,same concept,Prothrombin time (PT),Prothrombin time (PT)
+51275,3013466,1,1419,1419,1419,3013466.0,same concept,aPTT in Blood by Coagulation assay,aPTT in Blood by Coagulation assay
+51276,3003994,1,1,1,1,3003994.0,same concept,Glucose-6-Phosphate dehydrogenase [Enzymatic activity/mass] in Red Blood Cells,Glucose-6-Phosphate dehydrogenase [Enzymatic activity/mass] in Red Blood Cells
+51277,3019897,1,2005,2005,2005,3019897.0,same concept,Erythrocyte [DistWidth] in Blood by Automated count,Erythrocyte [DistWidth] in Blood by Automated count
+51278,3019880,1,7,0,0,,ours absent,Schistocytes [Presence] in Blood by Light microscopy,
+51279,3020416,1,2007,2007,2007,3020416.0,same concept,Erythrocytes [#/volume] in Blood by Automated count,Erythrocytes [#/volume] in Blood by Automated count
+51283,3007124,1,37,37,37,3007124.0,same concept,Reticulocytes/Erythrocytes in Blood by Automated count,Reticulocytes/Erythrocytes in Blood by Automated count
+51284,3002809,1,2,2,2,3002809.0,same concept,Reticulocytes/Erythrocytes in Blood by Manual,Reticulocytes/Erythrocytes in Blood by Manual
+51287,3019880,1,51,51,51,3019880.0,same concept,Schistocytes [Presence] in Blood by Light microscopy,Schistocytes [Presence] in Blood by Light microscopy
+51288,3013707,1,3,3,3,3013707.0,same concept,Erythrocyte [Sedimentation Rate] in Blood by Westergren method,Erythrocyte [Sedimentation Rate] in Blood by Westergren method
+51289,3010493,1,1,1,1,3010493.0,same concept,Viscosity of Serum,Viscosity of Serum
+51290,3017974,1,1,1,1,3017974.0,same concept,Hemoglobin S [Presence] in Blood by Solubility test,Hemoglobin S [Presence] in Blood by Solubility test
+51292,3005481,1,26,26,26,3005481.0,same concept,Spherocytes [Presence] in Blood by Light microscopy,Spherocytes [Presence] in Blood by Light microscopy
+51294,3025616,1,22,22,22,3025616.0,same concept,Target cells [Presence] in Blood by Light microscopy,Target cells [Presence] in Blood by Light microscopy
+51296,3000456,1,42,42,42,3000456.0,same concept,Dacrocytes [Presence] in Blood by Light microscopy,Dacrocytes [Presence] in Blood by Light microscopy
+51297,3036489,1,3,3,3,3036489.0,same concept,Thrombin time,Thrombin time
+51298,3037533,1,2,2,2,3037533.0,same concept,von Willebrand factor (vWf) actual/normal in Platelet poor plasma by Aggregometry.ristocetin cofactor activity,von Willebrand factor (vWf) actual/normal in Platelet poor plasma by Aggregometry.ristocetin cofactor activity
+51299,3002124,1,2,2,2,3002124.0,same concept,von Willebrand factor (vWf) Ag [Units/volume] in Platelet poor plasma by Immunoassay,von Willebrand factor (vWf) Ag [Units/volume] in Platelet poor plasma by Immunoassay
+51300,3010813,1,1,1,1,3010813.0,same concept,Leukocytes [#/volume] in Blood,Leukocytes [#/volume] in Blood
+51301,3003282,1,2021,2021,2021,3003282.0,same concept,Leukocytes [#/volume] in Blood by Manual count,Leukocytes [#/volume] in Blood by Manual count
+51302,3039095,1,2,2,2,42869450.0,different concept,Platelets reticulated/Platelets in Blood,Platelets reticulated/Platelets in Blood by Automated count
+51303,3030454,1,2,2,2,3030454.0,same concept,CD10 cells/cells in Bone marrow,CD10 cells/cells in Bone marrow
+51305,3037631,1,1,1,1,3037631.0,same concept,CD117 cells/cells in Bone marrow,CD117 cells/cells in Bone marrow
+51306,3046866,1,1,1,1,3046866.0,same concept,CD11c cells/cells in Bone marrow,CD11c cells/cells in Bone marrow
+51307,3029960,1,1,1,1,3029960.0,same concept,CD13 cells/cells in Bone marrow,CD13 cells/cells in Bone marrow
+51309,3004400,1,1,1,1,3004400.0,same concept,CD14 cells/cells in Bone marrow,CD14 cells/cells in Bone marrow
+51310,3029648,1,1,1,1,3029648.0,same concept,CD15 cells/cells in Bone marrow,CD15 cells/cells in Bone marrow
+51313,3035081,1,2,2,2,3035081.0,same concept,CD19 cells/cells in Bone marrow,CD19 cells/cells in Bone marrow
+51314,3009357,1,2,2,2,3009357.0,same concept,CD2 cells/cells in Bone marrow,CD2 cells/cells in Bone marrow
+51315,3022878,1,1,0,0,,ours absent,CD20 cells/cells in Blood,
+51317,3032694,1,1,1,1,3032694.0,same concept,CD23 cells/cells in Bone marrow,CD23 cells/cells in Bone marrow
+51319,3018064,1,2,2,2,3018064.0,same concept,CD3 cells/cells in Bone marrow,CD3 cells/cells in Bone marrow
+51320,3029723,1,1,1,1,3029723.0,same concept,CD33 cells/cells in Bone marrow,CD33 cells/cells in Bone marrow
+51321,40760512,1,1,1,1,40760512.0,same concept,CD34 cells/cells in Bone marrow,CD34 cells/cells in Bone marrow
+51323,3029375,1,1,1,1,3023029.0,different concept,Deprecated CD4 cells/100 cells in Bone marrow,CD3+CD4+ (T4 helper) cells/cells in Bone marrow
+51324,3029369,1,1,1,1,3029369.0,same concept,CD41 cells/cells in Bone marrow,CD41 cells/cells in Bone marrow
+51325,3029857,1,2,2,2,3029857.0,same concept,CD45 (Lymphs) cells/cells in Bone marrow,CD45 (Lymphs) cells/cells in Bone marrow
+51326,3035527,1,2,2,2,3035527.0,same concept,CD5 cells/cells in Bone marrow,CD5 cells/cells in Bone marrow
+51328,3005460,1,1,0,0,,ours absent,CD56 cells/cells in Blood,
+51331,3030234,1,1,1,1,3030234.0,same concept,CD64 cells/cells in Bone marrow,CD64 cells/cells in Bone marrow
+51332,3035186,1,2,2,2,3035186.0,same concept,CD7 cells/cells in Bone marrow,CD7 cells/cells in Bone marrow
+51333,3002153,1,1,0,0,,ours absent,CD71 cells/cells in Blood,
+51334,3029997,1,1,1,1,3029997.0,same concept,CD8+HLA-DR+ cells/cells in Bone marrow,CD8+HLA-DR+ cells/cells in Bone marrow
+51335,3003047,1,1,0,0,,ours absent,FMC7 cells/cells in Blood,
+51336,3043686,1,1,1,1,3043686.0,same concept,CD235a cells/cells in Bone marrow,CD235a cells/cells in Bone marrow
+51337,3029669,1,2,2,2,3029669.0,same concept,HLA-DR+ cells/cells in Bone marrow,HLA-DR+ cells/cells in Bone marrow
+51338,4276031,1,2,0,0,,ours absent,Flow cytometry,
+51339,3018543,1,1,1,1,3018543.0,same concept,Iron.microscopic observation [Identifier] in Bone marrow by Potassium ferrocyanide stain,Iron.microscopic observation [Identifier] in Bone marrow by Potassium ferrocyanide stain
+51340,4005508,1,2,0,0,,ours absent,Kappa light chain measurement,
+51341,4007662,1,2,0,0,,ours absent,Lambda light chain measurement,
+51342,3014837,1,4,4,4,3014837.0,same concept,Microscopic observation [Identifier] in Bone marrow by Wright Giemsa stain,Microscopic observation [Identifier] in Bone marrow by Wright Giemsa stain
+51347,3022640,1,2,2,2,3022640.0,same concept,Eosinophils/Leukocytes in Cerebral spinal fluid,Eosinophils/Leukocytes in Cerebral spinal fluid
+51351,3020951,1,12,12,12,3020951.0,same concept,Lymphocytes/Leukocytes in Cerebral spinal fluid,Lymphocytes/Leukocytes in Cerebral spinal fluid
+51352,3028502,1,2,2,2,3028502.0,same concept,Macrophages/Leukocytes in Cerebral spinal fluid,Macrophages/Leukocytes in Cerebral spinal fluid
+51355,3037577,1,12,12,12,3037577.0,same concept,Monocytes/Leukocytes in Cerebral spinal fluid,Monocytes/Leukocytes in Cerebral spinal fluid
+51358,3033206,1,2,0,0,,ours absent,Leukocytes other [#/volume] in Peritoneal fluid,
+51360,3022356,1,12,12,12,3042847.0,different concept,Deprecated Polymorphonuclear cells/100 leukocytes in Cerebral spinal fluid,Granulocytes/Leukocytes in Cerebral spinal fluid
+51362,3027475,1,12,12,12,3027475.0,same concept,Erythrocytes [#/volume] in Cerebral spinal fluid,Erythrocytes [#/volume] in Cerebral spinal fluid
+51363,3016543,1,12,12,12,3016543.0,same concept,Leukocytes [#/volume] in Cerebral spinal fluid,Leukocytes [#/volume] in Cerebral spinal fluid
+51369,42868642,1,1,0,0,,ours absent,Hematocrit [Volume Fraction] of Synovial fluid by calculation,
+51373,4057589,1,1,0,0,,ours absent,Synovial fluid: crystals,
+51375,3003329,1,2,2,2,3003329.0,same concept,Lymphocytes/Leukocytes in Synovial fluid,Lymphocytes/Leukocytes in Synovial fluid
+51376,3029170,1,1,1,1,3029170.0,same concept,Macrophages/Leukocytes in Synovial fluid,Macrophages/Leukocytes in Synovial fluid
+51379,3009361,1,2,2,2,3009361.0,same concept,Monocytes/Leukocytes in Synovial fluid,Monocytes/Leukocytes in Synovial fluid
+51382,3006571,1,2,2,2,3006571.0,same concept,Granulocytes/Leukocytes in Synovial fluid,Granulocytes/Leukocytes in Synovial fluid
+51383,3010144,1,1,1,1,3010144.0,same concept,Erythrocytes [#/volume] in Synovial fluid,Erythrocytes [#/volume] in Synovial fluid
+51384,3000475,1,2,2,2,3000475.0,same concept,Leukocytes [#/volume] in Synovial fluid,Leukocytes [#/volume] in Synovial fluid
+51385,3007169,1,1,1,1,3007169.0,same concept,Variant lymphocytes/Leukocytes in Body fluid,Variant lymphocytes/Leukocytes in Body fluid
+51388,3030724,1,3,3,3,3030724.0,same concept,CD10 cells/cells in Body fluid,CD10 cells/cells in Body fluid
+51398,3013368,1,3,3,3,3013368.0,same concept,CD19 cells/cells in Body fluid,CD19 cells/cells in Body fluid
+51399,3034427,1,1,1,1,3034427.0,same concept,CD2 cells/cells in Body fluid,CD2 cells/cells in Body fluid
+51400,40760530,1,3,3,3,40760530.0,same concept,CD20 cells/cells in Body fluid,CD20 cells/cells in Body fluid
+51402,3033041,1,1,1,1,3033041.0,same concept,CD23 cells/cells in Body fluid,CD23 cells/cells in Body fluid
+51404,3033894,1,1,1,1,3033894.0,same concept,CD3 cells/cells in Body fluid,CD3 cells/cells in Body fluid
+51411,3001845,1,3,3,3,3001845.0,same concept,CD45 (Lymphs) cells/cells in Body fluid,CD45 (Lymphs) cells/cells in Body fluid
+51412,40760535,1,1,1,1,40760535.0,same concept,CD5 cells/cells in Body fluid,CD5 cells/cells in Body fluid
+51416,40760537,1,1,1,1,40760537.0,same concept,CD7 cells/cells in Body fluid,CD7 cells/cells in Body fluid
+51419,3021453,1,3,3,3,3021453.0,same concept,Eosinophils/Leukocytes in Body fluid,Eosinophils/Leukocytes in Body fluid
+51420,40760540,1,1,1,1,40760540.0,same concept,FMC7 cells/cells in Body fluid,FMC7 cells/cells in Body fluid
+51422,3008108,1,2,2,2,3008108.0,same concept,Hematocrit [Volume Fraction] of Body fluid by calculation,Hematocrit [Volume Fraction] of Body fluid by calculation
+51423,3030297,1,1,1,1,3030297.0,same concept,HLA-DR+ cells/cells in Body fluid,HLA-DR+ cells/cells in Body fluid
+51424,4276031,1,4,0,0,,ours absent,Flow cytometry,
+51425,4005508,1,3,0,0,,ours absent,Kappa light chain measurement,
+51426,4007662,1,3,0,0,,ours absent,Lambda light chain measurement,
+51427,3028079,1,10,10,10,3028079.0,same concept,Lymphocytes/Leukocytes in Body fluid,Lymphocytes/Leukocytes in Body fluid
+51428,3005087,1,5,5,5,3005087.0,same concept,Macrophages/Leukocytes in Body fluid by Manual count,Macrophages/Leukocytes in Body fluid by Manual count
+51429,3036353,1,2,2,2,3036353.0,same concept,Mesothelial cells/Leukocytes in Body fluid,Mesothelial cells/Leukocytes in Body fluid
+51431,3004411,1,10,10,10,3004411.0,same concept,Monocytes/Leukocytes in Body fluid by Manual count,Monocytes/Leukocytes in Body fluid by Manual count
+51434,40761572,1,3,0,0,,ours absent,Other cells [#] in Body fluid by Manual count,
+51436,3025450,1,10,10,10,44786800.0,different concept,Deprecated Polymorphonuclear cells/100 leukocytes in Body fluid,Granulocytes/Leukocytes in Body fluid
+51438,3010910,1,9,9,9,3010910.0,same concept,Erythrocytes [#/volume] in Body fluid,Erythrocytes [#/volume] in Body fluid
+51439,3022174,1,10,10,10,3022174.0,same concept,Leukocytes [#/volume] in Body fluid,Leukocytes [#/volume] in Body fluid
+51444,3001893,1,3,3,3,3001893.0,same concept,Eosinophils/Leukocytes in Pleural fluid,Eosinophils/Leukocytes in Pleural fluid
+51446,3005532,1,11,11,11,3005532.0,same concept,Lymphocytes/Leukocytes in Pleural fluid,Lymphocytes/Leukocytes in Pleural fluid
+51447,3039528,1,6,6,6,3039528.0,same concept,Macrophages/Leukocytes in Pleural fluid by Manual count,Macrophages/Leukocytes in Pleural fluid by Manual count
+51448,3028029,1,7,7,7,3028029.0,same concept,Mesothelial cells/Leukocytes in Pleural fluid,Mesothelial cells/Leukocytes in Pleural fluid
+51450,3043387,1,11,11,11,3043387.0,same concept,Monocytes/Leukocytes in Pleural fluid,Monocytes/Leukocytes in Pleural fluid
+51453,3033206,1,2,0,0,,ours absent,Leukocytes other [#/volume] in Peritoneal fluid,
+51455,3026051,1,11,11,11,3026051.0,same concept,Granulocytes/Leukocytes in Pleural fluid,Granulocytes/Leukocytes in Pleural fluid
+51457,3028308,1,11,11,11,3028308.0,same concept,Erythrocytes [#/volume] in Pleural fluid,Erythrocytes [#/volume] in Pleural fluid
+51458,3023199,1,11,11,11,3023199.0,same concept,Leukocytes [#/volume] in Pleural fluid,Leukocytes [#/volume] in Pleural fluid
+51460,3016251,1,1,1,1,3016251.0,same concept,Hemoglobin [Presence] in Stool from gastrointestinal,Hemoglobin [Presence] in Stool from gastrointestinal
+51462,3007350,1,27,27,27,3007350.0,same concept,Amorphous sediment [Presence] in Urine sediment by Light microscopy,Amorphous sediment [Presence] in Urine sediment by Light microscopy
+51463,3025255,1,218,218,218,3025255.0,same concept,Bacteria [#/area] in Urine sediment by Microscopy high power field,Bacteria [#/area] in Urine sediment by Microscopy high power field
+51464,3018834,1,284,284,284,3018834.0,same concept,Bilirubin.total [Presence] in Urine by Test strip,Bilirubin.total [Presence] in Urine by Test strip
+51466,3011397,1,284,284,284,3011397.0,same concept,Hemoglobin [Presence] in Urine by Test strip,Hemoglobin [Presence] in Urine by Test strip
+51469,3006490,1,2,2,2,3006490.0,same concept,Calcium oxalate crystals [Presence] in Urine sediment by Light microscopy,Calcium oxalate crystals [Presence] in Urine sediment by Light microscopy
+51474,3037579,1,14,14,14,3037579.0,same concept,Eosinophils [Presence] in Urine sediment by Light microscopy,Eosinophils [Presence] in Urine sediment by Light microscopy
+51476,3010189,1,233,233,233,3010189.0,same concept,Epithelial cells [#/area] in Urine sediment by Microscopy high power field,Epithelial cells [#/area] in Urine sediment by Microscopy high power field
+51478,3024629,1,285,285,285,3024629.0,same concept,Glucose [Mass/volume] in Urine by Test strip,Glucose [Mass/volume] in Urine by Test strip
+51479,3011483,1,15,15,15,3011483.0,same concept,Granular casts [#/area] in Urine sediment by Microscopy low power field,Granular casts [#/area] in Urine sediment by Microscopy low power field
+51482,3022509,1,43,43,43,3022509.0,same concept,Hyaline casts [#/area] in Urine sediment by Microscopy low power field,Hyaline casts [#/area] in Urine sediment by Microscopy low power field
+51484,3023539,1,286,286,286,3023539.0,same concept,Ketones [Mass/volume] in Urine by Test strip,Ketones [Mass/volume] in Urine by Test strip
+51486,3000348,1,281,281,281,3000348.0,same concept,Leukocyte esterase [Presence] in Urine by Test strip,Leukocyte esterase [Presence] in Urine by Test strip
+51487,3021601,1,284,284,284,3021601.0,same concept,Nitrite [Presence] in Urine by Test strip,Nitrite [Presence] in Urine by Test strip
+51489,3042062,1,1,1,1,3042062.0,same concept,Epithelial cells.non-squamous [#/area] in Urine sediment by Microscopy high power field,Epithelial cells.non-squamous [#/area] in Urine sediment by Microscopy high power field
+51491,3022621,1,300,300,300,3022621.0,same concept,pH of Urine by Test strip,pH of Urine by Test strip
+51492,3005897,1,297,297,297,3005897.0,same concept,Protein [Mass/volume] in Urine by Test strip,Protein [Mass/volume] in Urine by Test strip
+51493,3001494,1,233,233,233,3001494.0,same concept,Erythrocytes [#/volume] in Urine sediment by Microscopy high power field,Erythrocytes [#/volume] in Urine sediment by Microscopy high power field
+51497,3015023,1,5,5,5,3015023.0,same concept,Epithelial cells.renal [#/area] in Urine sediment by Microscopy high power field,Epithelial cells.renal [#/area] in Urine sediment by Microscopy high power field
+51498,3000330,1,300,300,300,3000330.0,same concept,Specific gravity of Urine by Test strip,Specific gravity of Urine by Test strip
+51501,3035851,1,11,11,11,3035851.0,same concept,Transitional cells [#/area] in Urine sediment by Microscopy high power field,Transitional cells [#/area] in Urine sediment by Microscopy high power field
+51505,3036882,1,6,6,6,3036882.0,same concept,Urate crystals [Presence] in Urine sediment by Light microscopy,Urate crystals [Presence] in Urine sediment by Light microscopy
+51506,3007876,1,285,285,285,3007876.0,same concept,Appearance of Urine,Appearance of Urine
+51507,3005658,1,1,1,1,3005658.0,same concept,Casts [#/area] in Urine sediment by Microscopy low power field,Casts [#/area] in Urine sediment by Microscopy low power field
+51508,3027162,1,285,285,285,3027162.0,same concept,Color of Urine,Color of Urine
+51512,3006175,1,61,61,61,3006175.0,same concept,Mucus [Presence] in Urine sediment by Light microscopy,Mucus [Presence] in Urine sediment by Light microscopy
+51513,3025954,1,2,2,2,3025954.0,same concept,Urinalysis specimen collection method,Urinalysis specimen collection method
+51514,3037426,1,284,284,284,3037426.0,same concept,Urobilinogen [Presence] in Urine by Test strip,Urobilinogen [Presence] in Urine by Test strip
+51516,3035583,1,227,227,227,3035583.0,same concept,Leukocytes [#/area] in Urine sediment by Microscopy high power field,Leukocytes [#/area] in Urine sediment by Microscopy high power field
+51517,3002052,1,1,1,1,3002052.0,same concept,WBC casts [#/area] in Urine sediment by Microscopy low power field,WBC casts [#/area] in Urine sediment by Microscopy low power field
+51518,3043728,1,2,0,0,,ours absent,WBC casts [Presence] in Urine sediment by Light microscopy,
+51519,3037244,1,233,233,233,3037244.0,same concept,Yeast [#/area] in Urine sediment by Microscopy high power field,Yeast [#/area] in Urine sediment by Microscopy high power field
+51537,3039644,1,1,0,0,,ours absent,Terminal deoxyribonucleotidyl transferase cells/Cells in Blood by Flow cytometry (FC),
+52,3027598,1,4473,0,0,,ours absent,Mean blood pressure,
+524,3034263,1,187,0,0,,ours absent,Pain severity - Reported,
+535,21490650,1,750,0,0,,ours absent,Pressure max Respiratory system airway --during inspiration,
+580,3025315,1,276,0,0,,ours absent,Body weight,
+581,3025315,1,3373,0,0,,ours absent,Body weight,
+5816,21490653,1,5,0,0,,ours absent,Intracranial pressure (ICP),
+614,3024171,1,758,0,0,,ours absent,Respiratory rate,
+615,3024171,1,988,0,0,,ours absent,Respiratory rate,
+618,3024171,1,7030,7030,7030,3024171.0,same concept,Respiratory rate,Respiratory rate
+625,21490880,1,495,0,0,,ours absent,Left ventricular Stroke volume index,
+626,3035146,1,588,0,0,,ours absent,Systemic vascular Resistance,
+627,3008047,1,595,0,0,,ours absent,Systemic vascular Resistance index,
+646,3016502,1,7262,0,0,,ours absent,Oxygen saturation in Arterial blood,
+653,3024171,1,2,0,0,,ours absent,Respiratory rate,
+662,3036518,1,499,499,499,4231869.0,different concept,Left ventricular Stroke volume,Stroke volume
+67,3014080,1,17,0,0,,ours absent,Oxygen gas flow Oxygen delivery system,
+6701,3004249,1,27,0,0,,ours absent,Systolic blood pressure,
+6702,3027598,1,26,0,0,,ours absent,Mean blood pressure,
+676,3020891,1,1020,0,0,,ours absent,Body temperature,
+677,3020891,1,1659,0,0,,ours absent,Body temperature,
+678,3020891,1,1670,0,0,,ours absent,Body temperature,
+679,3020891,1,1017,0,0,,ours absent,Body temperature,
+682,21490854,1,794,0,0,,ours absent,Tidal volume Ventilator --on ventilator,
+683,21490854,1,763,0,0,,ours absent,Tidal volume Ventilator --on ventilator,
+684,3017594,1,247,0,0,,ours absent,Tidal volume.spontaneous --on ventilator,
+686,3016226,1,11,0,0,,ours absent,PEEP Respiratory system,
+6926,3027598,1,13,0,0,,ours absent,Mean blood pressure,
+6927,3027598,1,13,0,0,,ours absent,Mean blood pressure,
+723,3009094,1,1968,0,0,,ours absent,Glasgow coma score verbal,
+727,3020716,1,17,0,0,,ours absent,Inhaled oxygen concentration,
+762,3025315,1,90,0,0,,ours absent,Body weight,
+80,4337265,1,1464,0,0,,ours absent,Bowel sounds,
+834,3016502,1,159,0,0,,ours absent,Oxygen saturation in Arterial blood,
+8368,3012888,1,4504,0,0,,ours absent,Diastolic blood pressure,
+838,3018465,1,2,0,0,,ours absent,Oxygen saturation in Mixed venous blood,
+8440,3012888,1,1,0,0,,ours absent,Diastolic blood pressure,
+8441,3012888,1,3205,0,0,,ours absent,Diastolic blood pressure,
+8448,3017188,1,1445,0,0,,ours absent,Pulmonary artery Diastolic blood pressure,
+8550,21490653,1,4,0,0,,ours absent,Intracranial pressure (ICP),
+8555,3012888,1,27,0,0,,ours absent,Diastolic blood pressure,
+89,3005555,1,136,0,0,,ours absent,Left ventricular Cardiac output,
+90,3005555,1,510,0,0,,ours absent,Left ventricular Cardiac output,
+92,21490695,1,5,0,0,,ours absent,Cerebral perfusion pressure,
+920,3036277,1,90,0,0,,ours absent,Body height,
+AMIKACIN,3001950,1,10,0,0,,ours absent,Amikacin [Susceptibility] by Disk diffusion (KB),
+AMPICILLIN,3017595,1,34,0,0,,ours absent,Ampicillin [Susceptibility] by Disk diffusion (KB),
+AMPICILLIN/SULBACTAM,3016573,1,41,0,0,,ours absent,Ampicillin+Sulbactam [Susceptibility] by Disk diffusion (KB),
+ASPIRATE,3043614,1,1,0,0,,ours absent,Bacteria identified in Aspirate by Culture,
+BILE,3039448,1,1,0,0,,ours absent,Bacteria identified in Bile fluid by Culture,
+BLOOD CULTURE,46235217,1,402,0,0,,ours absent,Bacteria identified in Blood product unit.autologous by Culture,
+BLOOD CULTURE ( MYCO/F LYTIC BOTTLE),3009171,1,19,0,0,,ours absent,Fungus identified in Blood by Culture,
+BONE MARROW - CYTOGENETICS,40760911,1,2,0,0,,ours absent,Chromosome analysis.interphase [Interpretation] in Blood or Marrow by FISH Narrative,
+BRONCHOALVEOLAR LAVAGE,3045360,1,13,0,0,,ours absent,Bacteria identified in Bronchoalveolar lavage by Aerobe culture,
+Blood (CMV AB),3016816,1,2,0,0,,ours absent,Cytomegalovirus IgG Ab [Presence] in Serum or Plasma,
+Blood (EBV),3024836,1,2,0,0,,ours absent,Epstein Barr virus capsid IgG and IgM panel - Serum,
+Blood (Toxo),3011392,1,1,0,0,,ours absent,Toxoplasma gondii Ab [Presence] in Serum,
+CATHETER TIP-IV,3009986,1,29,0,0,,ours absent,Bacteria identified in Catheter tip by Culture,
+CEFAZOLIN,3004354,1,33,0,0,,ours absent,ceFAZolin [Susceptibility] by Disk diffusion (KB),
+CEFEPIME,3009314,1,60,0,0,,ours absent,Cefepime [Susceptibility] by Disk diffusion (KB),
+CEFTAZIDIME,3038086,1,63,0,0,,ours absent,cefTAZidime [Susceptibility] by Disk diffusion (KB),
+CEFTRIAXONE,3022747,1,42,0,0,,ours absent,cefTRIAXone [Susceptibility] by Disk diffusion (KB),
+CEFUROXIME,3018012,1,24,0,0,,ours absent,Cefuroxime Parenteral [Susceptibility] by Disk diffusion (KB),
+CIPROFLOXACIN,3020153,1,59,0,0,,ours absent,Ciprofloxacin [Susceptibility] by Disk diffusion (KB),
+CLINDAMYCIN,3005158,1,17,0,0,,ours absent,Clindamycin [Susceptibility] by Disk diffusion (KB),
+CORNEAL EYE SCRAPINGS,40763312,1,2,0,0,,ours absent,Bacteria identified in Cornea by Culture,
+CSF;SPINAL FLUID,3016914,1,10,0,0,,ours absent,Bacteria identified in Cerebral spinal fluid by Culture,
+Cath Lab,3014315,1,3,0,0,,ours absent,Urine output,
+Cerebral Subdural #1,3006376,1,4,0,0,,ours absent,Fluid output wound drain,
+Chest Tube #1,3026556,1,68,0,0,,ours absent,Fluid output chest tube,
+Chest Tubes CTICU CT 1,3026556,1,80,0,0,,ours absent,Fluid output chest tube,
+Chest Tubes CTICU CT 2,3026556,1,43,0,0,,ours absent,Fluid output chest tube,
+Chest Tubes Right Pleural 1,3026556,1,10,0,0,,ours absent,Fluid output chest tube,
+DIRECT ANTIGEN TEST FOR VARICELLA-ZOSTER VIRUS,3007246,1,1,0,0,,ours absent,Varicella zoster virus Ag [Presence] in Specimen,
+Direct Antigen Test for Herpes Simplex Virus Types 1 & 2,3001964,1,2,0,0,,ours absent,Herpes simplex virus Ag [Presence] in Specimen,
+Drain Out #1 JP Medial,3006376,1,71,0,0,,ours absent,Fluid output wound drain,
+Drain Out #1 Jackson Pratt,3006376,1,112,0,0,,ours absent,Fluid output wound drain,
+Drain Out #1 Jejunostomy Tube,3011087,1,6,0,0,,ours absent,Output.stool [Volume],
+Drain Out #1 Lt Nephrostomy,3014315,1,37,0,0,,ours absent,Urine output,
+Drain Out #2 JP Lateral,3006376,1,172,0,0,,ours absent,Fluid output wound drain,
+Drain Out #2 Lt Nephrostomy,3014315,1,80,0,0,,ours absent,Urine output,
+Drain Out #2 T Tube,3006376,1,44,0,0,,ours absent,Fluid output wound drain,
+Drainage Bag,3006376,1,15,0,0,,ours absent,Fluid output wound drain,
+ERYTHROMYCIN,3008308,1,27,0,0,,ours absent,Erythromycin [Susceptibility] by Disk diffusion (KB),
+Emesis,3028277,1,14,0,0,,ours absent,Fluid output emesis,
+FLUID RECEIVED IN BLOOD CULTURE BOTTLES,3016727,1,8,0,0,,ours absent,Bacteria identified in Body fluid by Culture,
+"FLUID,OTHER",3016727,1,4,0,0,,ours absent,Bacteria identified in Body fluid by Culture,
+FOOT CULTURE,3003714,1,1,0,0,,ours absent,Bacteria identified in Wound by Culture,
+Fecal Bag,3011087,1,58,0,0,,ours absent,Output.stool [Volume],
+Foley,3014315,1,4138,0,0,,ours absent,Urine output,
+GENTAMICIN,3003105,1,88,0,0,,ours absent,Gentamicin [Susceptibility] by Disk diffusion (KB),
+GU Irrigant Volume In,3014315,1,97,0,0,,ours absent,Urine output,
+GU Irrigant/Urine Volume Out,3014315,1,109,0,0,,ours absent,Urine output,
+Gastric Emesis,3028277,1,11,0,0,,ours absent,Fluid output emesis,
+Gastric Gastric Tube,43533729,1,3,0,0,,ours absent,Fluid output.nasogastric tube Measured,
+Gastric Nasogastric,43533729,1,72,0,0,,ours absent,Fluid output.nasogastric tube Measured,
+Gastric Oral Gastric,43533729,1,25,0,0,,ours absent,Fluid output.nasogastric tube Measured,
+Gastric Tube,43533729,1,9,0,0,,ours absent,Fluid output.nasogastric tube Measured,
+Hemovac #1,3037537,1,4,0,0,,ours absent,Fluid output miscellaneous route,
+IMIPENEM,3003793,1,18,0,0,,ours absent,Imipenem [Susceptibility] by Disk diffusion (KB),
+IMMUNOLOGY,3006753,1,3,0,0,,ours absent,Virus identified in Specimen by Immunofluorescence,
+Ileoconduit,3014315,1,1,0,0,,ours absent,Urine output,
+Immunology (CMV),3016816,1,2,0,0,,ours absent,Cytomegalovirus IgG Ab [Presence] in Serum or Plasma,
+Influenza A/B by DFA,3024891,1,3,0,0,,ours absent,Influenza virus A+B Ag [Presence] in Specimen,
+JOINT FLUID,3006761,1,1,0,0,,ours absent,Bacteria identified in Synovial fluid by Culture,
+Jackson Pratt #1,3006376,1,45,0,0,,ours absent,Fluid output wound drain,
+L Pleural #1,3026556,1,7,0,0,,ours absent,Fluid output chest tube,
+LEVOFLOXACIN,3015862,1,40,0,0,,ours absent,levoFLOXacin [Susceptibility] by Disk diffusion (KB),
+LINEZOLID,3000941,1,4,0,0,,ours absent,Linezolid [Susceptibility] by Disk diffusion (KB),
+Left Antecub Pouch,3037537,1,20,0,0,,ours absent,Fluid output miscellaneous route,
+MEROPENEM,3006122,1,56,0,0,,ours absent,Meropenem [Susceptibility] by Disk diffusion (KB),
+MRSA SCREEN,3033966,1,76,0,0,,ours absent,Methicillin resistant Staphylococcus aureus (MRSA) DNA [Presence] in Specimen by NAA with probe detection,
+Mini-BAL,3045360,1,5,0,0,,ours absent,Bacteria identified in Bronchoalveolar lavage by Aerobe culture,
+NITROFURANTOIN,3038047,1,21,0,0,,ours absent,Nitrofurantoin [Susceptibility] by Disk diffusion (KB),
+Nasogastric,43533729,1,25,0,0,,ours absent,Fluid output.nasogastric tube Measured,
+OR EBL,3037537,1,5,0,0,,ours absent,Fluid output miscellaneous route,
+OR Out EBL,3037537,1,10,0,0,,ours absent,Fluid output miscellaneous route,
+OR Out OR Urine,3014315,1,13,0,0,,ours absent,Urine output,
+OR Out PACU Urine,3014315,1,4,0,0,,ours absent,Urine output,
+OR Urine,3014315,1,7,0,0,,ours absent,Urine output,
+OXACILLIN,3003906,1,26,0,0,,ours absent,Oxacillin [Susceptibility] by Disk diffusion (KB),
+Oral Gastric,43533729,1,32,0,0,,ours absent,Fluid output.nasogastric tube Measured,
+Ostomy (output),3011087,1,71,0,0,,ours absent,Output.stool [Volume],
+PACU Drains,3006376,1,1,0,0,,ours absent,Fluid output wound drain,
+PACU Urine,3014315,1,1,0,0,,ours absent,Urine output,
+PENICILLIN,3006884,1,20,0,0,,ours absent,Penicillin [Susceptibility] by Disk diffusion (KB),
+PENICILLIN G,3023307,1,5,0,0,,ours absent,Penicillin G [Susceptibility] by Disk diffusion (KB),
+PERITONEAL FLUID,3025037,1,8,0,0,,ours absent,Bacteria identified in Peritoneal fluid by Culture,
+PIPERACILLIN,3021988,1,16,0,0,,ours absent,Piperacillin [Susceptibility] by Disk diffusion (KB),
+PIPERACILLIN/TAZO,3016242,1,37,0,0,,ours absent,Piperacillin+Tazobactam [Susceptibility] by Disk diffusion (KB),
+PLEURAL FLUID,3024194,1,4,0,0,,ours absent,Bacteria identified in Pleural fluid by Culture,
+Paracentesis,3037537,1,2,0,0,,ours absent,Fluid output miscellaneous route,
+Pericardial,3026556,1,19,0,0,,ours absent,Fluid output chest tube,
+Pre-Admission,3014315,1,24,0,0,,ours absent,Urine output,
+Pre-Admission Output Pre-Admission Output,3014315,1,16,0,0,,ours absent,Urine output,
+R Pleural #1,3026556,1,9,0,0,,ours absent,Fluid output chest tube,
+RIFAMPIN,3037153,1,19,0,0,,ours absent,rifAMPin [Susceptibility] by Disk diffusion (KB),
+Rapid Respiratory Viral Screen & Culture,21493881,1,3,0,0,,ours absent,Respiratory pathogens DNA and RNA [Identifier] in Respiratory system specimen by NAA with probe detection,
+Rectal Tube,3011087,1,23,0,0,,ours absent,Output.stool [Volume],
+SEROLOGY/BLOOD,3006753,1,7,0,0,,ours absent,Virus identified in Specimen by Immunofluorescence,
+SKIN SCRAPINGS,3007853,1,1,0,0,,ours absent,Bacteria identified in Skin by Aerobe culture,
+SPUTUM,3023419,1,137,0,0,,ours absent,Bacteria identified in Sputum by Culture,
+STOOL,3025941,1,66,0,0,,ours absent,Bacteria identified in Stool by Culture,
+SWAB,3002619,1,36,0,0,,ours absent,Bacteria identified in Specimen by Culture,
+Stool,3011087,1,93,0,0,,ours absent,Output.stool [Volume],
+Stool Out Colostomy,3011087,1,2,0,0,,ours absent,Output.stool [Volume],
+Stool Out Fecal Bag,3011087,1,1,0,0,,ours absent,Output.stool [Volume],
+Stool Out Ileostomy,3011087,1,2,0,0,,ours absent,Output.stool [Volume],
+Stool Out Rectal Tube,3011087,1,3,0,0,,ours absent,Output.stool [Volume],
+Stool Out Stool,3011087,1,208,0,0,,ours absent,Output.stool [Volume],
+TETRACYCLINE,3002850,1,24,0,0,,ours absent,Tetracycline [Susceptibility] by Disk diffusion (KB),
+TF Residual,43533729,1,143,0,0,,ours absent,Fluid output.nasogastric tube Measured,
+TF Residual Output,43533729,1,16,0,0,,ours absent,Fluid output.nasogastric tube Measured,
+THROAT CULTURE,3012475,1,2,0,0,,ours absent,Bacteria identified in Throat by Culture,
+TISSUE,3044495,1,6,0,0,,ours absent,Bacteria identified in Tissue by Culture,
+TOBRAMYCIN,3022094,1,61,0,0,,ours absent,Tobramycin [Susceptibility] by Disk diffusion (KB),
+TRIMETHOPRIM/SULFA,3012222,1,63,0,0,,ours absent,Trimethoprim+Sulfamethoxazole [Susceptibility] by Disk diffusion (KB),
+Tap,3037537,1,2,0,0,,ours absent,Fluid output miscellaneous route,
+URINE,3026008,1,207,0,0,,ours absent,Bacteria identified in Urine by Culture,
+Ultrafiltrate Ultrafiltrate,3037537,1,274,0,0,,ours absent,Fluid output miscellaneous route,
+Urine Out Foley,3014315,1,4741,0,0,,ours absent,Urine output,
+Urine Out IleoConduit,3014315,1,70,0,0,,ours absent,Urine output,
+Urine Out Incontinent,3014315,1,1,0,0,,ours absent,Urine output,
+Urine Out Void,3014315,1,53,0,0,,ours absent,Urine output,
+VANCOMYCIN,3008504,1,31,0,0,,ours absent,Vancomycin [Susceptibility] by Disk diffusion (KB),
+Void,3014315,1,63,0,0,,ours absent,Urine output,
+paracentesis,3037537,1,4,0,0,,ours absent,Fluid output miscellaneous route,
+paracentesis site,3037537,1,24,0,0,,ours absent,Fluid output miscellaneous route,

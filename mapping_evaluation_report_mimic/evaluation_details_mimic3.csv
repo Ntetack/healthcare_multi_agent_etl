@@ -1,0 +1,88 @@
+category,omop_table,omop_field,gold_sources,agent_sources,precision,recall,f1,tp,fp,fn,notes
+MAP,person,person_source_value,PATIENTS.subject_id,PATIENTS.row_id,0.0000,0.0000,0.0000,0,1,1,
+MAP,person,gender_source_value,PATIENTS.gender,PATIENTS.gender,1.0000,1.0000,1.0000,1,0,0,
+MAP,person,year_of_birth,PATIENTS.dob,PATIENTS.dob,1.0000,1.0000,1.0000,1,0,0,Année
+MAP,person,month_of_birth,PATIENTS.dob,PATIENTS.dob,1.0000,1.0000,1.0000,1,0,0,Mois
+MAP,person,day_of_birth,PATIENTS.dob,PATIENTS.dob,1.0000,1.0000,1.0000,1,0,0,Jour
+MAP,person,birth_datetime,PATIENTS.dob,PATIENTS.dob,1.0000,1.0000,1.0000,1,0,0,
+MAP,person,race_source_value,ADMISSIONS.ethnicity,ADMISSIONS.ethnicity,1.0000,1.0000,1.0000,1,0,0,Première admission du patient (admittime)
+MAP,death,person_id,ADMISSIONS.subject_id;PATIENTS.subject_id,PATIENTS.subject_id,1.0000,0.5000,0.6667,1,0,1,Repli : seulement si aucun décès hospitalier ; la colonne est dod_ssn (pas dod)
+MAP,death,death_date,ADMISSIONS.deathtime;PATIENTS.dod_ssn,PATIENTS.dod,0.0000,0.0000,0.0000,0,1,2,Repli : seulement si aucun décès hospitalier ; la colonne est dod_ssn (pas dod)
+MAP,death,death_datetime,ADMISSIONS.deathtime;PATIENTS.dod_ssn,ADMISSIONS.deathtime,1.0000,0.5000,0.6667,1,0,1,Repli : seulement si aucun décès hospitalier ; la colonne est dod_ssn (pas dod)
+MAP,visit_occurrence,person_id,ADMISSIONS.subject_id,ADMISSIONS.subject_id,1.0000,1.0000,1.0000,1,0,0,
+MAP,visit_occurrence,visit_start_date,ADMISSIONS.admittime;ADMISSIONS.edregtime,ADMISSIONS.admittime,1.0000,0.5000,0.6667,1,0,1,"coalesce(edregtime, admittime)"
+MAP,visit_occurrence,visit_start_datetime,ADMISSIONS.admittime;ADMISSIONS.edregtime,ADMISSIONS.admittime,1.0000,0.5000,0.6667,1,0,1,"coalesce(edregtime, admittime)"
+MAP,visit_occurrence,visit_end_date,ADMISSIONS.dischtime,ADMISSIONS.dischtime,1.0000,1.0000,1.0000,1,0,0,
+MAP,visit_occurrence,visit_end_datetime,ADMISSIONS.dischtime,ADMISSIONS.dischtime,1.0000,1.0000,1.0000,1,0,0,
+MAP,visit_occurrence,visit_source_value,ADMISSIONS.admission_type,ADMISSIONS.admission_type,1.0000,1.0000,1.0000,1,0,0,
+MAP,visit_occurrence,admitted_from_source_value,ADMISSIONS.admission_location,ADMISSIONS.admission_location,1.0000,1.0000,1.0000,1,0,0,Valeur 'DEAD/EXPIRED' si diagnosis contient 'organ donor' (nom CDM 5.3 : admitting_source_value)
+MAP,visit_occurrence,discharged_to_source_value,ADMISSIONS.discharge_location,ADMISSIONS.discharge_location,1.0000,1.0000,1.0000,1,0,0,Valeur = diagnosis si 'organ donor'
+MAP,observation_period,person_id,ADMISSIONS.subject_id,PATIENTS.subject_id,0.0000,0.0000,0.0000,0,1,1,Une période par visite (pas min-max patient)
+MAP,observation_period,observation_period_start_date,ADMISSIONS.admittime;ADMISSIONS.edregtime,ADMISSIONS.admittime,1.0000,0.5000,0.6667,1,0,1,Identique au début de visite
+MAP,observation_period,observation_period_end_date,ADMISSIONS.dischtime,ADMISSIONS.dischtime,1.0000,1.0000,1.0000,1,0,0,Identique à la fin de visite
+MAP,condition_occurrence,person_id,ADMISSIONS.subject_id;DIAGNOSES_ICD.subject_id,CHARTEVENTS.subject_id;DIAGNOSES_ICD.subject_id;PROCEDUREEVENTS_MV.subject_id,0.3333,0.5000,0.4000,1,2,1,
+MAP,condition_occurrence,visit_occurrence_id,ADMISSIONS.hadm_id;DIAGNOSES_ICD.hadm_id,CHARTEVENTS.hadm_id;DIAGNOSES_ICD.hadm_id;PROCEDUREEVENTS_MV.hadm_id,0.3333,0.5000,0.4000,1,2,1,
+MAP,condition_occurrence,condition_source_value,ADMISSIONS.diagnosis;DIAGNOSES_ICD.icd9_code,CHARTEVENTS.itemid;DIAGNOSES_ICD.icd9_code;PROCEDUREEVENTS_MV.itemid,0.3333,0.5000,0.4000,1,2,1,Flux « motif d'admission »
+MAP,condition_occurrence,condition_start_date,ADMISSIONS.admittime;ADMISSIONS.edregtime,CHARTEVENTS.charttime;PROCEDUREEVENTS_MV.starttime,0.0000,0.0000,0.0000,0,2,2,
+MAP,condition_occurrence,condition_start_datetime,ADMISSIONS.admittime;ADMISSIONS.edregtime,CHARTEVENTS.charttime;PROCEDUREEVENTS_MV.starttime,0.0000,0.0000,0.0000,0,2,2,
+MAP,condition_occurrence,condition_end_date,ADMISSIONS.dischtime,PROCEDUREEVENTS_MV.endtime,0.0000,0.0000,0.0000,0,1,1,Absent du gold d'origine
+MAP,condition_occurrence,condition_end_datetime,ADMISSIONS.dischtime,PROCEDUREEVENTS_MV.endtime,0.0000,0.0000,0.0000,0,1,1,Absent du gold d'origine
+MAP,procedure_occurrence,person_id,CPTEVENTS.subject_id;PROCEDUREEVENTS_MV.subject_id;PROCEDURES_ICD.subject_id,CHARTEVENTS.subject_id;CPTEVENTS.subject_id;DIAGNOSES_ICD.subject_id;PROCEDUREEVENTS_MV.subject_id;PROCEDURES_ICD.subject_id,0.6000,1.0000,0.7500,3,2,0,
+MAP,procedure_occurrence,visit_occurrence_id,CPTEVENTS.hadm_id;PROCEDUREEVENTS_MV.hadm_id;PROCEDURES_ICD.hadm_id,CHARTEVENTS.hadm_id;CPTEVENTS.hadm_id;DIAGNOSES_ICD.hadm_id;PROCEDUREEVENTS_MV.hadm_id;PROCEDURES_ICD.hadm_id,0.6000,1.0000,0.7500,3,2,0,
+MAP,procedure_occurrence,procedure_source_value,CPTEVENTS.subsectionheader;D_ITEMS.label;PROCEDURES_ICD.icd9_code,CHARTEVENTS.itemid;CPTEVENTS.cpt_cd;PROCEDUREEVENTS_MV.itemid;PROCEDURES_ICD.icd9_code,0.2500,0.3333,0.2857,1,3,2,PROCEDUREEVENTS_MV : libellé obtenu par jointure sur itemid
+MAP,procedure_occurrence,procedure_date,ADMISSIONS.dischtime;CPTEVENTS.chartdate;PROCEDUREEVENTS_MV.starttime,CHARTEVENTS.charttime;CPTEVENTS.chartdate;PROCEDUREEVENTS_MV.starttime,0.6667,0.6667,0.6667,2,1,1,Filtre cancelreason = 0
+MAP,procedure_occurrence,procedure_datetime,ADMISSIONS.dischtime;CPTEVENTS.chartdate;PROCEDUREEVENTS_MV.starttime,CHARTEVENTS.charttime;CPTEVENTS.chartdate;PROCEDUREEVENTS_MV.starttime,0.6667,0.6667,0.6667,2,1,1,Filtre cancelreason = 0
+MAP,procedure_occurrence,quantity,PROCEDUREEVENTS_MV.value,PROCEDUREEVENTS_MV.value,1.0000,1.0000,1.0000,1,0,0,Durée en minutes ; absent du gold d'origine
+MAP,drug_exposure,person_id,INPUTEVENTS_CV.subject_id;INPUTEVENTS_MV.subject_id;PRESCRIPTIONS.subject_id,CHARTEVENTS.subject_id;INPUTEVENTS_CV.subject_id;INPUTEVENTS_MV.subject_id;PRESCRIPTIONS.subject_id,0.7500,1.0000,0.8571,3,1,0,
+MAP,drug_exposure,visit_occurrence_id,INPUTEVENTS_CV.hadm_id;INPUTEVENTS_MV.hadm_id;PRESCRIPTIONS.hadm_id,CHARTEVENTS.hadm_id;INPUTEVENTS_CV.hadm_id;INPUTEVENTS_MV.hadm_id;PRESCRIPTIONS.hadm_id,0.7500,1.0000,0.8571,3,1,0,
+MAP,drug_exposure,drug_source_value,D_ITEMS.label;PRESCRIPTIONS.ndc,CHARTEVENTS.itemid;INPUTEVENTS_CV.itemid;INPUTEVENTS_MV.itemid;PRESCRIPTIONS.drug,0.0000,0.0000,0.0000,0,4,2,INPUTEVENTS : libellé via itemid
+MAP,drug_exposure,drug_exposure_start_date,INPUTEVENTS_CV.charttime;INPUTEVENTS_MV.starttime;PRESCRIPTIONS.startdate,CHARTEVENTS.charttime;INPUTEVENTS_CV.charttime;INPUTEVENTS_MV.starttime;PRESCRIPTIONS.startdate,0.7500,1.0000,0.8571,3,1,0,Début = charttime quand rate est renseigné
+MAP,drug_exposure,drug_exposure_start_datetime,INPUTEVENTS_CV.charttime;INPUTEVENTS_MV.starttime;PRESCRIPTIONS.startdate,CHARTEVENTS.charttime;INPUTEVENTS_CV.charttime;INPUTEVENTS_MV.starttime;PRESCRIPTIONS.startdate,0.7500,1.0000,0.8571,3,1,0,Début = charttime quand rate est renseigné
+MAP,drug_exposure,drug_exposure_end_date,INPUTEVENTS_CV.charttime;INPUTEVENTS_MV.endtime;PRESCRIPTIONS.enddate,INPUTEVENTS_MV.endtime;PRESCRIPTIONS.enddate,1.0000,0.6667,0.8000,2,0,1,Fin = charttime quand rate est vide et amount renseigné
+MAP,drug_exposure,drug_exposure_end_datetime,INPUTEVENTS_CV.charttime;INPUTEVENTS_MV.endtime;PRESCRIPTIONS.enddate,INPUTEVENTS_MV.endtime;PRESCRIPTIONS.enddate,1.0000,0.6667,0.8000,2,0,1,Fin = charttime quand rate est vide et amount renseigné
+MAP,drug_exposure,quantity,INPUTEVENTS_CV.amount;INPUTEVENTS_CV.rate;INPUTEVENTS_MV.amount;INPUTEVENTS_MV.rate;PRESCRIPTIONS.form_val_disp,INPUTEVENTS_CV.amount;INPUTEVENTS_MV.amount;PRESCRIPTIONS.form_val_disp,1.0000,0.6000,0.7500,3,0,2,
+MAP,drug_exposure,dose_unit_source_value,INPUTEVENTS_CV.amountuom;INPUTEVENTS_CV.rateuom;INPUTEVENTS_MV.amountuom;INPUTEVENTS_MV.rateuom;PRESCRIPTIONS.form_unit_disp,INPUTEVENTS_CV.amountuom;INPUTEVENTS_MV.amountuom;PRESCRIPTIONS.dose_unit_rx,0.6667,0.4000,0.5000,2,1,3,L'ETL stocke form_unit_disp (le gold d'origine disait dose_unit_rx)
+MAP,drug_exposure,route_source_value,INPUTEVENTS_MV.ordercategorydescription;INPUTEVENTS_MV.ordercategoryname;PRESCRIPTIONS.route,INPUTEVENTS_CV.originalroute;INPUTEVENTS_MV.ordercategorydescription;PRESCRIPTIONS.route,0.6667,0.6667,0.6667,2,1,1,
+MAP,drug_exposure,stop_reason,INPUTEVENTS_CV.stopped;INPUTEVENTS_MV.statusdescription,CHARTEVENTS.stopped;INPUTEVENTS_CV.stopped;INPUTEVENTS_MV.cancelreason,0.3333,0.5000,0.4000,1,2,1,
+MAP,measurement,person_id,CHARTEVENTS.subject_id;INPUTEVENTS_MV.subject_id;LABEVENTS.subject_id;MICROBIOLOGYEVENTS.subject_id;OUTPUTEVENTS.subject_id,CHARTEVENTS.subject_id;DIAGNOSES_ICD.subject_id;LABEVENTS.subject_id;PROCEDUREEVENTS_MV.subject_id,0.5000,0.4000,0.4444,2,2,3,INPUTEVENTS_MV : poids du patient
+MAP,measurement,visit_occurrence_id,CHARTEVENTS.hadm_id;INPUTEVENTS_MV.hadm_id;LABEVENTS.hadm_id;MICROBIOLOGYEVENTS.hadm_id;OUTPUTEVENTS.hadm_id,CHARTEVENTS.hadm_id;DIAGNOSES_ICD.hadm_id;LABEVENTS.hadm_id;PROCEDUREEVENTS_MV.hadm_id,0.5000,0.4000,0.4444,2,2,3,
+MAP,measurement,measurement_source_value,CHARTEVENTS.itemid;D_ITEMS.label;LABEVENTS.itemid;MICROBIOLOGYEVENTS.ab_name;MICROBIOLOGYEVENTS.spec_type_desc,CHARTEVENTS.itemid;DIAGNOSES_ICD.icd9_code;LABEVENTS.itemid;PROCEDUREEVENTS_MV.itemid,0.5000,0.4000,0.4444,2,2,3,Antibiogramme
+MAP,measurement,measurement_date,CHARTEVENTS.charttime;CHARTEVENTS.storetime;INPUTEVENTS_MV.starttime;LABEVENTS.charttime;MICROBIOLOGYEVENTS.chartdate;MICROBIOLOGYEVENTS.charttime;OUTPUTEVENTS.charttime,CHARTEVENTS.charttime;LABEVENTS.charttime;PROCEDUREEVENTS_MV.starttime,0.6667,0.2857,0.4000,2,1,5,
+MAP,measurement,measurement_datetime,CHARTEVENTS.charttime;CHARTEVENTS.storetime;INPUTEVENTS_MV.starttime;LABEVENTS.charttime;MICROBIOLOGYEVENTS.charttime;OUTPUTEVENTS.charttime,CHARTEVENTS.charttime;LABEVENTS.charttime;PROCEDUREEVENTS_MV.starttime,0.6667,0.3333,0.4444,2,1,4,Poids
+MAP,measurement,value_as_number,CHARTEVENTS.value;CHARTEVENTS.valuenum;INPUTEVENTS_MV.patientweight;LABEVENTS.value;MICROBIOLOGYEVENTS.dilution_text;OUTPUTEVENTS.value,CHARTEVENTS.valuenum;LABEVENTS.valuenum;PROCEDUREEVENTS_MV.value,0.3333,0.1667,0.2222,1,2,5,Absent du gold d'origine
+MAP,measurement,value_source_value,CHARTEVENTS.value;LABEVENTS.value;MICROBIOLOGYEVENTS.dilution_text;MICROBIOLOGYEVENTS.org_name,CHARTEVENTS.value;DIAGNOSES_ICD.icd9_code;LABEVENTS.value;PROCEDUREEVENTS_MV.value,0.5000,0.5000,0.5000,2,2,2,Culture
+MAP,measurement,unit_source_value,CHARTEVENTS.valueuom;LABEVENTS.valueuom;OUTPUTEVENTS.valueuom,CHARTEVENTS.valueuom;LABEVENTS.valueuom;PROCEDUREEVENTS_MV.valueuom,0.6667,0.6667,0.6667,2,1,1,
+MAP,observation,person_id,ADMISSIONS.subject_id;CHARTEVENTS.subject_id;DATETIMEEVENTS.subject_id;DRGCODES.subject_id,CHARTEVENTS.subject_id;CPTEVENTS.subject_id;DATETIMEEVENTS.subject_id;DIAGNOSES_ICD.subject_id;INPUTEVENTS_CV.subject_id;INPUTEVENTS_MV.subject_id;PROCEDUREEVENTS_MV.subject_id;PROCEDURES_ICD.subject_id,0.2500,0.5000,0.3333,2,6,2,
+MAP,observation,visit_occurrence_id,ADMISSIONS.hadm_id;CHARTEVENTS.hadm_id;DATETIMEEVENTS.hadm_id;DRGCODES.hadm_id,CHARTEVENTS.hadm_id;CPTEVENTS.hadm_id;DATETIMEEVENTS.hadm_id;DIAGNOSES_ICD.hadm_id;INPUTEVENTS_CV.hadm_id;INPUTEVENTS_MV.hadm_id;PROCEDUREEVENTS_MV.hadm_id;PROCEDURES_ICD.hadm_id,0.2500,0.5000,0.3333,2,6,2,
+MAP,observation,observation_source_value,CHARTEVENTS.itemid,CHARTEVENTS.itemid;CPTEVENTS.cpt_cd;DATETIMEEVENTS.itemid;DIAGNOSES_ICD.icd9_code;INPUTEVENTS_CV.itemid;INPUTEVENTS_MV.itemid;PROCEDUREEVENTS_MV.itemid;PROCEDURES_ICD.icd9_code,0.1250,1.0000,0.2222,1,7,0,Items classés domaine Observation
+MAP,observation,observation_date,ADMISSIONS.admittime;ADMISSIONS.edregtime;CHARTEVENTS.charttime;DATETIMEEVENTS.charttime;DATETIMEEVENTS.value,CHARTEVENTS.charttime;CPTEVENTS.chartdate;DATETIMEEVENTS.value;INPUTEVENTS_CV.charttime;INPUTEVENTS_MV.starttime;PROCEDUREEVENTS_MV.starttime,0.3333,0.4000,0.3636,2,4,3,DRGCODES et démographie (le gold d'origine disait dischtime pour DRG)
+MAP,observation,observation_datetime,ADMISSIONS.admittime;ADMISSIONS.edregtime;CHARTEVENTS.charttime;DATETIMEEVENTS.charttime;DATETIMEEVENTS.value,CHARTEVENTS.charttime;CPTEVENTS.chartdate;DATETIMEEVENTS.charttime;INPUTEVENTS_CV.charttime;INPUTEVENTS_MV.starttime;PROCEDUREEVENTS_MV.starttime,0.3333,0.4000,0.3636,2,4,3,DRGCODES et démographie (le gold d'origine disait dischtime pour DRG)
+MAP,observation,value_as_string,ADMISSIONS.ethnicity;ADMISSIONS.insurance;ADMISSIONS.language;ADMISSIONS.marital_status;ADMISSIONS.religion;CHARTEVENTS.value;DRGCODES.description,CHARTEVENTS.value;DATETIMEEVENTS.value;DIAGNOSES_ICD.icd9_code;INPUTEVENTS_CV.stopped;PROCEDUREEVENTS_MV.location,0.2000,0.1429,0.1667,1,4,6,Une observation par attribut et par admission
+MAP,observation,value_as_number,CHARTEVENTS.valuenum,CHARTEVENTS.valuenum;INPUTEVENTS_CV.amount;INPUTEVENTS_MV.amount;PROCEDUREEVENTS_MV.value,0.2500,1.0000,0.4000,1,3,0,
+EXTRA_AGENT,condition_occurrence,condition_occurrence_id,,CHARTEVENTS.row_id;DIAGNOSES_ICD.row_id;PROCEDUREEVENTS_MV.row_id,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,condition_occurrence,condition_status_source_value,,PROCEDUREEVENTS_MV.statusdescription,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,condition_occurrence,stop_reason,,CHARTEVENTS.stopped;PROCEDUREEVENTS_MV.cancelreason,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,condition_occurrence,visit_detail_id,,CHARTEVENTS.icustay_id;PROCEDUREEVENTS_MV.icustay_id,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,drug_exposure,drug_exposure_id,,CHARTEVENTS.row_id;INPUTEVENTS_CV.row_id;PRESCRIPTIONS.row_id,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,drug_exposure,sig,,INPUTEVENTS_MV.ordercategorydescription,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,drug_exposure,verbatim_end_date,,INPUTEVENTS_MV.endtime;PRESCRIPTIONS.enddate,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,drug_exposure,visit_detail_id,,CHARTEVENTS.icustay_id;INPUTEVENTS_CV.icustay_id;INPUTEVENTS_MV.icustay_id;PRESCRIPTIONS.icustay_id,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,measurement,measurement_event_id,,CHARTEVENTS.row_id;DIAGNOSES_ICD.row_id;LABEVENTS.row_id;PROCEDUREEVENTS_MV.orderid,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,measurement,measurement_id,,CHARTEVENTS.row_id;DIAGNOSES_ICD.row_id;LABEVENTS.row_id;PROCEDUREEVENTS_MV.row_id,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,measurement,measurement_time,,CHARTEVENTS.charttime;LABEVENTS.charttime;PROCEDUREEVENTS_MV.starttime,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,measurement,visit_detail_id,,CHARTEVENTS.icustay_id;DIAGNOSES_ICD.hadm_id;PROCEDUREEVENTS_MV.icustay_id,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,observation,observation_event_id,,CHARTEVENTS.row_id;CPTEVENTS.ticket_id_seq;DATETIMEEVENTS.row_id;INPUTEVENTS_CV.orderid;INPUTEVENTS_MV.hadm_id;PROCEDUREEVENTS_MV.orderid,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,observation,observation_id,,CHARTEVENTS.row_id;CPTEVENTS.row_id;DATETIMEEVENTS.row_id;DIAGNOSES_ICD.row_id;INPUTEVENTS_CV.row_id;INPUTEVENTS_MV.row_id;PROCEDUREEVENTS_MV.row_id;PROCEDURES_ICD.row_id,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,observation,qualifier_source_value,,CHARTEVENTS.warning;CPTEVENTS.cpt_suffix;DATETIMEEVENTS.stopped;INPUTEVENTS_CV.originalroute;INPUTEVENTS_MV.ordercategorydescription;PROCEDUREEVENTS_MV.locationcategory,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,observation,unit_source_value,,CHARTEVENTS.valueuom;DATETIMEEVENTS.valueuom;INPUTEVENTS_CV.amountuom;INPUTEVENTS_MV.amountuom;PROCEDUREEVENTS_MV.valueuom,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,observation,value_source_value,,CHARTEVENTS.value;CPTEVENTS.description;DATETIMEEVENTS.value;DIAGNOSES_ICD.icd9_code;INPUTEVENTS_CV.amount;INPUTEVENTS_MV.itemid;PROCEDUREEVENTS_MV.ordercategorydescription;PROCEDURES_ICD.icd9_code,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,observation,visit_detail_id,,CHARTEVENTS.icustay_id;CPTEVENTS.hadm_id;DATETIMEEVENTS.icustay_id;DIAGNOSES_ICD.hadm_id;INPUTEVENTS_CV.icustay_id;INPUTEVENTS_MV.icustay_id;PROCEDUREEVENTS_MV.icustay_id;PROCEDURES_ICD.hadm_id,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,observation_period,observation_period_id,,ADMISSIONS.hadm_id,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,person,ethnicity_source_value,,ADMISSIONS.ethnicity,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,person,person_id,,PATIENTS.subject_id,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,procedure_occurrence,modifier_source_value,,CPTEVENTS.cpt_suffix,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,procedure_occurrence,procedure_end_date,,PROCEDUREEVENTS_MV.endtime,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,procedure_occurrence,procedure_end_datetime,,PROCEDUREEVENTS_MV.endtime,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,procedure_occurrence,procedure_occurrence_id,,CHARTEVENTS.row_id;CPTEVENTS.row_id;PROCEDUREEVENTS_MV.row_id;PROCEDURES_ICD.row_id,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,procedure_occurrence,visit_detail_id,,CHARTEVENTS.icustay_id;CPTEVENTS.hadm_id;PROCEDUREEVENTS_MV.icustay_id,,,,,,,field not present in gold MAP set
+EXTRA_AGENT,visit_occurrence,visit_occurrence_id,,ADMISSIONS.hadm_id,,,,,,,field not present in gold MAP set

@@ -1,0 +1,2127 @@
+table,champ,identifiant,libelle,lignes,categorie,detail,cherche_par_le_pipeline
+CHARTEVENTS,itemid,220045,Heart Rate,8094,1_resolu_et_route,3027018 Heart rate [LOINC/Measurement],oui
+CHARTEVENTS,itemid,220210,Respiratory Rate,8056,1_resolu_et_route,3024171 Respiratory rate [LOINC/Measurement],oui
+CHARTEVENTS,itemid,220277,O2 saturation pulseoxymetry,8053,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,211,Heart Rate,7396,1_resolu_et_route,3027018 Heart rate [LOINC/Measurement],oui
+CHARTEVENTS,itemid,742,calprevflg,7349,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,646,SpO2,7262,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,212,Heart Rhythm,7095,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,618,Respiratory Rate,7030,1_resolu_et_route,3024171 Respiratory rate [LOINC/Measurement],oui
+CHARTEVENTS,itemid,128,Code Status,6967,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,161,Ectopy Type,6942,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,550,Precautions,6752,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1125,Service Type,6646,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,159,Ectopy Frequency,5876,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1484,Risk for Falls,5256,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220181,Non Invasive Blood Pressure mean,4895,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220179,Non Invasive Blood Pressure systolic,4884,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220180,Non Invasive Blood Pressure diastolic,4879,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,51,Arterial BP [Systolic],4519,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8368,Arterial BP [Diastolic],4504,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,52,Arterial BP Mean,4473,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,5815,HR Alarm [Low],4051,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8549,HR Alarm [High],4047,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,5820,SpO2 Alarm [Low],4036,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8554,SpO2 Alarm [High],4004,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,5819,Resp Alarm [Low],3569,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8553,Resp Alarm [High],3565,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,5817,NBP Alarm [Low],3457,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8551,NBP Alarm [High],3449,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,581,Previous WeightF,3373,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,455,NBP [Systolic],3214,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8441,NBP [Diastolic],3205,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,456,NBP Mean,3199,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1703,Health Care Proxy,3190,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220052,Arterial Blood Pressure mean,3029,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220050,Arterial Blood Pressure systolic,3018,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220051,Arterial Blood Pressure diastolic,3017,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,113,CVP,2923,6_recuperable_par_synonyme,21490675 [LOINC/Measurement],oui
+CHARTEVENTS,itemid,5813,ABP Alarm [Low],2427,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8547,ABP Alarm [High],2416,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,674,Temp. Site,2346,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1337,Riker-SAS Scale,2150,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,432,Level of Conscious,2113,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,617,Respiratory Pattern,2018,1_resolu_et_route,4150612 Respiratory pattern [SNOMED/Observation],oui
+CHARTEVENTS,itemid,479,Orientation,1978,1_resolu_et_route,4183166 Orientation [SNOMED/Observation],oui
+CHARTEVENTS,itemid,223761,Temperature Fahrenheit,1976,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,184,Eye Opening,1975,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,723,Verbal Response,1968,2_resolu_domaine_hors_5_tables,45878309 Verbal response [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,454,Motor Response,1965,1_resolu_et_route,4237719 Motor response [SNOMED/Observation],oui
+CHARTEVENTS,itemid,637,Side Rails,1964,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,31,Activity,1956,1_resolu_et_route,4117957 Activity [SNOMED/Observation],oui
+CHARTEVENTS,itemid,198,GCS Total,1951,6_recuperable_par_synonyme,3007194 [LOINC/Measurement],oui
+CHARTEVENTS,itemid,707,Urine Source,1936,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,210,HOB,1930,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,5814,CVP Alarm [Low],1898,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,704,Turn,1894,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8548,CVP Alarm [High],1888,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224641,Alarms On,1878,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224168,Parameters Checked,1854,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,54,Assistance Device,1779,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220074,Central Venous Pressure,1742,1_resolu_et_route,4323687 Central venous pressure [SNOMED/Measurement],oui
+CHARTEVENTS,itemid,32,Activity Tolerance,1720,1_resolu_et_route,4232754 Activity tolerance [SNOMED/Observation],oui
+CHARTEVENTS,itemid,547,Position,1704,3_nom_trouve_sans_Maps_to_standard,37067617 Position [LOINC],oui
+CHARTEVENTS,itemid,678,Temperature F,1670,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,599,RUL Lung Sounds,1661,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,677,Temperature C (calc),1659,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,428,LUL Lung Sounds,1659,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,425,LLL Lung Sounds,1657,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,593,RLL Lung Sounds,1657,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,154,Diet Type,1656,4_recuperable_casse_ponctuation,21493945 Diet [Type] (1 candidat(s)),oui
+CHARTEVENTS,itemid,663,Support Systems,1652,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1046,Pain Present,1648,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,478,Oral Cavity,1607,2_resolu_domaine_hors_5_tables,653622 Oral Cavity [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,706,Urine [Color],1535,5_recuperable_sans_crochets_a_verifier,37019466 Urine (2 candidat(s)),oui
+CHARTEVENTS,itemid,27,Abdominal Assessment,1533,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8480,Urine [Appearance],1525,4_recuperable_casse_ponctuation,4143063 Urine appearance (1 candidat(s)),oui
+CHARTEVENTS,itemid,621,Restraint Location,1511,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,80,Bowel Sounds,1464,1_resolu_et_route,4337265 Bowel sounds [SNOMED/Observation],oui
+CHARTEVENTS,itemid,680,Therapeutic Bed,1453,2_resolu_domaine_hors_5_tables,45768171 Therapeutic bed [SNOMED/Device],oui
+CHARTEVENTS,itemid,492,PAP [Systolic],1453,5_recuperable_sans_crochets_a_verifier,652393 [Stomach Major Histological Diagnosis] Pap (6 candidat(s)),oui
+CHARTEVENTS,itemid,8448,PAP [Diastolic],1445,5_recuperable_sans_crochets_a_verifier,652393 [Stomach Major Histological Diagnosis] Pap (6 candidat(s)),oui
+CHARTEVENTS,itemid,49,Anti-Embolism [Device],1384,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8367,Anti-Embolism [Status],1332,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225185,Skin Care,1282,1_resolu_et_route,4021165 Skin care [SNOMED/Observation],oui
+CHARTEVENTS,itemid,644,Skin Integrity,1277,1_resolu_et_route,21492838 Skin integrity [LOINC/Measurement],oui
+CHARTEVENTS,itemid,491,PAP Mean,1276,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225187,Back Care,1276,6_recuperable_par_synonyme,4281528 [SNOMED/Observation],oui
+CHARTEVENTS,itemid,807,Fingerstick Glucose,1247,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,190,FiO2 Set,1223,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223835,Inspired O2 Fraction,1219,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,200,GI Intub #1 [Type],1151,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8388,GI Intub #1 [Site],1140,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1622,Alarms,1122,3_nom_trouve_sans_Maps_to_standard,1010397 Alarms [LOINC],oui
+CHARTEVENTS,itemid,40,Airway Type,1119,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1087,Pain Assess Method,1117,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,722,Ventilator Type,1114,1_resolu_et_route,3007397 Ventilator type [LOINC/Observation],oui
+CHARTEVENTS,itemid,229,INV Line#1 [Type],1104,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,585,Pupil Size [Right],1104,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,525,Pain Location,1101,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,584,Pupil Response [Right],1100,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8467,Pupil Size [Left],1097,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,156,Dorsal PedPulse [Right],1096,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8466,Pupil Response [Left],1094,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8392,INV Line#1 [Site],1080,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,197,Follows Commands,1074,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8381,Dorsal PedPulse [Left],1070,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,39,Airway Size,1060,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1623,Parameters Checked,1046,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,676,Temperature C,1020,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,679,Temperature F (calc),1017,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,506,PEEP Set,1009,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1427,GI Prophylaxis [Drug #1],991,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,615,Resp Rate (Total),988,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,171,Education Topic #1,980,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,720,Ventilator Mode,976,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1704,PA line cm Mark,970,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,450,Minute Volume(Obser),965,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,596,RU Strength/Movement,959,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,423,LL Strength/Movement,956,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,590,RL Strength/Movement,956,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,426,LU Strength/Movement,955,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,218,High Insp. Pressure,936,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,434,Low Exhaled Min Vol,936,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,549,PostTib. Pulses [Right],932,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,444,Mean Airway Pressure,931,1_resolu_et_route,42527086 Mean airway pressure [LOINC/Measurement],oui
+CHARTEVENTS,itemid,620,Responds to Stimuli [Type],920,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,631,Sensitivity-Vent,919,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,477,Oral Care,918,2_resolu_domaine_hors_5_tables,36307735 Oral care [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,157,ETT [Mark],915,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,219,High Resp. Rate,914,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8456,PostTib. Pulses [Left],903,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8382,ETT [Location],902,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224564,Impaired Skin Odor #1,894,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8474,Responds to Stimuli [Value],887,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220047,Heart Rate Alarm - Low,885,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220046,Heart rate Alarm - High,883,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,605,Reason For Restraint,880,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,232,INV Line#1SiteAppear,878,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223769,O2 Saturation Pulseoxymetry Alarm - High,867,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223770,O2 Saturation Pulseoxymetry Alarm - Low,867,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224161,Resp Alarm - High,863,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224162,Resp Alarm - Low,862,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,203,GI#1 Tube [Status],858,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,622,Restraint Type,854,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,657,Sputum Source,844,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8477,Sputum [Amount],839,5_recuperable_sans_crochets_a_verifier,4164116 Sputum (1 candidat(s)),oui
+CHARTEVENTS,itemid,220339,PEEP set,836,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,77,Behavior,822,1_resolu_et_route,40757642 Behavior [LOINC/Observation],oui
+CHARTEVENTS,itemid,226253,SpO2 Desat Limit,814,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,417,Inspired Gas Temp,814,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,235,INV Line#2 [Type],807,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,85,Braden Moisture,805,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225664,Glucose finger stick,804,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,82,Braden Activity,804,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,83,Braden Frict/Shear,804,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,84,Braden Mobility,804,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,88,Braden SensoryPercep,803,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,86,Braden Nutrition,802,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,811,Glucose (70-105),801,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,87,Braden Score,800,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1698,GI Tube #1 [Site],798,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8393,INV Line#2 [Site],795,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,682,Tidal Volume (Obser),794,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224687,Minute Volume,792,1_resolu_et_route,4353621 Minute volume [SNOMED/Measurement],oui
+CHARTEVENTS,itemid,8492,GI Tube #1 [Site],792,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224697,Mean Airway Pressure,790,1_resolu_et_route,42527086 Mean airway pressure [LOINC/Measurement],oui
+CHARTEVENTS,itemid,656,Sputum [Color],788,5_recuperable_sans_crochets_a_verifier,4164116 Sputum (1 candidat(s)),oui
+CHARTEVENTS,itemid,619,Respiratory Rate Set,786,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,467,O2 Delivery Device,780,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8476,Sputum Consistency,780,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,411,Incision/Wound #1,779,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227293,Multi Lumen Dressing Occlusive,776,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,50,Apnea Time Interval,774,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226113,Multi Lumen placed in outside facility,767,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220292,Minute Volume Alarm - Low,765,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220293,Minute Volume Alarm - High,765,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224685,Tidal Volume (observed),763,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,683,Tidal Volume (Set),763,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223876,Apnea Interval,761,3_nom_trouve_sans_Maps_to_standard,37023540 Apnea interval [LOINC],oui
+CHARTEVENTS,itemid,223873,Paw High,758,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,614,Resp Rate (Spont),758,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,5818,PAP Alarm [Low],756,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8552,PAP Alarm [High],752,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,535,Peak Insp. Pressure,750,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223874,Vti High,749,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1425,Daily Wake Up,749,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,72,Back Care,749,6_recuperable_par_synonyme,4281528 [SNOMED/Observation],oui
+CHARTEVENTS,itemid,224689,Respiratory Rate (spontaneous),746,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,127,Circulation/SkinInt,737,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,548,Position Change,734,1_resolu_et_route,4121035 Position change [SNOMED/Observation],oui
+CHARTEVENTS,itemid,131,Compliance (40-60ml),734,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,732,Waveform-Vent,733,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,655,Spontaneous Movement,732,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224695,Peak Insp. Pressure,731,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,610,Removed x 5 Mins,724,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1047,Range of Motion,724,3_nom_trouve_sans_Maps_to_standard,1033014 Range of motion [LOINC],oui
+CHARTEVENTS,itemid,623,Restraints Evaluated,721,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223875,Fspn High,720,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,294,IV #1 [Site],710,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227368,20 Gauge Dressing Occlusive,704,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226138,20 Gauge placed in outside facility,702,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1529,Glucose,698,1_resolu_et_route,1560524 glucose [RxNorm/Drug],oui
+CHARTEVENTS,itemid,642,Skin Care,698,1_resolu_et_route,4021165 Skin care [SNOMED/Observation],oui
+CHARTEVENTS,itemid,8400,IV #1 [Size],693,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227292,Arterial Line Dressing Occlusive,689,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,116,Cardiac Index,666,1_resolu_et_route,4208254 Cardiac index [SNOMED/Measurement],oui
+CHARTEVENTS,itemid,226169,Subglottal Suctioning,655,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225184,Eye Care,650,1_resolu_et_route,4024742 Eye care [SNOMED/Observation],oui
+CHARTEVENTS,itemid,6208,Ve High,643,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,829,Potassium (3.5-5.3),635,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223751,Non-Invasive Blood Pressure Alarm - High,632,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223752,Non-Invasive Blood Pressure Alarm - Low,630,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226107,Arterial Line placed in outside facility,620,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223834,O2 Flow,614,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,187,Family Communication,612,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,324,IV Site Appear #1,605,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,813,Hematocrit,601,1_resolu_et_route,4151358 Hematocrit determination [SNOMED/Measurement],oui
+CHARTEVENTS,itemid,283,INV#1 WaveformAppear,597,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,543,Plateau Pressure,597,1_resolu_et_route,4139635 Plateau pressure [SNOMED/Observation],oui
+CHARTEVENTS,itemid,627,SVRI,595,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,238,INV Line#2SiteAppear,590,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,626,SVR,588,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224153,Replacement Rate,585,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224154,Dialysate Rate,585,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,470,O2 Flow (lpm),582,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224191,Hourly Patient Fluid Removal,576,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224144,Blood Flow (ml/min),576,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227442,Potassium (serum),575,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225183,Current Goal,575,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224149,Access Pressure,574,3_nom_trouve_sans_Maps_to_standard,1992290 Access pressure [LOINC],oui
+CHARTEVENTS,itemid,224150,Filter Pressure,574,3_nom_trouve_sans_Maps_to_standard,1992288 Filter pressure [LOINC],oui
+CHARTEVENTS,itemid,224151,Effluent Pressure,573,3_nom_trouve_sans_Maps_to_standard,1992289 Effluent pressure [LOINC],oui
+CHARTEVENTS,itemid,224152,Return Pressure,573,3_nom_trouve_sans_Maps_to_standard,1992284 Return pressure [LOINC],oui
+CHARTEVENTS,itemid,780,Arterial pH,573,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1126,Art.pH,570,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,776,Arterial Base Excess,569,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,777,Arterial CO2(Calc),569,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,778,Arterial PaCO2,569,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226457,Ultrafiltrate Output,568,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,779,Arterial PaO2,567,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220645,Sodium (serum),558,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220621,Glucose (serum),555,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,412,Incision/Wound #2,553,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220602,Chloride (serum),549,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227443,HCO3 (serum),544,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227073,Anion gap,542,1_resolu_et_route,4009397 Anion gap [SNOMED/Observation],oui
+CHARTEVENTS,itemid,579,PressureReduceDevice,541,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1535,Potassium,536,1_resolu_et_route,19049024 potassium [RxNorm/Drug],oui
+CHARTEVENTS,itemid,413,Incision/Wound #3,522,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227367,18 Gauge Dressing Occlusive,521,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224690,Respiratory Rate (Total),518,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226137,18 Gauge placed in outside facility,517,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223872,Inspired Gas Temp.,515,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220615,Creatinine,514,1_resolu_et_route,19071968 creatinine [RxNorm/Drug],oui
+CHARTEVENTS,itemid,225624,BUN,513,7_nom_exact_dans_un_autre_vocabulaire,41936160 [OSM/Geography],oui
+CHARTEVENTS,itemid,90,C.O.(thermodilution),510,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227349,High risk (>51) interventions,510,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220635,Magnesium,509,1_resolu_et_route,19124906 magnesium [RxNorm/Drug],oui
+CHARTEVENTS,itemid,220545,Hematocrit (serum),508,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,664,Swan SVO2,507,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,374,Impaired Skin Site#1,507,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1043,Less Restrict Meas.,503,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,837,Sodium (135-148),500,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,221,I:E Ratio,500,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,662,Stroke Volume,499,1_resolu_et_route,4231869 Stroke volume [SNOMED/Measurement],oui
+CHARTEVENTS,itemid,430,LVSW,499,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,431,LVSWI,499,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,625,SVI,495,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225625,Calcium non-ionized,492,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225677,Phosphorous,491,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,588,RCW,489,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,601,RVSW,488,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,589,RCWI,488,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,183,Eye Care,488,1_resolu_et_route,4024742 Eye care [SNOMED/Observation],oui
+CHARTEVENTS,itemid,602,RVSWI,487,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224923,Impaired Skin Odor #2,487,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,137,Cough Reflex,483,1_resolu_et_route,4146379 Cough reflex [SNOMED/Observation],oui
+CHARTEVENTS,itemid,791,Creatinine (0-1.3),482,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,421,LCW,481,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,422,LCWI,481,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,781,BUN (6-20),477,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,643,Skin Color,477,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,398,Inc #1 [Dressing],477,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,208,Gag Reflex,476,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,787,Carbon Dioxide,472,1_resolu_et_route,19046180 carbon dioxide [RxNorm/Drug],oui
+CHARTEVENTS,itemid,788,Chloride (100-112),472,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,821,Magnesium (1.6-2.6),470,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,645,Skin [Temperature],467,5_recuperable_sans_crochets_a_verifier,45881860 Skin (1 candidat(s)),oui
+CHARTEVENTS,itemid,8475,Skin Condition,465,1_resolu_et_route,4223743 Skin condition [SNOMED/Observation],oui
+CHARTEVENTS,itemid,814,Hemoglobin,464,1_resolu_et_route,36862556 HEMOGLOBIN [RxNorm Extension/Drug],oui
+CHARTEVENTS,itemid,828,Platelets,457,2_resolu_domaine_hors_5_tables,36310193 Platelets [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,224562,Impaired Skin Length #1,454,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224846,Impaired Skin Width #1,453,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,648,Speech,450,1_resolu_et_route,4337391 Speaking [SNOMED/Observation],oui
+CHARTEVENTS,itemid,224688,Respiratory Rate (Set),444,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227457,Platelet Count,441,1_resolu_et_route,4267147 Platelet count [SNOMED/Measurement],oui
+CHARTEVENTS,itemid,297,IV #2 [Site],441,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,202,GI#1 Tube PlaceCheck,440,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,230,INV Line#1 Zero/Cal,439,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,241,INV Line#3 [Type],435,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,527,Pain Type,433,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,861,"WBC (4-11,000)",430,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220228,Hemoglobin,429,1_resolu_et_route,36862556 HEMOGLOBIN [RxNorm Extension/Drug],oui
+CHARTEVENTS,itemid,224738,Inspiratory Time,427,1_resolu_et_route,4353947 Inspiratory time [SNOMED/Measurement],oui
+CHARTEVENTS,itemid,220546,WBC,425,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,526,Pain Management [Route/Status #1],425,5_recuperable_sans_crochets_a_verifier,4083171 Pain management (1 candidat(s)),oui
+CHARTEVENTS,itemid,833,RBC,423,6_recuperable_par_synonyme,4218976 [SNOMED/Spec Anatomic Site],oui
+CHARTEVENTS,itemid,8401,IV #2 [Size],420,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1127,"WBC   (4-11,000)",419,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224684,Tidal Volume (set),417,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1536,Sodium,415,1_resolu_et_route,19136048 sodium [RxNorm/Drug],oui
+CHARTEVENTS,itemid,226871,Expiratory Ratio,410,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226873,Inspiratory Ratio,409,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,392,Inc #1 [Drainage],408,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8390,GI#1 Tube [Drain],403,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1525,Creatinine,401,1_resolu_et_route,19071968 creatinine [RxNorm/Drug],oui
+CHARTEVENTS,itemid,226115,PICC Line placed in outside facility,400,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227358,PICC Line Dressing Occlusive,400,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8394,INV Line#3 [Site],399,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1162,BUN,398,7_nom_exact_dans_un_autre_vocabulaire,41936160 [OSM/Geography],oui
+CHARTEVENTS,itemid,224686,Tidal Volume (spontaneous),395,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224701,PSV Level,395,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223830,PH (Arterial),394,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220224,Arterial O2 pressure,391,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220235,Arterial CO2 Pressure,391,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224828,Arterial Base Excess,391,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225698,TCO2 (calc) Arterial,391,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,786,Calcium (8.4-10.2),391,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1523,Chloride,391,3_nom_trouve_sans_Maps_to_standard,40785869 Chloride [LOINC],oui
+CHARTEVENTS,itemid,827,Phosphorous(2.7-4.5),390,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1532,Magnesium,390,1_resolu_et_route,19124906 magnesium [RxNorm/Drug],oui
+CHARTEVENTS,itemid,439,MDI #1 [Puff],385,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1089,PainLevel Acceptable,382,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8437,MDI #1 [Drug],381,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,578,Pressure Support,378,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,825,PTT(22-35),376,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8428,Inc #1 [Status],369,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1542,WBC,356,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,167,Education Learner,356,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,325,IV Site Appear #2,355,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,815,INR (2-4 ref. range),349,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,169,Education Readiness,349,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,824,PT(11-13.5),348,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,399,Inc #2 [Dressing],346,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227565,Ventilator Tank #1,345,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,168,Education Method,345,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227566,Ventilator Tank #2,343,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,170,Education Response,343,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,244,INV Line#3SiteAppear,343,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,165,Education Barrier,339,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,386,Inc #1 [Closure],338,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,284,INV#2 WaveformAppear,334,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220056,Arterial Blood Pressure Alarm - Low,331,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220058,Arterial Blood Pressure Alarm - High,331,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,400,Inc #3 [Dressing],329,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227466,PTT,326,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1522,Calcium,324,1_resolu_et_route,19018544 calcium [RxNorm/Drug],oui
+CHARTEVENTS,itemid,629,Seizure Activity,324,3_nom_trouve_sans_Maps_to_standard,1021254 Seizure activity [LOINC],oui
+CHARTEVENTS,itemid,1534,Phosphorous,322,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8416,Inc #1 [Appearance],322,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,166,Education Handout,319,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227465,Prothrombin time,317,1_resolu_et_route,4245261 Prothrombin time [SNOMED/Measurement],oui
+CHARTEVENTS,itemid,227467,INR,317,3_nom_trouve_sans_Maps_to_standard,650764 INR [LOINC],oui
+CHARTEVENTS,itemid,225210,Arterial Line Zero/Calibrate,315,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224916,Impaired Skin Length #2,306,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224951,Impaired Skin Width #2,306,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,576,Pressure Sore Site#1,306,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,130,Communication,304,2_resolu_domaine_hors_5_tables,36307955 Communication [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,6206,Tank A psi.,304,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,6207,Tank B psi.,303,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1533,PTT,299,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,659,Stool [Color],298,5_recuperable_sans_crochets_a_verifier,37079480 Stool (2 candidat(s)),oui
+CHARTEVENTS,itemid,225312,ART BP mean,296,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225309,ART BP Systolic,295,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225310,ART BP Diastolic,295,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8478,Stool [Consistency],294,5_recuperable_sans_crochets_a_verifier,37079480 Stool (2 candidat(s)),oui
+CHARTEVENTS,itemid,142,Current Goal,293,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,582,Procedures,292,3_nom_trouve_sans_Maps_to_standard,44810322 Procedures [SNOMED],oui
+CHARTEVENTS,itemid,207,GU Catheter Size,292,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,148,Dialysis Access Site,289,1_resolu_et_route,1989127 Dialysis access site [LOINC/Observation],oui
+CHARTEVENTS,itemid,149,Dialysis Access Type,289,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,152,Dialysis Type,289,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,172,Education Topic #2,288,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225313,Bed Bath,288,1_resolu_et_route,4238681 Bathing patient in bed [SNOMED/Procedure],oui
+CHARTEVENTS,itemid,79,Blood Flow ml/min,287,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1286,PT,286,2_resolu_domaine_hors_5_tables,45879324 PT [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,1530,INR,286,3_nom_trouve_sans_Maps_to_standard,650764 INR [LOINC],oui
+CHARTEVENTS,itemid,146,Dialysate Flow ml/hr,286,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,147,Dialysate Infusing,286,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,611,Replace Rate ml/hr,286,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,612,Replace.Fluid Infuse,286,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,616,Respiratory Effort,283,1_resolu_et_route,21492835 Respiratory effort [LOINC/Observation],oui
+CHARTEVENTS,itemid,5683,Hourly PFR,282,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,394,Inc #3 [Drainage],281,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,661,Stool Management,279,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,393,Inc #2 [Drainage],279,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,665,System Integrity,278,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,580,Previous Weight,276,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,47,Angio Site #1,271,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8429,Inc #2 [Status],268,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224563,Impaired Skin Depth #1,267,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,29,Access mmHg,265,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,173,Effluent Press mmHg,265,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,192,Filter Pressure mmHg,265,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,624,Return Pressure mmHg,265,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,816,Ionized Calcium,263,1_resolu_et_route,4125860 Calcium electrolyte [SNOMED/Observation],oui
+CHARTEVENTS,itemid,216,Height of Bed,261,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,285,INV#3 WaveformAppear,261,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224696,Plateau Pressure,254,1_resolu_et_route,4139635 Plateau pressure [SNOMED/Observation],oui
+CHARTEVENTS,itemid,660,Stool Guaiac,254,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,684,Tidal Volume (Spont),247,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,356,ImpSkin Treatment #1,244,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,344,ImpSkin Character #1,243,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227688,Smoking Cessation Info Offered through BIDMC Inpatient Guide,229,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8430,Inc #3 [Status],228,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,236,INV Line#2 Zero/Cal,226,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,151,Dialysis Site Appear,224,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,818,Lactic Acid(0.5-2.0),217,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,43,Angio Appearance #1 [Attribute 1],214,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,388,Inc #3 [Closure],213,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,119,Cervical Collar Type,212,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225206,Multi Lumen Zero/Calibrate,212,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1531,Lactic Acid,210,1_resolu_et_route,19011035 lactate [RxNorm/Drug],oui
+CHARTEVENTS,itemid,731,Warming [Device],210,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,45,Angio Dressing #1,202,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,118,Cerv Collar Status,201,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,640,Significant Events,198,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,375,Impaired Skin Site#2,198,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,598,RUE [Sensation],198,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225188,Cough/Deep Breath,198,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225667,Ionized Calcium,195,1_resolu_et_route,4125860 Calcium electrolyte [SNOMED/Observation],oui
+CHARTEVENTS,itemid,225103,Intravenous  / IV access prior to admission,195,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,545,Plateau-Off,194,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8485,Warming [Status],191,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,592,RLE [Sensation],190,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224924,Impaired Skin Odor #3,190,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8469,LLE [Sensation],189,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8472,LUE [Sensation],189,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,524,Pain Level (Rest),187,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1044,Pain Level,187,1_resolu_et_route,1469588 Pain level [LOINC/Observation],oui
+CHARTEVENTS,itemid,522,Pain Cause,186,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,362,ImpSkin Wound Base#1,186,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,387,Inc #2 [Closure],186,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,300,IV #3 [Site],185,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8418,Inc #3 [Appearance],183,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8402,IV #3 [Size],180,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224169,MDI #1 Puff,178,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8417,Inc #2 [Appearance],178,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,591,RLE [Temperature],173,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225668,Lactic Acid,172,1_resolu_et_route,19011035 lactate [RxNorm/Drug],oui
+CHARTEVENTS,itemid,224404,ART Lumen Volume,169,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224406,VEN Lumen Volume,169,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,326,IV Site Appear #3,169,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8468,RLE [Color],169,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226118,Dialysis Catheter placed in outside facility,169,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,242,INV Line#3 Zero/Cal,167,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,440,MDI #2 [Puff],166,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,436,Low Insp. Pressure,165,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8438,MDI #2 [Drug],165,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,163,Edema #1 [Location],164,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8383,Edema #1 [Amount],163,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,247,INV Line#4 [Type],162,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8395,INV Line#4 [Site],160,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,848,Total Bili (0-1.5),159,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,834,SaO2,159,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,424,LLE [Temp],158,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224953,Impaired Skin Width #4,157,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,465,Neuro Symptoms,157,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,604,Radiologic Study,157,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8422,Inc #1 [Amount],157,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8435,LLE [Color],156,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224917,Impaired Skin Length #3,155,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,530,Peak Flow,153,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,7915,Pt./Family Informed,153,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224918,Impaired Skin Length #4,151,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225092,Self ADL,151,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220072,Central Venous Pressure Alarm - High,150,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220073,Central Venous Pressure  Alarm - Low,150,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,769,ALT,149,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,770,AST,149,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,773,Alk. Phosphate,149,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226531,Admission Weight (lbs.),148,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,823,Mixed Venous O2% Sat,148,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,129,Collar Care,148,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227357,Dialysis Catheter Dressing Occlusive,148,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,567,PressSoreTreatment#1,146,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,95,CT #1 Dressing,142,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8365,Angio Appearance #1 [Attribute 2],141,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,114,CaO2,140,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1538,Total Bili,140,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8424,Inc #3 [Amount],140,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224925,Impaired Skin Odor #4,137,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,89,C.O. (fick),136,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,139,Cough/Deep Breathe,135,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225094,History of slips / falls,135,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220632,LDH,133,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,345,ImpSkin Character #2,133,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8423,Inc #2 [Amount],133,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,357,ImpSkin Treatment #2,132,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,414,Incision/Wound #4,127,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,135,Corneal Reflex [Right],126,5_recuperable_sans_crochets_a_verifier,4011079 Corneal reflex (1 candidat(s)),oui
+CHARTEVENTS,itemid,136,Cough Effort,125,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225690,Total Bilirubin,123,6_recuperable_par_synonyme,4230543 [SNOMED/Measurement],oui
+CHARTEVENTS,itemid,8380,Corneal Reflex [Left],123,5_recuperable_sans_crochets_a_verifier,4011079 Corneal reflex (1 candidat(s)),oui
+CHARTEVENTS,itemid,226180,Sexuality / reproductive problems,122,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224895,Impaired Skin Depth #2,121,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225078,Social work consult,120,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,468,O2 Delivery Device#2,118,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225118,Difficulty swallowing,118,1_resolu_et_route,4125274 Difficulty swallowing [SNOMED/Condition],oui
+CHARTEVENTS,itemid,220587,AST,117,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220644,ALT,117,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,721,Ventilator No.,117,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,690,Trach Size,116,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,692,Tracheostomy Type,116,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,688,Trach [Cuff],116,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8479,Trach [Fenestra],116,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225612,Alkaline Phosphate,115,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,338,Imp Skin Cleanse #1,115,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,201,GI Intub #2 [Type],115,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1699,GI Tube #2 [Site],115,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225067,Is the spokesperson the Health Care Proxy,115,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225189,Incentive Spirometry,115,1_resolu_et_route,4046481 Incentive spirometry [SNOMED/Procedure],oui
+CHARTEVENTS,itemid,225074,Any fear in relationships,114,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,471,O2 Flow (lpm) #2,113,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8389,GI Intub #2 [Site],113,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8493,GI Tube #2 [Site],113,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225126,Dialysis patient,113,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,352,ImpSkin #1 [Drain],111,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,363,ImpSkin Wound Base#2,110,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224700,Total PEEP Level,109,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,504,PCWP,109,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,134,Cooling [Device],109,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,554,Press Sore Site #2,106,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8454,Pain Management [Route/Status #2],106,5_recuperable_sans_crochets_a_verifier,4083171 Pain management (1 candidat(s)),oui
+CHARTEVENTS,itemid,164,Edema #2 [Location],105,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8384,Edema #2 [Amount],105,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226179,No wallet / money,105,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1650,high mv,104,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225076,Emotional / physical / sexual harm by partner or close relation,104,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227543,CO (Arterial),103,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8379,Cooling [Status],102,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225087,Visual / hearing deficit,100,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227546,SVV (Arterial),99,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227130,Trach Care,98,6_recuperable_par_synonyme,4295069 [SNOMED/Observation],oui
+CHARTEVENTS,itemid,224639,Daily Weight,97,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,121,Chest PT [Right],97,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,140,Cuff Leak,96,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,691,Tracheostomy Cuff,96,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8378,Chest PT [Left],96,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225106,ETOH,96,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,763,Daily Weight,94,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,205,GI#2 Tube [Status],92,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225113,Currently experiencing pain,92,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225122,Special diet,92,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,250,INV Line#4SiteAppear,91,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,69,BSA,90,6_recuperable_par_synonyme,3005424 [LOINC/Measurement],oui
+CHARTEVENTS,itemid,762,Admit Wt,90,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,916,Allergy 1,90,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,917,Diagnosis/op,90,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,919,Service,90,3_nom_trouve_sans_Maps_to_standard,1027551 Service [LOINC],oui
+CHARTEVENTS,itemid,920,Admit Ht,90,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,924,Readmission,90,2_resolu_domaine_hors_5_tables,36210471 Readmission [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,925,Marital Status,90,1_resolu_et_route,3046344 Marital status [LOINC/Observation],oui
+CHARTEVENTS,itemid,926,Religion,90,6_recuperable_par_synonyme,4052017 [SNOMED/Observation],oui
+CHARTEVENTS,itemid,927,Allergy 2,90,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,930,Ext,90,6_recuperable_par_synonyme,4119362 [SNOMED/Spec Anatomic Site],oui
+CHARTEVENTS,itemid,935,Allergy 3,90,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,516,Pacemaker Type,90,1_resolu_et_route,1989451 Pacemaker type [LOINC/Measurement],oui
+CHARTEVENTS,itemid,225129,Unable to assess teaching / learning needs,90,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224172,MDI #2 Puff,89,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,519,Pacer Wires Atrial,89,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,521,Pacer Wires Vent,89,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,570,PressSoreWoundBase#1,88,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,253,INV Line#5 [Type],88,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,784,CPK,87,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8396,INV Line#5 [Site],87,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225117,Unable to assess nutrition / education,87,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224952,Impaired Skin Width #3,86,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,518,Pacer Wire Condition,85,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,446,Micro-Neb Treatment,84,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,368,ImpSkin #1 [Width],84,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8410,ImpSkin #1 [Length],83,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225070,Unable to assess psychological,83,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225639,Differential-Basos,82,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225640,Differential-Eos,82,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225641,Differential-Lymphs,82,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225642,Differential-Monos,82,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225643,Differential-Neuts,82,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,515,Pacemaker Mode,82,1_resolu_et_route,1989388 Pacemaker mode [LOINC/Measurement],oui
+CHARTEVENTS,itemid,227439,Ndwelling Port (PortaCath) placed in outside facility,81,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225110,Recreational drug use,80,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225133,Discharge needs,80,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227287,O2 Flow (additional cannula),79,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,122,Chest Tube Site #1,79,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,303,IV #4 [Site],79,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225634,CK (CPK),78,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224417,Cuff Pressure,78,3_nom_trouve_sans_Maps_to_standard,1013448 Cuff pressure [LOINC],oui
+CHARTEVENTS,itemid,8403,IV #4 [Size],78,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,772,Albumin (>3.2),76,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,568,PressSoreTreatment#2,76,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227429,Troponin-T,75,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,733,Weight Change,75,1_resolu_et_route,4086522 Weight change [SNOMED/Measurement],oui
+CHARTEVENTS,itemid,517,Pacer Rate,75,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225124,Unintentional weight loss >10 lbs.,75,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227456,Albumin,74,3_nom_trouve_sans_Maps_to_standard,40791227 Albumin [LOINC],oui
+CHARTEVENTS,itemid,410,Incentive Spirometry,74,1_resolu_et_route,4046481 Incentive spirometry [SNOMED/Procedure],oui
+CHARTEVENTS,itemid,1045,Pain Level/Response,74,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,376,Impaired Skin Site#3,74,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,427,LUE [Temp],74,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225091,Unable to assess activity / mobility,74,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,97,CT #1 Suction Amount,72,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226512,Admission Weight (Kg),71,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1483,RSBI Not Completed,71,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1624,PreSep Catheter SVO2,71,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,719,Ventricular Pacemaker [mA],71,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1706,Ventricular Pacemaker Sense [mV],71,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8436,LUE [Color],71,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226139,22 Gauge placed in outside facility,71,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227369,22 Gauge Dressing Occlusive,71,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8484,Ventricular Pacemaker [Sensitivity],70,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8495,Ventricular Pacemaker Sense [mA],70,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,327,IV Site Appear #4,69,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225112,Unable to assess pain,69,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1521,Albumin,68,3_nom_trouve_sans_Maps_to_standard,40791227 Albumin [LOINC],oui
+CHARTEVENTS,itemid,8391,GI#2 Tube [Drain],68,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,96,CT #1 [Fluctuate],67,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,603,Radial Pulse [Right],67,5_recuperable_sans_crochets_a_verifier,4277123 Radial pulse (1 candidat(s)),oui
+CHARTEVENTS,itemid,220734,PH (dipstick),66,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,94,CT #1 Drainage,66,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225086,Unable to assess cognitive / perceptual,66,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225105,Unable to assess habits,66,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227471,Specific Gravity (urine),65,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224421,Spont Vt,65,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224422,Spont RR,65,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,817,LDH,65,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8373,CT #1 [Leak],65,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224926,Impaired Skin Odor #5,64,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224145,Heparin Dose (per hour),63,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1705,Vent Sens Thresh mV,63,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1707,Vent Stim Thresh mA,63,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227360,Indwelling Port (PortaCath) Dressing Occlusive,63,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220227,Arterial O2 Saturation,62,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,855,Vancomycin/Random,62,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224919,Impaired Skin Length #5,61,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224954,Impaired Skin Width #5,61,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,403,Inc #4 [Dressing],61,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,259,INV Line#6 [Type],60,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224328,PCA dose,59,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,806,Fibrinogen (150-400),59,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8397,INV Line#6 [Site],59,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1391,DO2I,58,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,380,Inc Cleansing #1,58,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224927,Impaired Skin Odor #6,58,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,256,INV Line#5SiteAppear,57,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8473,Radial Pulse [Left],57,5_recuperable_sans_crochets_a_verifier,4277123 Radial pulse (1 candidat(s)),oui
+CHARTEVENTS,itemid,228099,18 Gauge placed in the field,57,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226112,Midline placed in outside facility,57,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226136,16 Gauge placed in outside facility,57,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227366,16 Gauge Dressing Occlusive,57,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225695,Uric Acid,56,1_resolu_et_route,43532213 uric acid [RxNorm/Drug],oui
+CHARTEVENTS,itemid,513,PVRI,56,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1438,Ulnar Pulse [Right],56,5_recuperable_sans_crochets_a_verifier,4241475 Ulnar pulse (1 candidat(s)),oui
+CHARTEVENTS,itemid,227418,Midline Dressing Occlusive,56,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227547,SV (Arterial),55,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224329,PCA lockout (min),55,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224330,PCA 1 hour limit,55,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,512,PVR,55,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,571,PressSoreWoundBase#2,55,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,799,Differential-Monos,54,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,783,Blood Products,54,2_resolu_domaine_hors_5_tables,4132660 Blood product [SNOMED/Device],oui
+CHARTEVENTS,itemid,693,Tract/Imm Location#1,54,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,697,Traction/Immobile #1,54,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227700,Safety Measures,2795,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,796,Differential-Basos,53,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,797,Differential-Eos,53,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,798,Differential-Lymphs,53,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,800,Differential-Polys,53,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,6333,bed rotation,53,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,775,Amylase,52,1_resolu_et_route,919204 amylase [RxNorm/Drug],oui
+CHARTEVENTS,itemid,1528,Fibrinogen,52,3_nom_trouve_sans_Maps_to_standard,40789150 Fibrinogen [LOINC],oui
+CHARTEVENTS,itemid,158,ETT Position Change,52,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,141,Cuff Pressure-Airway,52,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224331,PCA basal rate (mL/hour),51,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,551,Pressure Sore #1 [Stage],51,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,271,INV Line#8 [Type],51,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8399,INV Line#8 [Site],51,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224921,Impaired Skin Length #7,50,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224956,Impaired Skin Width #7,50,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,262,INV Line#6SiteAppear,50,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,81,Brachial Pulse [Right],50,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,652,Spon. Vt (L) (Mech.),49,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,288,INV#6 WaveformAppear,49,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227445,CK-MB,48,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227464,Potassium (whole blood),48,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,785,CPK/MB,48,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,651,Spon RR (Mech.),48,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,188,Femoral Pulse [Right],48,5_recuperable_sans_crochets_a_verifier,4282626 Femoral pulse (1 candidat(s)),oui
+CHARTEVENTS,itemid,24,ART Lumen Volume,47,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,710,VEN Lumen Volume,47,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,597,RUE [Temperature],47,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8489,Ulnar Pulse [Left],47,5_recuperable_sans_crochets_a_verifier,4241475 Ulnar pulse (1 candidat(s)),oui
+CHARTEVENTS,itemid,226846,Feeding Weight,46,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,70,BSA - English,46,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,71,BSA - Metric,46,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,76,Bath,46,7_nom_exact_dans_un_autre_vocabulaire,42060807 [OSM/Geography],oui
+CHARTEVENTS,itemid,595,RSBI (<200),46,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1397,RSBI (<100),46,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8433,Inc #4 [Status],46,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8471,RUE [Color],45,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225085,Post menopausal,45,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,822,Mixed Venous O2,44,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226537,Glucose (whole blood),43,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223772,SvO2,43,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,395,Inc #4 [Drainage],43,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228100,20 Gauge placed in the field,42,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224896,Impaired Skin Depth #3,41,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225,IABP setting,41,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8372,Brachial Pulse [Left],41,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225175,See chart for initial patient assessment,41,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226707,Height,40,3_nom_trouve_sans_Maps_to_standard,37038872 Height [LOINC],oui
+CHARTEVENTS,itemid,226730,Height (cm),40,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,123,Chest Tube Site #2,40,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,499,PCA Medication,40,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226109,Cordis/Introducer placed in outside facility,40,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227350,Cordis/Introducer Dressing Occlusive,40,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225638,Differential-Bands,39,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1411,Bladder Pressure,39,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,138,Cough Type,39,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,493,PCA 1 Hr Limit (mg),39,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,496,PCA Dose,39,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,498,PCA Lockout (Min),39,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1119,seizure pads,39,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,7914,Insulin Guideline,39,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,353,ImpSkin #2 [Drain],39,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,552,Pressure Sore #2 [Stage],38,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220048,Heart Rhythm,7414,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,346,ImpSkin Character #3,37,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,564,PressSoreCleansing#1,37,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,260,INV Line#6 Zero/Cal,37,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227801,Stool Guaiac QC,37,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224650,Ectopy Type 1,6962,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1479,IV #1 Reason DC'D,35,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,641,Sitter,35,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8406,ImpSkin #1 [Amount],35,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,194,Flow-By (lpm),34,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,805,FK506,34,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,389,Inc #4 [Closure],34,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227461,Phenytoin (Dilantin),33,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,358,ImpSkin Treatment #3,33,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227468,Fibrinogen,32,3_nom_trouve_sans_Maps_to_standard,40789150 Fibrinogen [LOINC],oui
+CHARTEVENTS,itemid,795,Differential-Bands,32,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,339,Imp Skin Cleanse #2,32,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,199,GI [Guaiac],32,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228305,ST Segment Monitoring On,32,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,350,ImpSkin #3 [Drain],31,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,441,MDI #3 [Puff],31,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8439,MDI #3 [Drug],31,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225082,Pregnant,31,2_resolu_domaine_hors_5_tables,45881770 Pregnant [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,223762,Temperature Celsius,30,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,803,Direct Bili (0-0.3),30,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,195,Flow-by Sensitivity,30,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,115,Capillary Refill [Right],30,5_recuperable_sans_crochets_a_verifier,4089379 Capillary refill (2 candidat(s)),oui
+CHARTEVENTS,itemid,8457,Pressure Sore #1 [Heal],30,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225637,Differential-Atyps,29,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,48,Angio Site #2,29,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,364,ImpSkin Wound Base#3,29,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,93,CT #1 Crepitus,29,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224897,Impaired Skin Depth #4,28,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1527,Direct Bili,28,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,705,Untoward Effect,28,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,274,INV Line#8SiteAppear,28,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8377,Capillary Refill [Left],28,5_recuperable_sans_crochets_a_verifier,4089379 Capillary refill (2 candidat(s)),oui
+CHARTEVENTS,itemid,225280,Called Out,28,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224332,PCA inject,27,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224663,PCA attempt,27,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1480,IV #2 Reason DC'D,27,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,6701,Arterial BP #2 [Systolic],27,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8555,Arterial BP #2 [Diastolic],27,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227454,Vancomycin (Random),26,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,6702,Arterial BP Mean #2,26,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,687,Trach Care,26,6_recuperable_par_synonyme,4295069 [SNOMED/Observation],oui
+CHARTEVENTS,itemid,487,Ostomy [Type],26,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8447,Ostomy [Appearance],26,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8419,Inc #4 [Appearance],26,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226540,Hematocrit (whole blood - calc),25,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224665,PCA total dose,25,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,836,Serum Osmolality,25,1_resolu_et_route,37392177 Serum osmolality [SNOMED/Measurement],oui
+CHARTEVENTS,itemid,1517,Readmit <48 hrs,25,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,286,INV#4 WaveformAppear,25,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,204,GI#2 Tube PlaceCheck,25,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,717,Ventricular Pacemaker [Sense],25,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,44,Angio Appearance #2 [Attribute 1],25,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,497,Patient controlled analgesia (PCA) [Inject],25,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8449,Patient controlled analgesia (PCA) [Attempt],25,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224418,Cuff Volume (mL),24,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227455,Vancomycin (Trough),24,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,472,O2AV,24,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,473,O2AVI,24,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1390,DO2,24,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1401,zzO2AV,24,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1402,zzO2AVI,24,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1803,Solumedrol,24,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227810,ETT Re-taped,24,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,466,Nursing Consultation,23,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,561,Pressure Sore #1 [Width],23,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226185,ICU Consent Signed,23,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227802,GI Guaiac QC,23,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220060,Pulmonary Artery Pressure diastolic,22,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220061,Pulmonary Artery Pressure mean,22,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,186,FIO2 Alarm-Low,22,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,594,ROM [Type],22,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8482,Ventricular Pacemaker [Capture],22,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226534,Sodium (whole blood),21,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220059,Pulmonary Artery Pressure systolic,21,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,630,Seizure Duration,21,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,500,PCA Total Dose,21,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8470,ROM [Value],21,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1063,bath,20,7_nom_exact_dans_un_autre_vocabulaire,42060807 [OSM/Geography],oui
+CHARTEVENTS,itemid,189,FiO2 (Analyzed),20,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8463,Pressure Sore #1 [Length],20,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8425,Inc #4 [Amount],20,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,64,BIPAP - EPAP,19,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,66,BIPAP - IPAP,19,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,185,FIO2 Alarm-High,19,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226,ICP,19,6_recuperable_par_synonyme,21490653 [LOINC/Measurement],oui
+CHARTEVENTS,itemid,724,Vision - EPAP,19,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,726,Vision - Mode,19,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,287,INV#5 WaveformAppear,19,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224410,PCA bolus,18,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224366,Epidural Infusion Rate (mL/hr),18,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,826,Phenobarbital,18,2_resolu_domaine_hors_5_tables,36308343 Phenobarbital [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,725,Vision - IPAP,18,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,542,Pin Care,18,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8488,GI Prophylaxis [Drug #2],18,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8458,Pressure Sore #2 [Heal],18,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226135,14 Gauge placed in outside facility,18,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227365,14 Gauge Dressing Occlusive,18,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,160,Ectopy Frequency 2,17,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,162,Ectopy Type 2,17,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,46,Angio Dressing #2,17,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,67,BIPAP - O2 lpm,17,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,727,Vision FiO2,17,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227809,ETT Position Change,17,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228236,Insulin pump,17,2_resolu_domaine_hors_5_tables,4321388 Insulin pump [SNOMED/Device],oui
+CHARTEVENTS,itemid,224082,Turn,2889,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226536,Chloride (whole blood),16,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,382,Inc Cleansing #3,16,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,728,Vision Mask,16,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,729,Vision Rate,16,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,734,Working Pressure,16,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8404,ImpSkin #3 [Amount],16,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226105,Behavior,1734,1_resolu_et_route,40757642 Behavior [LOINC/Observation],oui
+CHARTEVENTS,itemid,224080,Head of Bed,2903,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224084,Activity,2894,1_resolu_et_route,4117957 Activity [SNOMED/Observation],oui
+CHARTEVENTS,itemid,224085,Assistance Device,2741,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224086,Activity Tolerance,2748,1_resolu_et_route,4232754 Activity tolerance [SNOMED/Observation],oui
+CHARTEVENTS,itemid,224093,Position,2655,3_nom_trouve_sans_Maps_to_standard,37067617 Position [LOINC],oui
+CHARTEVENTS,itemid,227187,Pinsp (Draeger only),15,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224411,Epidural Bolus (mL),15,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,150,Dialysis Machine,15,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,248,INV Line#4 Zero/Cal,15,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226116,Presep Catheter placed in outside facility,15,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,68,BIPAP-Mode,14,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,254,INV Line#5 Zero/Cal,14,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,56,Atrial Pacemaker [Sense],14,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,60,Auto-PEEP Level,13,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,6926,Arterial BP #3,13,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,6927,Arterial Mean #3,13,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,3223,Bedbath,13,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,458,Nares [Right],13,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8386,Femoral Pulse [Left],13,5_recuperable_sans_crochets_a_verifier,4282626 Femoral pulse (1 candidat(s)),oui
+CHARTEVENTS,itemid,225729,Multi Lumen Line Tip Cultured,13,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223753,Riker-SAS Scale,2523,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223986,RUL Lung Sounds,2090,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223987,RLL Lung Sounds,2055,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223988,LUL Lung Sounds,2084,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223989,LLL Lung Sounds,2044,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225628,CK-MB fraction (%),12,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,340,Imp Skin Cleanse #3,12,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,562,Pressure Sore #2 [Width],12,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8464,Pressure Sore #2 [Length],12,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8442,Nares [Left],12,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223999,Oral Cavity,1906,2_resolu_domaine_hors_5_tables,653622 Oral Cavity [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,226732,O2 Delivery Device(s),1871,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,686,Total PEEP Level,11,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,55,Assisted Systole,11,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,59,Augmented Diastole,11,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,62,BAEDP,11,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224,IABP Mean,11,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,802,Dilantin,11,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224447,Family Meeting,11,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225192,Collar Care,11,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220581,Amylase,10,1_resolu_et_route,919204 amylase [RxNorm/Drug],oui
+CHARTEVENTS,itemid,225672,Lipase,10,1_resolu_et_route,990760 lipase [RxNorm/Drug],oui
+CHARTEVENTS,itemid,227463,Cortisol,10,1_resolu_et_route,975125 hydrocortisone [RxNorm/Drug],oui
+CHARTEVENTS,itemid,1078,BATH,10,7_nom_exact_dans_un_autre_vocabulaire,42060807 [OSM/Geography],oui
+CHARTEVENTS,itemid,573,Pressure Sore Odor#1,10,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,217,Heparin Dose,10,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,558,Pressure Sore #1 [Drainage],10,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8369,Atrial Pacemaker [Capture],10,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8366,Angio Appearance #2 [Attribute 2],10,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226473,Blood Transfusion Consent,10,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228137,CHG Bath,10,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220739,GCS - Eye Opening,2033,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223754,Risk for Falls,1546,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223898,Orientation,2041,1_resolu_et_route,4183166 Orientation [SNOMED/Observation],oui
+CHARTEVENTS,itemid,223900,GCS - Verbal Response,2028,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223901,GCS - Motor Response,2016,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224001,Diet Type,1805,4_recuperable_casse_ponctuation,21493945 Diet [Type] (1 candidat(s)),oui
+CHARTEVENTS,itemid,224003,Abdominal Assessment,1873,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224004,Bowel Sounds,1682,1_resolu_et_route,4337265 Bowel sounds [SNOMED/Observation],oui
+CHARTEVENTS,itemid,225234,18 Gauge Site Appear,529,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224031,Edema Location,1537,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223795,Pain Assessment Method,2069,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224087,Therapeutic Bed,2177,2_resolu_domaine_hors_5_tables,45768171 Therapeutic bed [SNOMED/Device],oui
+CHARTEVENTS,itemid,225651,Direct Bilirubin,9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225693,Triglyceride,9,3_nom_trouve_sans_Maps_to_standard,40772572 Triglyceride [LOINC],oui
+CHARTEVENTS,itemid,227538,ART Blood Pressure Alarm - Low,9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225209,Cash amount,9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223763,Bladder Pressure,9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224662,Current Used/mA,9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,850,Triglyceride (0-200),9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,793,D-Dimer (0-500),9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1696,Atr Stim Thresh mA,9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1481,IV #3 Reason DC'D,9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,99,CT #2 Drainage,9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,100,CT #2 Dressing,9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,102,CT #2 Suction Amount,9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,649,Spiritual Support,9,1_resolu_et_route,4303551 Spiritual support [SNOMED/Observation],oui
+CHARTEVENTS,itemid,58,Atrial Pacemaker [mA],9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1697,Atrial Pacemaker Sense [mV],9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,101,CT #2 [Fluctuate],9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8371,Atrial Pacemaker [Sensitivity],9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8491,Atrial Pacemaker Sense [mA],9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227240,NBP Alarm Source,628,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223985,Respiratory Pattern,1732,1_resolu_et_route,4150612 Respiratory pattern [SNOMED/Observation],oui
+CHARTEVENTS,itemid,223990,Respiratory Effort,1716,1_resolu_et_route,21492835 Respiratory effort [LOINC/Observation],oui
+CHARTEVENTS,itemid,225231,20 Gauge Site Appear,690,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226104,Level of Consciousness,2062,1_resolu_et_route,21494983 Level of consciousness [LOINC/Observation],oui
+CHARTEVENTS,itemid,224015,Urine Source,1656,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224016,Urine Color,1580,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224017,GU Catheter Size,794,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223934,Dorsal PedPulse R,1478,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223935,PostTib. Pulses R,1054,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223943,Dorsal PedPulse L,1408,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223947,PostTib. Pulses L,1005,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224026,Skin Integrity,1562,1_resolu_et_route,21492838 Skin integrity [LOINC/Measurement],oui
+CHARTEVENTS,itemid,224027,Skin Temperature,1551,1_resolu_et_route,4265708 Temperature of skin [SNOMED/Measurement],oui
+CHARTEVENTS,itemid,224028,Skin Color,1509,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227668,Side Rails_V2,1242,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227341,History of falling (within 3 mnths),1166,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227342,Secondary diagnosis,1161,2_resolu_domaine_hors_5_tables,1990449 Secondary diagnosis [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,227343,Ambulatory aid,1152,3_nom_trouve_sans_Maps_to_standard,1004172 Ambulatory aid [LOINC],oui
+CHARTEVENTS,itemid,227344,IV/Saline lock,1154,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227345,Gait/Transferring,1151,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227346,Mental status,1134,1_resolu_et_route,3018668 Mental status [LOINC/Observation],oui
+CHARTEVENTS,itemid,223780,Daily Wake Up Deferred,1143,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227375,Daily Wake Up,1418,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223781,Pain Present,2050,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227440,Digoxin,8,1_resolu_et_route,1326303 digoxin [RxNorm/Drug],oui
+CHARTEVENTS,itemid,227537,ART Blood Pressure Alarm - High,8,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220274,PH (Venous),8,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227462,FK506,8,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227460,Phenobarbital,8,2_resolu_domaine_hors_5_tables,36308343 Phenobarbital [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,224661,Baseline Current/mA,8,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,459,Neg Insp Force(>-25),8,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,730,Vital Cap (>1.0)L,8,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,860,Venous pH,8,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,555,PressSore Depth #1,8,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8374,CT #2 [Leak],8,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224642,Temperature Site,1984,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224876,Urine Appearance,1393,1_resolu_et_route,4143063 Urine appearance [SNOMED/Measurement],oui
+CHARTEVENTS,itemid,224054,Braden Sensory Perception,1319,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224055,Braden Moisture,1316,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224056,Braden Activity,1315,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224057,Braden Mobility,1316,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224860,Skin Condition,1445,1_resolu_et_route,4223743 Skin condition [SNOMED/Observation],oui
+CHARTEVENTS,itemid,225684,Serum Osmolality,7,1_resolu_et_route,37392177 Serum osmolality [SNOMED/Measurement],oui
+CHARTEVENTS,itemid,220603,Cholesterol,7,1_resolu_et_route,19059097 cholesterol [RxNorm/Drug],oui
+CHARTEVENTS,itemid,220624,HDL,7,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225671,LDL calculated,7,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226504,Phenytoin (Free),7,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,857,Venous CO2(Calc),7,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,858,Venous PvCO2,7,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,859,Venous PvO2,7,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1526,D-Dimer,7,3_nom_trouve_sans_Maps_to_standard,4104610 D-dimer [SNOMED],oui
+CHARTEVENTS,itemid,153,Diastolic Unloading,7,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,565,PressSoreCleansing#2,7,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,574,Pressure Sore Odor#2,7,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8387,GI [pH],7,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226889,Legal Guardian,7,2_resolu_domaine_hors_5_tables,3968682 Legal guardian [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,225722,Arterial Line Tip Cultured,7,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225732,PICC Line Tip Cultured,7,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224058,Braden Nutrition,1316,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224059,Braden Friction/Shear,1307,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223782,Pain Type,895,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223783,Pain Location,1376,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223794,Pain Level Acceptable,1263,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224023,Support Systems,1173,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220650,Total Protein,6,6_recuperable_par_synonyme,4119650 [SNOMED/Measurement],oui
+CHARTEVENTS,itemid,225674,Mixed Venous O2% Sat,6,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223962,Temporary Pacemaker Wires Venticular,6,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224839,Temporary Pacemaker Wires Atrial,6,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,851,Troponin,6,3_nom_trouve_sans_Maps_to_standard,4009409 Troponin [SNOMED],oui
+CHARTEVENTS,itemid,503,PCV Set Insp. Press,6,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,369,ImpSkin #2 [Width],6,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8411,ImpSkin #2 [Length],6,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8407,ImpSkin #2 [Amount],6,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224651,Ectopy Frequency 1,1349,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227678,Restraint Device (Non-Violent),255,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223902,Speech,1976,1_resolu_et_route,4337391 Speaking [SNOMED/Observation],oui
+CHARTEVENTS,itemid,223903,Communication,1509,2_resolu_domaine_hors_5_tables,36307955 Communication [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,225636,D-Dimer,5,3_nom_trouve_sans_Maps_to_standard,4104610 D-dimer [SNOMED],oui
+CHARTEVENTS,itemid,223679,TCO2 (calc) Venous,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226062,Venous CO2 Pressure,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226063,Venous O2 Pressure,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224167,Manual Blood Pressure Systolic Left,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224643,Manual Blood Pressure Diastolic Left,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226183,Estimated Energy Needs/Kg,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226184,Estimated Protein Needs/Kg,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224845,Permanent Pacemaker Rate,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,381,Inc Cleansing #2,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1328,Cartridge/Bag Change,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,7151,HOB Measurement,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1540,Triglyceride,5,3_nom_trouve_sans_Maps_to_standard,40772572 Triglyceride [LOINC],oui
+CHARTEVENTS,itemid,801,Digoxin,5,1_resolu_et_route,1326303 digoxin [RxNorm/Drug],oui
+CHARTEVENTS,itemid,669,TCPCV I:E Ratio,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,670,TCPCV Insp. Pressure,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,671,TCPCV Insp. Time,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,672,TCPCV-MAP,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,92,CPP,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,268,INV Line#7SiteAppear,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,289,INV#7 WaveformAppear,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,360,ImpSkin Treatment #5,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,361,ImpSkin Treatment #6,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,378,Impaired Skin Site#5,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,379,Impaired Skin Site#6,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,5816,ICP Alarm [Low],5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1329,Initials (2 RNs) [RN #1],5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1330,Med Wasted [Drug],5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,265,INV Line#7 [Type],5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8398,INV Line#7 [Site],5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225989,Pericardial Drain Aspiration,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225990,Pericardial Drain Flush,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223907,Pupil Size Right,1267,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223910,Follows Commands,1483,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223911,Spontaneous Movement,1900,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223916,Response to Stimuli (Type),1822,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227586,GI pH,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224367,Epidural Total Dose (mL),4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,666,Systolic Unloading,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,26,AaDO2,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,490,PAO2,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,856,Vancomycin/Trough,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,460,Nerve Stimulated,4,3_nom_trouve_sans_Maps_to_standard,4077715 Nerve stimulated [SNOMED],oui
+CHARTEVENTS,itemid,673,TOF Response/Twitch,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,609,Remote Alarm,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,449,Minute Volume (Set),4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,359,ImpSkin Treatment #4,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,377,Impaired Skin Site#4,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,405,Inc/Wound Packing #2,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8460,Pressure Sore #1 [Amount],4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8550,ICP Alarm [High],4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226114,PA Catheter placed in outside facility,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226117,Sheath placed in outside facility,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227351,PA Catheter Dressing Occlusive,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227356,Sheath Line Dressing Occlusive,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223991,Cough Effort,1433,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224007,GI #1 Intub Site,992,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224785,GI #1 Tube Type,1030,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227671,Non-Violent Restraints,281,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227676,Reason for Restraints (Non-Violent),375,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226168,Oral Care,1681,2_resolu_domaine_hors_5_tables,36307735 Oral care [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,224733,Pupil Size Left,1241,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224756,Response,1601,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227121,Pupil Response Right,1239,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227288,Pupil Response Left,1216,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220063,Pulmonary Artery Pressure Alarm - High,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220066,Pulmonary Artery Pressure Alarm - Low,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224192,Pulsus Paradoxus,3,1_resolu_et_route,4180258 Pulsus paradoxus [SNOMED/Condition],oui
+CHARTEVENTS,itemid,852,Tylenol,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,789,Cholesterol (<200),3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,41,Alarms Activated,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,494,PCA Basal Rate,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,495,PCA Bolus,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,457,NMB Medication,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,133,Cont.Nebulizer(Drug),3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1,% Inspir. Time,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,529,Pause Time %,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,532,Peak Flow (Calc),3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,341,Imp Skin Cleanse #4,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,342,Imp Skin Cleanse #5,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,343,Imp Skin Cleanse #6,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,347,ImpSkin Character #4,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,348,ImpSkin Character #5,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,349,ImpSkin Character #6,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,365,ImpSkin Wound Base#4,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,366,ImpSkin Wound Base#5,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,367,ImpSkin Wound Base#6,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,419,KneeImmobilizeLoc [Right],3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,351,ImpSkin #6 [Drain],3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,354,ImpSkin #4 [Drain],3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,355,ImpSkin #5 [Drain],3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,371,ImpSkin #4 [Width],3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,372,ImpSkin #5 [Width],3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,373,ImpSkin #6 [Width],3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8434,KneeImmobilizeLoc [Left],3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8405,ImpSkin #6 [Amount],3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8408,ImpSkin #4 [Amount],3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8409,ImpSkin #5 [Amount],3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8413,ImpSkin #4 [Length],3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8414,ImpSkin #5 [Length],3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8415,ImpSkin #6 [Length],3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225771,Sheath Zero/Calibrate,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225389,Presep Catheter Zero/Calibrate,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225725,Dialysis Catheter Tip Cultured,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225142,Money given to hospital cashier,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224010,GI #1 Tube Place Check,695,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224786,GI #1 Tube Status,947,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223976,RUE Color,297,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223979,RLE Color,297,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223982,LUE Color,294,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223983,LLE Color,295,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224767,RUE Temp,328,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224769,LUE Temp,327,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224771,RLE Temp,329,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224773,LLE Temp,330,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227663,Immobilizer,380,2_resolu_domaine_hors_5_tables,4165553 Immobilizer [SNOMED/Device],oui
+CHARTEVENTS,itemid,227667,Reason for Immobilizer,326,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223992,Cough Type,1165,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224730,Corneal Reflex Right,461,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224731,Corneal Reflex Left,419,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223917,RU Strength/Movement,1330,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223918,RL Strength/Movement,1328,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223919,LU Strength/Movement,1327,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223920,LL Strength/Movement,1313,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227446,Brain Natiuretic Peptide (BNP),2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224710,Recruitment Press,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224711,Recruitment Duration,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224705,P High (APRV),2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224706,P Low (APRV),2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224707,T High (APRV),2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224709,T Low (APRV),2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224419,Negative Insp. Force,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224178,Small Volume Neb Dose #2,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227516,PO2 (Mixed Venous),2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227579,BiPap EPAP,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227580,BiPap IPAP,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227582,BiPap O2 Flow,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224751,Temporary Pacemaker Rate,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224702,PCV Level (Avea),2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,844,Thrombin (16-21),2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,804,Ethanol,2,1_resolu_et_route,955372 ethanol [RxNorm/Drug],oui
+CHARTEVENTS,itemid,1524,Cholesterol,2,1_resolu_et_route,19059097 cholesterol [RxNorm/Drug],oui
+CHARTEVENTS,itemid,443,Manual BP Mean(calc),2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1482,IV #4 Reason DC'D,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1420,Aggitation,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1421,Anxiety,2,2_resolu_domaine_hors_5_tables,45880471 Anxiety [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,1422,Ataxia,2,2_resolu_domaine_hors_5_tables,36308315 Ataxia [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,1423,Auditory Disturbance,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1424,CIWA Sum Total,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1426,Drowsiness,2,1_resolu_et_route,4196193 Drowsiness [SNOMED/Observation],oui
+CHARTEVENTS,itemid,1428,Headache,2,2_resolu_domaine_hors_5_tables,45883730 Headache [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,1430,Nausea and Vomiting,2,1_resolu_et_route,27674 Nausea and vomiting [SNOMED/Condition],oui
+CHARTEVENTS,itemid,1431,Orient/Clouding Sens,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1432,Paroxysmal Sweats,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1433,Seizure,2,2_resolu_domaine_hors_5_tables,45882230 Seizure [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,1434,Slurred Speech,2,2_resolu_domaine_hors_5_tables,45883216 Slurred speech [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,1435,Sustained Nystamus,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1436,Tactile Disturbances,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1437,Tremor,2,1_resolu_et_route,443782 Tremor [SNOMED/Condition],oui
+CHARTEVENTS,itemid,1439,Visual Disturbances,2,2_resolu_domaine_hors_5_tables,45879488 Visual disturbances [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,854,Vancomycin/Peak,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,853,Uric Acid (2.7-7.0),2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,3210,pressure high,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,3211,time high,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,3212,time low,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,6631,pressure low,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1653,Bed Alarm,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,63,BIPAP - BPM,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,653,Spont. Resp. Rate,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,838,SvO2,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,266,INV Line#7 Zero/Cal,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,442,Manual BP [Systolic],2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,174,Emesis [Appearance],2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225358,PA Catheter Zero/Calibrate,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227419,Presep Catheter Dressing Occlusive,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224369,Sputum Consistency,923,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224370,Sputum Color,955,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224372,Sputum Source,1008,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224373,Sputum Amount,1009,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224009,GI #1 Tube Drainage,354,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224065,Circulation/Skin Integrity,466,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224067,Range of Motion,455,3_nom_trouve_sans_Maps_to_standard,1033014 Range of motion [LOINC],oui
+CHARTEVENTS,itemid,227664,Immobilizer Device,350,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227665,Immobilizer Evaluated,257,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227666,Immobilizer Location,332,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224862,Edema Amount,615,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223904,Gag Reflex,1576,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223905,Cough Reflex,1598,1_resolu_et_route,4146379 Cough reflex [SNOMED/Observation],oui
+CHARTEVENTS,itemid,223921,Neuro Symptoms,452,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223923,Seizure Activity,423,3_nom_trouve_sans_Maps_to_standard,1021254 Seizure activity [LOINC],oui
+CHARTEVENTS,itemid,225692,Total Granulocyte Count (TGC),1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224166,Doppler BP,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227242,Manual Blood Pressure Diastolic Right,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227243,Manual Blood Pressure Systolic Right,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224175,MDI #3 Puff,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227452,Tobramycin (Trough),1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227450,Tobramycin (Peak),1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,220580,Ammonia,1,2_resolu_domaine_hors_5_tables,36032897 Ammonia [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,227686,Central Venous O2% Sat,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223958,Temporary Venticular Sens Threshold mV,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223960,Temporary Venticular Stim Threshold mA,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224752,Temporary Atrial Sens Threshold mV,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224754,Temporary Atrial Stim Threshold mA,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224837,Temporary Ventricular Sens Setting mV,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224838,Temporary Ventricular Stim Setting mA,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226737,AaDO2ApacheIIValue,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226738,AgeApacheIIScore,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226739,AgeApacheIIValue,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226743,APACHE II,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226744,APACHE II PDR - Adjusted,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226745,APACHE II Predecited Death Rate,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226749,ChpApacheIIScore,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226751,CreatinineApacheIIScore,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226752,CreatinineApacheIIValue,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226753,DswfApacheScore,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226754,FiO2ApacheIIValue,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226755,GcsApacheIIScore,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226759,HCO3ApacheIIValue,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226760,HCO3Score,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226761,HematocritApacheIIScore,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226762,HematocritApacheIIValue,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226763,HrApacheIIScore,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226764,HrApacheIIValue,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226765,MapApacheIIScore,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226766,MapApacheIIValue,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226767,OxygenApacheIIScore,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226768,PhApacheIIScore,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226769,PHApacheIIValue,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226771,PotassiumApacheIIScore,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226772,PotassiumApacheIIValue,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226773,RrApacheIIScore,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226774,RRApacheIIValue,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226775,SodiumApacheIIScore,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226776,SodiumApacheIIValue,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226777,TempApacheIIScore,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226778,TempApacheIIValue,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226779,WbcApacheIIScore,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226780,WBCApacheIIValue,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223768,Intra Cranial Pressure Alarm - Low,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227717,Cerebral Perfusion Pressure Alarm - Low,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226499,Hemodialysis Output,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,809,Gentamycin/Random,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,25,AV Interval,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,606,Rec. Breath Pressure,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,607,Rec.Breath Time(sec),1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,608,Recruit Breath,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,1537,Thrombin,1,1_resolu_et_route,1300673 thrombin [RxNorm/Drug],oui
+CHARTEVENTS,itemid,1203,fleets enema,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,820,Lipase,1,1_resolu_et_route,990760 lipase [RxNorm/Drug],oui
+CHARTEVENTS,itemid,849,Total Protein(6.5-8),1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,774,Ammonia,1,2_resolu_domaine_hors_5_tables,36032897 Ammonia [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,75,Baseline Current/mA,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,628,Sedation Score,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,768,ACT (102-142),1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,835,Sed Rate,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,406,Inc/Wound Packing #3,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8440,Manual BP [Diastolic],1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8486,Initials (2 RNs) [RN #2],1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,8487,Med Wasted [Amount],1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226892,Re-admit < 48 hours,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227807,In-line Suction Catheter Changed,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228101,22 Gauge placed in the field,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225728,Midline Tip Cultured,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227813,Medication Bolus - Adjunctive Pain Management,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226748,APACHEII-Renal failure,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226381,Marital Status,392,1_resolu_et_route,3046344 Marital status [LOINC/Observation],oui
+CHARTEVENTS,itemid,226543,Religion,417,6_recuperable_par_synonyme,4052017 [SNOMED/Observation],oui
+CHARTEVENTS,itemid,226544,Language,404,1_resolu_et_route,40757636 Language [LOINC/Observation],oui
+CHARTEVENTS,itemid,227378,Patient Location,356,1_resolu_et_route,40759935 Patient location [LOINC/Observation],oui
+CHARTEVENTS,itemid,227588,GI #1 Tube Place Method,317,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227674,Face to Face Eval (Non-Violent),160,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223837,ETT Size (ID),622,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223838,ETT Location,626,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223848,Ventilator Type,704,1_resolu_et_route,3007397 Ventilator type [LOINC/Observation],oui
+CHARTEVENTS,itemid,223849,Ventilator Mode,842,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224391,ETT Mark (location),69,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224415,ETT Mark (cm),624,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224832,ETT Type,625,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223791,Pain Level,980,1_resolu_et_route,1469588 Pain level [LOINC/Observation],oui
+CHARTEVENTS,itemid,223924,RLE Sensation,386,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224758,RUE Sensation,398,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224759,LUE Sensation,365,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224762,LLE Sensation,352,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224011,Stool Consistency,588,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224012,Stool Management,537,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224013,Stool Guaiac,100,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224794,Stool Color,630,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226586,Stool Estimate,167,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227969,Safety Measures_U_1,3451,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223792,Pain Management,2402,1_resolu_et_route,4083171 Pain management [SNOMED/Procedure],oui
+CHARTEVENTS,itemid,224089,Anti Embolic Device,1812,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225054,Anti Embolic Device Status,1585,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224032,Impaired Skin Site #1,1535,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227958,Less Restrictive Measures,1517,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224088,Pressure Reducing Device,1510,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224073,Education Topic,1453,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224038,Impaired Skin Treatment #1,1299,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224000,Nares R,1282,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224879,Nares L,1140,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224565,Surrounding Tissue #1,1060,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224561,Impaired Skin Type #1,1048,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224226,Impaired Skin Wound Base #1,993,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224847,Impaired Skin Drainage Amount #1,950,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227944,Side Rails,949,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224037,Impaired Skin Cleanse #1,939,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224259,Impaired Skin Drainage #1,913,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227684,Safety Measures,847,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224146,System Integrity,834,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224076,Education Barrier,814,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224281,Multi Lumen Site Appear,788,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224631,Pressure Ulcer Stage #1,782,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224024,Family Communication,778,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224865,Flow Sensitivity,721,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227681,Less Restrictive Measures_V1,714,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224692,Flow Pattern,712,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224735,Flow Rate (variable/fixed),712,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224072,Education Learner,711,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227780,Impaired Skin  - Dressing Status #1,706,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224283,Multi Lumen Waveform Appear,701,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227517,Humidification,699,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224075,Education Readiness,693,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224289,Arterial line Site Appear,691,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224077,Education Method,689,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224291,Arterial line Waveform Appear,686,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224079,Education Response,675,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225978,Slope,671,3_nom_trouve_sans_Maps_to_standard,37076002 Slope [LOINC],oui
+CHARTEVENTS,itemid,227955,Food and Fluid,651,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227954,Status and Comfort,640,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227945,Restraint (Non-violent),637,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224632,Tunneling Present #1,631,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227948,Restraint Device (Non-violent),610,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224930,Impaired Skin Site #2,606,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227950,Restraint Location,598,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227947,Reason for Restraint (Non-violent),596,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225976,Replacement Fluid,587,3_nom_trouve_sans_Maps_to_standard,1992285 Replacement fluid [LOINC],oui
+CHARTEVENTS,itemid,225977,Dialysate Fluid,586,3_nom_trouve_sans_Maps_to_standard,1992282 Dialysate fluid [LOINC],oui
+CHARTEVENTS,itemid,224409,Pain Level Response,570,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227951,Circulation/Skin Integrity,561,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227952,Position Change,561,1_resolu_et_route,4121035 Position change [SNOMED/Observation],oui
+CHARTEVENTS,itemid,227959,Restraints Evaluated,561,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227953,Range of Motion,557,3_nom_trouve_sans_Maps_to_standard,1033014 Range of motion [LOINC],oui
+CHARTEVENTS,itemid,227956,Urinal/Bedpan,550,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224944,Impaired Skin Type #2,549,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224937,Impaired Skin Treatment #2,549,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227756,Multi Lumen Placement Confirmed by X-ray,542,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227957,Signs of Injury from Intervention,537,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227961,Side  Rails,537,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227960,Patient/Family Informed,535,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227946,Restraint Ordered (Non-violent),533,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225958,Heparin Concentration (units/mL),509,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223784,Pain Cause,500,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224902,Impaired Skin Drainage #2,486,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224909,Impaired Skin Drainage Amount #2,460,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227662,Patient/Family Informed_V2,456,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224958,Impaired Skin Wound Base #2,440,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224188,PICC Line Site Appear,428,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224972,Surrounding Tissue #2,421,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227949,Face to Face Eval (Non-violent),420,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223796,Untoward Effect,403,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224005,Flatus,393,1_resolu_et_route,4221803 Flatus [SNOMED/Observation],oui
+CHARTEVENTS,itemid,225811,CV - past medical history,384,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224633,Undermining Present #1,376,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227968,All Medications Tolerated without Adverse Side Effects,356,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224979,Tunneling Present #2,350,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224888,Impaired Skin Cleanse #2,348,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224040,Incision Closure #1,332,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227239,ABP Alarm Source,327,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224965,Pressure Ulcer Stage #2,320,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225059,Past medical history,313,3_nom_trouve_sans_Maps_to_standard,1031689 Past medical history [LOINC],oui
+CHARTEVENTS,itemid,224931,Impaired Skin Site #3,306,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224848,Incision Appearance #1,304,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227472,Incision Site #1,302,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224041,Incision Drainage #1,293,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223936,Radial Pulse R,289,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224042,Incision Dressing #1,278,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223951,Capillary Refill R,276,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224945,Impaired Skin Type #3,272,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223948,Radial Pulse L,271,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224973,Surrounding Tissue #3,259,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224986,Undermining Present #2,256,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224308,Capillary Refill L,247,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224850,Incision Drainage Amount #1,241,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224105,Warming Device,238,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224170,MDI #1 Drug,237,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226814,Known difficult intubation,235,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224851,Dressing Status #1,231,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224903,Impaired Skin Drainage #3,227,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227759,PICC Line Placement Confirmed by X-ray,226,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223926,Neuro Drain #1 Type,225,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224959,Impaired Skin Wound Base #3,221,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224829,Trach Tube Type,221,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227680,Restraint Location_V2,209,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224910,Impaired Skin Drainage Amount #3,196,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224066,Position Change,195,1_resolu_et_route,4121035 Position change [SNOMED/Observation],oui
+CHARTEVENTS,itemid,225050,Warming Device Status,190,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224830,Trach Tube Manufacturer,189,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227781,Impaired Skin  - Dressing Status #2,188,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224831,Trach Tube Size (I.D.),187,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227682,Restraints Evaluated_V2,186,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224938,Impaired Skin Treatment #3,185,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225072,Living situation,181,3_nom_trouve_sans_Maps_to_standard,652118 Living situation [LOINC],oui
+CHARTEVENTS,itemid,224974,Surrounding Tissue #4,181,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224932,Impaired Skin Site #4,174,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224640,Service,170,3_nom_trouve_sans_Maps_to_standard,1027551 Service [LOINC],oui
+CHARTEVENTS,itemid,227669,Side Rails (Restraint),170,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225323,Dialysis Catheter Site Appear,170,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224946,Impaired Skin Type #4,169,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227124,Dialysis Catheter Type,169,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224889,Impaired Skin Cleanse #3,168,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227753,Dialysis Catheter Placement Confirmed by X-ray,168,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224043,Incision Cleansing #1,162,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223758,Code Status,158,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227673,Non-Violent Restraints Ordered,151,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228306,Assistance Device,148,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225137,Patient valuables,143,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225135,Consults,140,2_resolu_domaine_hors_5_tables,45885295 Consults [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,224904,Impaired Skin Drainage #4,139,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224788,GI #2 Tube Type,139,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224966,Pressure Ulcer Stage #3,139,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225097,Balance,137,1_resolu_et_route,4097169 Balance [SNOMED/Observation],oui
+CHARTEVENTS,itemid,225099,Judgement,137,1_resolu_et_route,4247530 Judgement [SNOMED/Observation],oui
+CHARTEVENTS,itemid,224911,Impaired Skin Drainage Amount #4,133,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228096,Richmond-RAS Scale,133,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225131,Teaching directed toward,132,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224441,GI #2 Intub Site,129,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227782,Impaired Skin  - Dressing Status #3,127,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224173,MDI #2 Drug,126,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224789,GI #2 Tube Status,123,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227570,Small Volume Neb Drug/Dose #1,122,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224960,Impaired Skin Wound Base #4,117,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227290,CRRT mode,111,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227473,Incision Site #2,104,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224993,Incision Appearance #2,103,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225013,Incision Drainage #2,103,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224101,Chest PT R/L,99,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224967,Pressure Ulcer Stage #4,99,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223931,Neuro Drain #1 Status,99,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224796,Ostomy,98,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223968,Angio Appearance # 1,92,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223970,Angio Dressing # 1,92,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225004,Incision Closure #2,92,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223967,Angio Site # 1,91,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225101,Use of assistive devices,90,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225023,Incision Dressing #2,90,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225120,Appetite,87,6_recuperable_par_synonyme,4143454 [SNOMED/Observation],oui
+CHARTEVENTS,itemid,223930,Neuro Drain #1 Level,86,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223993,Chest Tube Site # 1,84,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223994,CT #1 Suction Amount,83,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224806,CT #1 Suction Type,82,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223997,CT #1 Dressing,80,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223996,CT #1 Drainage,79,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227687,Tobacco Use History,78,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223998,CT #1 Crepitus,77,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227591,Neuro Drain Landmark,77,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223995,CT #1 Fluctuate,76,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224939,Impaired Skin Treatment #4,75,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224775,CT #1 Leak,74,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226228,Gender,71,1_resolu_et_route,4135376 Gender [SNOMED/Observation],oui
+CHARTEVENTS,itemid,226545,Race,71,1_resolu_et_route,3046853 Race [LOINC/Observation],oui
+CHARTEVENTS,itemid,224119,22 Gauge Site Appear,70,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225379,Indwelling Port (PortaCath) Site Appear,69,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227125,Indwelling (PortaCath) Port Type,69,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224443,GI #2 Tube Place Check,67,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224890,Impaired Skin Cleanse #4,67,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224740,RSBI Deferred,66,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227988,Pronator drift present,66,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223759,Precautions: Standard +,65,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224109,Cervical Collar Type,65,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224891,Impaired Skin Cleanse #5,64,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224905,Impaired Skin Drainage #5,64,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224912,Impaired Skin Drainage Amount #5,64,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224933,Impaired Skin Site #5,64,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224947,Impaired Skin Type #5,64,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224975,Surrounding Tissue #5,64,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223760,Health Care Proxy,63,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224106,Cooling Device,63,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224968,Pressure Ulcer Stage #5,61,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225090,Interpreter,59,2_resolu_domaine_hors_5_tables,1621204 Interpreter [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,224906,Impaired Skin Drainage #6,58,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224913,Impaired Skin Drainage Amount #6,58,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224934,Impaired Skin Site #6,58,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224941,Impaired Skin Treatment #6,58,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224948,Impaired Skin Type #6,58,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224980,Tunneling Present #3,57,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225237,16 Gauge Site Appear,57,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225347,Midline Site Appear,56,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224327,PCA medication,56,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225052,Cooling Device Status,55,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224092,Range of Motion Location,55,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226479,Ectopy Type 2,55,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225176,Range of Motion Status,54,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224969,Pressure Ulcer Stage #6,54,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224987,Undermining Present #3,54,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227088,Admit from,53,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224110,Cervical Collar Status,53,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224019,Bladder Irrigation,53,1_resolu_et_route,4302745 Irrigation of urinary bladder [SNOMED/Procedure],oui
+CHARTEVENTS,itemid,225028,Dressing Status #2,53,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226480,Ectopy Frequency 2,50,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224893,Impaired Skin Cleanse #7,50,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224907,Impaired Skin Drainage #7,50,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224914,Impaired Skin Drainage Amount #7,50,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224935,Impaired Skin Site #7,50,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224942,Impaired Skin Treatment #7,50,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224949,Impaired Skin Type #7,50,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224977,Surrounding Tissue #7,50,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224984,Tunneling Present #7,50,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224991,Undermining Present #7,50,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227111,PCA  dose units,48,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227113,PCA 1 hour limit units,48,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225018,Incision Drainage Amount #2,47,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225813,Baseline pain level,44,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227585,GI Guaiac,42,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224797,Ostomy Appearance,39,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227474,Incision Site #3,39,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224994,Incision Appearance #3,38,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224981,Tunneling Present #4,37,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224988,Undermining Present #4,37,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228014,20 G Infiltration Scale,35,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228013,20 G Phlebitis Scale,34,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225014,Incision Drainage #3,32,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225019,Incision Drainage Amount #3,32,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225024,Incision Dressing #3,32,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225029,Dressing Status #3,32,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228299,Goal Richmond-RAS Scale,31,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227127,Indwelling (PortaCath) Port #1,29,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227128,Indwelling (PortaCath) Port #2,29,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224297,Cordis/Introducer Site Appear,28,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225949,NIV Mask,28,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224998,Incision Cleansing #2,28,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228298,Daily Wake Up,25,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227589,GI #2 Tube Place Method,24,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223847,Passey Muir Valve in use,24,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227487,GU Irrigant Type,24,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224445,GI #2 Tube Drainage,23,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223952,Pericardial Drain Status,23,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223953,Pericardial Drain Drainage,22,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223954,Pericardial Drain Site,22,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223925,Seizure Duration,21,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227670,Violent Restraints,20,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227133,Small Volume Neb Drug #2,19,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227679,Restraint Device (Violent),19,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227117,PCA total dose units,19,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224368,Epidural Medication,19,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227119,Epidural Location,19,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225240,14 Gauge Site Appear,18,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224379,PCA cleared,17,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224006,Emesis Appearance,16,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225737,Arterial Line Discontinued,16,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223800,Epidural Appearance,16,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225230,20 Gauge Reason Discontinued,15,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224025,Spiritual Support,15,1_resolu_et_route,4303551 Spiritual support [SNOMED/Observation],oui
+CHARTEVENTS,itemid,225387,Presep Catheter Site Appear,15,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225388,Presep Catheter Waveform Appear,15,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224044,Incision Packing #1,14,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225233,18 Gauge Reason Discontinued,13,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224114,PT Splint Location #1,13,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223938,Ulnar Pulse R,12,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223819,Visual Disturbances,12,2_resolu_domaine_hors_5_tables,45879488 Visual disturbances [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,223805,Nausea and Vomiting (CIWA),12,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223806,Tremor (CIWA),12,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223810,Paroxysmal Sweats,12,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223811,Anxiety,12,2_resolu_domaine_hors_5_tables,45880471 Anxiety [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,223814,Auditory Disturbance,12,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223817,Agitation,12,2_resolu_domaine_hors_5_tables,46237198 Agitation [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,223818,Tactile Disturbances,12,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223820,Headache,12,2_resolu_domaine_hors_5_tables,45883730 Headache [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,223821,Orient/Clouding Sensory,12,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223823,Insomnia,12,1_resolu_et_route,436962 Insomnia [SNOMED/Condition],oui
+CHARTEVENTS,itemid,223824,Seizure,12,2_resolu_domaine_hors_5_tables,45882230 Seizure [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,228332,Delirium assessment,12,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225744,Multi Lumen Line Discontinued,11,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228337,CAM-ICU MS Change,11,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224892,Impaired Skin Cleanse #6,10,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223940,Femoral Pulse R,10,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223802,Nerve Stimulated,10,3_nom_trouve_sans_Maps_to_standard,4077715 Nerve stimulated [SNOMED],oui
+CHARTEVENTS,itemid,224413,TOF Response,10,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224414,TOF Twitch,10,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227120,Motor Deficit,9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223801,NMB Medication,9,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228307,GI #1 Tube Place Check,8,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228011,18 G Phlebitis Scale,8,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228012,18 G Infiltration Scale,8,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223825,Sustained Nystagmus,8,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223828,Slurred Speech,8,2_resolu_domaine_hors_5_tables,45883216 Slurred speech [LOINC/Meas Value],oui
+CHARTEVENTS,itemid,223829,Drowsiness,8,1_resolu_et_route,4196193 Drowsiness [SNOMED/Observation],oui
+CHARTEVENTS,itemid,223932,Neuro Drain #1 Drainage,8,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227539,ART Blood Pressure Alarm Source,7,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224680,Cuff Volume/units,7,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223955,Temporary Pacemaker Type,7,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223961,Temporary Pacemaker Wire Condition,7,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226713,Incontinent (estimate),6,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225005,Incision Closure #3,6,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223956,Temporary Pacemaker Mode,6,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227089,Discharge to,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225180,PT Splint Status #1,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224715,SBT Started,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223949,Ulnar Pulse L,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228397,Commands Response,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228398,Commands,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228409,Strength L Arm,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228410,Strength L Leg,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228411,Strength R Leg,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228412,Strength R Arm,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228414,Speech,5,1_resolu_et_route,4337391 Speaking [SNOMED/Observation],oui
+CHARTEVENTS,itemid,223945,Femoral Pulse L,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224844,Permanent Pacemaker Mode,5,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224717,SBT Successfully Completed,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225355,PA Catheter Site Appear,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225357,PA Catheter Waveform Appear,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225767,Sheath Site Appear,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225770,Sheath Waveform Appear,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225772,Sheath Size,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228393,Bath,4,7_nom_exact_dans_un_autre_vocabulaire,42060807 [OSM/Geography],oui
+CHARTEVENTS,itemid,227578,BiPap Mask,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223939,Brachial Pulse R,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224090,Knee Immobilizer Status,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225048,Knee Location - Immobilizer,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223797,Sensory Level,4,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227241,PAP Alarm Source,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227755,Midline Placement Confirmed by X-ray,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228303,CAM-ICU Disorganized thinking,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228343,OCAT - Lips Tongue Gums Palate,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228344,"OCAT - Saliva secretions, Voice quality",3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228345,OCAT - Swallow,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228346,OCAT - Teeth,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224940,Impaired Skin Treatment #5,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224961,Impaired Skin Wound Base #5,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224976,Surrounding Tissue #6,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227577,BiPap Mode,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227583,Autoset/CPAP,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224438,Chest Tube Site # 2,3,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224712,Recruitment Mode,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227783,Impaired Skin - Dressing Status  #4,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228394,Orientation to Person,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228395,Orientation to Place,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224962,Impaired Skin Wound Base #6,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224982,Tunneling Present #5,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224983,Tunneling Present #6,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224989,Undermining Present #5,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224990,Undermining Present #6,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223944,Brachial Pulse L,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224392,ETT Position Change,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224456,PT Splint Location #2,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225182,PT Splint Status #2,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223836,Airway Type,2,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224176,MDI #3 Drug,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225749,Presep Catheter Discontinued,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224716,SBT Stopped,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228300,CAM-ICU MS change,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228396,Orientation to Time,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228404,Motor L Arm,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228405,Motor L Leg,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228406,Motor R Arm,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,228407,Motor R Leg,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227626,Seizure Pads,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223840,ETT Re-taped,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,225743,Midline Discontinued,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227675,Face to Face Eval (Violent),1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227815,Site Appearance - Adjunctive Pain Management,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227752,Cordis/Introducer Placement Confirmed by X-ray,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227567,Airway Location,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,227568,Airway Size (mm),1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,223946,Popliteal Pulse L,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224834,Temporary Ventricular Sens,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,224835,Temporary Ventricular Capture,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226756,GCSEyeApacheIIValue,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226757,GCSMotorApacheIIValue,1,8_aucun_candidat,,oui
+CHARTEVENTS,itemid,226758,GCSVerbalApacheIIValue,1,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224280,Multi Lumen Insertion Date,751,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224279,Multi Lumen Dressing Change,743,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224282,Multi Lumen Tubing Change,722,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224261,Multi Lumen Cap Change,718,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225754,20 Gauge Insertion Date,680,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224290,Arterial line Tubing Change,677,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,5684,INV#1 Dsg Change [MM],637,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224287,Arterial Line Dressing Change,633,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,227790,Impaired Skin  - Dressing Change #1,626,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224288,Arterial line Insertion Date,622,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224284,Arterial line Cap Change,611,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,5685,INV#2 Dsg Change [MM],543,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,6704,INV#1 Tubing Change [MM],540,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225755,18 Gauge Insertion Date,510,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,6703,INV#1 Cap Change [MM],501,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224186,PICC Line Dressing Change,398,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224183,PICC Line Cap Change,392,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,6705,INV#2 Cap Change [MM],373,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224187,PICC Line Tubing Change,367,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,6706,INV#2 Tubing Change [MM],360,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224184,PICC Line Insertion Date,348,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,5686,INV#3 Dsg Change [MM],321,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,6708,INV#3 Tubing Change [MM],246,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,6707,INV#3 Cap Change [MM],240,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224878,GU Catheter Insertion Date,229,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225318,Dialysis Catheter Cap Change,169,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225321,Dialysis Catheter Dressing Change,169,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225322,Dialysis Catheter Insertion Date,169,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,7152,In-Line Sx Change [MM],156,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,6709,INV#4 Cap Change [MM],125,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224185,PICC Line Change over Wire Date,122,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,227791,Impaired Skin  - Dressing Change #2,118,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,5687,INV#4 Dsg Change [MM],114,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,227792,Impaired Skin  - Dressing Change #3,113,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225324,Dialysis CatheterTubing Change,86,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,6710,INV#4 Tubing Change [MM],76,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,226515,Date of Birth,71,1_resolu_et_route,4083587 Date of birth [SNOMED/Observation],oui
+DATETIMEEVENTS,itemid,226724,Hospital Admit Date,71,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,5688,INV#5 Dsg Change [MM],69,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,6711,INV#5 Cap Change [MM],69,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,6712,INV#5 Tubing Change [MM],69,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225753,22 Gauge Insertion Date,63,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225375,Indwelling Port (PortaCath) Cap Change,63,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225380,Indwelling Port (PortaCath)Tubing Change,63,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,227361,Indwelling (PortaCath) Dressing Change,63,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225378,Indwelling Port (PortaCath) Insertion Date,63,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,5689,INV#6 Dsg Change [MM],60,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225756,16 Gauge Insertion Date,57,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,227126,Indwelling (PortaCath) Port #1 Date Accessed,55,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225346,Midline Insertion Date,54,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,5691,INV#8 Dsg Change [MM],48,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,6713,INV#6 Cap Change [MM],45,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,6714,INV#6 Tubing Change [MM],45,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224296,Cordis/Introducer Insertion Date,36,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224298,Cordis/Introducer Tubing Change,34,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225345,Midline Dressing Change,32,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224295,Cordis/Introducer Dressing Change,31,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,227197,Indwelling (PortaCath) Port #2 Date Accessed,29,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224292,Cordis/Introducer Cap Change,27,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225757,14 Gauge Insertion Date,18,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225385,Presep Catheter Dressing Change,15,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225386,Presep Catheter Insertion Date,15,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224262,Multi Lumen Change over Wire Date,14,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224285,Arterial line Change over Wire Date,12,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,224293,Cordis/Introducer Change over Wire Date,7,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225351,PA Catheter Cap Change,4,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225353,PA Catheter Dressing Change,4,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225354,PA Catheter Insertion Date,4,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225356,PA Catheter Tubing Change,4,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225762,Sheath Cap Change,4,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225765,Sheath Dressing Change,4,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225766,Sheath Insertion Date,4,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225769,Sheath Tubing Change,4,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225343,Midline Cap Change,3,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225344,Midline Change over Wire Date,3,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225348,Midline Tubing Change,3,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225319,Dialysis Catheter Change over Wire Date,3,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,227793,Impaired Skin  - Dressing Change #4,2,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,225128,Last dialysis,1,8_aucun_candidat,,oui
+DATETIMEEVENTS,itemid,227541,SvO2 Calibrated,1,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30018,.9% Normal Saline,6528,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30013,D5W,4950,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30045,Insulin,2484,2_resolu_domaine_hors_5_tables,45884660 Insulin [LOINC/Meas Value],oui
+INPUTEVENTS_CV,itemid,30131,Propofol,2168,1_resolu_et_route,753626 propofol [RxNorm/Drug],oui
+INPUTEVENTS_CV,itemid,30120,Levophed-k,1920,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30118,Fentanyl,1591,1_resolu_et_route,1154029 fentanyl [RxNorm/Drug],oui
+INPUTEVENTS_CV,itemid,30124,Midazolam,1485,1_resolu_et_route,708298 midazolam [RxNorm/Drug],oui
+INPUTEVENTS_CV,itemid,30032,TPN,1277,2_resolu_domaine_hors_5_tables,45881254 TPN [LOINC/Meas Value],oui
+INPUTEVENTS_CV,itemid,30128,Neosynephrine-k,1271,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30025,Heparin,833,1_resolu_et_route,1367571 heparin [RxNorm/Drug],oui
+INPUTEVENTS_CV,itemid,30043,Dopamine,729,1_resolu_et_route,1337860 dopamine [RxNorm/Drug],oui
+INPUTEVENTS_CV,itemid,30123,Lasix,559,3_nom_trouve_sans_Maps_to_standard,19044738 Lasix [RxNorm],oui
+INPUTEVENTS_CV,itemid,30112,Amiodarone,492,1_resolu_et_route,1309944 amiodarone [RxNorm/Drug],oui
+INPUTEVENTS_CV,itemid,30015,D5/.45NS,479,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30021,Lactated Ringers,473,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30166,Promote w/fiber,454,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30090,Tube Feeding,441,6_recuperable_par_synonyme,4042005 [SNOMED/Procedure],oui
+INPUTEVENTS_CV,itemid,30121,Nitroglycerine-k,437,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30144,Gastric Meds,367,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30026,KCL,355,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30056,Po Intake,334,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30133,Sandostatin,333,3_nom_trouve_sans_Maps_to_standard,19038591 Sandostatin [RxNorm],oui
+INPUTEVENTS_CV,itemid,30114,Cisatracurium,321,1_resolu_et_route,19015726 cisatracurium [RxNorm/Drug],oui
+INPUTEVENTS_CV,itemid,30051,Vasopressin,270,3_nom_trouve_sans_Maps_to_standard,40779260 Vasopressin [LOINC],oui
+INPUTEVENTS_CV,itemid,30020,.45% Normal Saline,264,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30095,TF Residual,236,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30125,Milrinone,217,1_resolu_et_route,1368671 milrinone [RxNorm/Drug],oui
+INPUTEVENTS_CV,itemid,30030,Sodium Bicarbonate,202,1_resolu_et_route,939506 sodium bicarbonate [RxNorm/Drug],oui
+INPUTEVENTS_CV,itemid,30073,Impact w/fiber,196,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30141,Ativan,195,3_nom_trouve_sans_Maps_to_standard,19042588 Ativan [RxNorm],oui
+INPUTEVENTS_CV,itemid,30023,Calcium Gluconate,185,1_resolu_et_route,19037038 calcium gluconate [RxNorm/Drug],oui
+INPUTEVENTS_CV,itemid,30126,Morphine Sulfate,172,1_resolu_et_route,1110410 morphine [RxNorm/Drug],oui
+INPUTEVENTS_CV,itemid,30122,Labetolol,166,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30096,TPN w/Lipids,147,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30001,Packed RBC's,122,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30005,Fresh Frozen Plasma,118,2_resolu_domaine_hors_5_tables,36310033 Fresh frozen plasma [LOINC/Meas Value],oui
+INPUTEVENTS_CV,itemid,30172,Natrecor,113,3_nom_trouve_sans_Maps_to_standard,19033620 Natrecor [RxNorm],oui
+INPUTEVENTS_CV,itemid,30050,Nitroprusside,86,1_resolu_et_route,19020994 nitroprusside [RxNorm/Drug],oui
+INPUTEVENTS_CV,itemid,30049,Nitroglycerine,74,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30059,GT Flush,71,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30072,Peptamen,65,3_nom_trouve_sans_Maps_to_standard,40531548 Peptamen [SNOMED],oui
+INPUTEVENTS_CV,itemid,30170,Ampho-B_GU,65,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30110,Aggrastat,51,3_nom_trouve_sans_Maps_to_standard,19034242 Aggrastat [RxNorm],oui
+INPUTEVENTS_CV,itemid,30006,Platelets,47,2_resolu_domaine_hors_5_tables,36310193 Platelets [LOINC/Meas Value],oui
+INPUTEVENTS_CV,itemid,30058,Free Water Bolus,40,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30065,Sterile Water,39,1_resolu_et_route,19010309 water [RxNorm/Drug],oui
+INPUTEVENTS_CV,itemid,30130,Pentobarbitol,39,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30383,Impact,38,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30029,Potassium Phosphate,30,1_resolu_et_route,19027362 potassium phosphate [RxNorm/Drug],oui
+INPUTEVENTS_CV,itemid,30061,D5RL,28,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30178,Nicardipine,27,1_resolu_et_route,1318137 nicardipine [RxNorm/Drug],oui
+INPUTEVENTS_CV,itemid,30054,Pre-Admission Intake,25,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30077,Nepro,25,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30117,Esmolol,25,1_resolu_et_route,19063575 esmolol [RxNorm/Drug],oui
+INPUTEVENTS_CV,itemid,30069,Solumedrol,25,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30066,Carrier,20,2_resolu_domaine_hors_5_tables,45878011 Carrier [LOINC/Meas Value],oui
+INPUTEVENTS_CV,itemid,30164,Criticare HN,20,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30165,Promote,20,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30042,Dobutamine,19,1_resolu_et_route,1337720 dobutamine [RxNorm/Drug],oui
+INPUTEVENTS_CV,itemid,30101,OR Crystalloid,14,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30008,Albumin 5%,14,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30033,Lipids,12,2_resolu_domaine_hors_5_tables,45881235 Lipids [LOINC/Meas Value],oui
+INPUTEVENTS_CV,itemid,30009,Albumin 25%,11,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30098,D5 Aminosyn 3.5%,11,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30028,MVI,11,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,44638,R LQ punch,10,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30103,OR FFP,8,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30104,OR Packed RBC's,8,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,40864,KPhos,7,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30094,Other Blood Products,6,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30105,OR Platelets,5,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30007,Cryoprecipitate,5,2_resolu_domaine_hors_5_tables,36309989 Cryoprecipitate [LOINC/Meas Value],oui
+INPUTEVENTS_CV,itemid,30102,OR Colloid,4,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30016,Dextrose 10%,4,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30060,D5NS,4,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30055,Cath Lab Intake,4,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30119,Epinephrine-k,4,8_aucun_candidat,,oui
+INPUTEVENTS_CV,itemid,30012,Hespan,3,3_nom_trouve_sans_Maps_to_standard,19043378 Hespan [RxNorm],oui
+INPUTEVENTS_MV,itemid,220949,Dextrose 5%,1722,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225158,NaCl 0.9%,1609,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225799,Gastric Meds,614,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225944,Sterile Water,523,1_resolu_et_route,19010309 water [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,227536,KCl (CRRT),495,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225943,Solution,492,3_nom_trouve_sans_Maps_to_standard,19111276 Solution [RxNorm],oui
+INPUTEVENTS_MV,itemid,226453,GT Flush,420,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225936,Replete with Fiber (Full),404,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,221906,Norepinephrine,380,1_resolu_et_route,1321341 norepinephrine [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,223258,Insulin - Regular,320,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225166,Potassium Chloride,291,1_resolu_et_route,19049105 potassium chloride [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,221744,Fentanyl,289,1_resolu_et_route,1154029 fentanyl [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,221668,Midazolam (Versed),265,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,226452,PO Intake,252,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,222168,Propofol,222,1_resolu_et_route,753626 propofol [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,227529,ACD-A Citrate (1000ml),222,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,227526,Citrate,222,1_resolu_et_route,19011034 citrate [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225975,Heparin Sodium (Prophylaxis),201,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,221794,Furosemide (Lasix),199,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225798,Vancomycin,198,1_resolu_et_route,1707687 vancomycin [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225797,Free Water,191,3_nom_trouve_sans_Maps_to_standard,1991687 Free water [LOINC],oui
+INPUTEVENTS_MV,itemid,226089,Piggyback,185,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225154,Morphine Sulfate,157,1_resolu_et_route,1110410 morphine [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,227525,Calcium Gluconate (CRRT),149,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225942,Fentanyl (Concentrate),131,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225893,Piperacillin/Tazobactam (Zosyn),124,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225828,LR,122,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,227522,KCL (Bolus),120,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225883,Meropenem,119,1_resolu_et_route,1709170 meropenem [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225152,Heparin Sodium,112,1_resolu_et_route,1367571 heparin [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225907,Famotidine (Pepcid),97,2_resolu_domaine_hors_5_tables,36310076 Famotidine (Pepcid) [LOINC/Meas Value],oui
+INPUTEVENTS_MV,itemid,225910,Pantoprazole (Protonix),97,2_resolu_domaine_hors_5_tables,36308814 Pantoprazole (Protonix) [LOINC/Meas Value],oui
+INPUTEVENTS_MV,itemid,225974,Metoprolol,93,1_resolu_et_route,1307046 metoprolol [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,223262,Insulin - Humalog,90,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,222011,Magnesium Sulfate,85,1_resolu_et_route,19093848 magnesium sulfate [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225970,Beneprotein,83,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,221662,Dopamine,80,1_resolu_et_route,1337860 dopamine [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225168,Packed Red Blood Cells,78,7_nom_exact_dans_un_autre_vocabulaire,4336080 [SNOMED/Device],oui
+INPUTEVENTS_MV,itemid,225884,Metronidazole,77,1_resolu_et_route,1707164 metronidazole [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225859,Ciprofloxacin,74,1_resolu_et_route,1797513 ciprofloxacin [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,221749,Phenylephrine,74,1_resolu_et_route,1135766 phenylephrine [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225823,D5 1/2NS,66,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225851,Cefepime,66,1_resolu_et_route,1748975 cefepime [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,227523,Magnesium Sulfate (Bolus),60,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,227695,Fibersource HN (Full),59,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225931,Nutren 2.0 (Full),56,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,221429,Esmolol,53,1_resolu_et_route,19063575 esmolol [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,220862,Albumin 25%,52,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,221385,Lorazepam (Ativan),45,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,227979,Boost Glucose Control (Full),44,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,227975,NovaSource Renal (Full),38,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225837,Acyclovir,37,1_resolu_et_route,1703687 acyclovir [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225842,Ampicillin,36,1_resolu_et_route,1717327 ampicillin [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,220970,Fresh Frozen Plasma,35,2_resolu_domaine_hors_5_tables,36310033 Fresh frozen plasma [LOINC/Meas Value],oui
+INPUTEVENTS_MV,itemid,221456,Calcium Gluconate,33,1_resolu_et_route,19037038 calcium gluconate [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,226361,Pre-Admission Intake,33,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,221828,Hydralazine,32,1_resolu_et_route,1373928 hydralazine [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225928,Impact with Fiber (Full),32,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225155,Octreotide,32,1_resolu_et_route,1522957 octreotide [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225170,Platelets,30,2_resolu_domaine_hors_5_tables,36310193 Platelets [LOINC/Meas Value],oui
+INPUTEVENTS_MV,itemid,221347,Amiodarone,30,1_resolu_et_route,1309944 amiodarone [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225892,Piperacillin,29,1_resolu_et_route,1746114 piperacillin [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,223259,Insulin - NPH,28,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225855,Ceftriaxone,27,1_resolu_et_route,1777806 ceftriaxone [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225834,K Phos,25,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,226050,Replete with Fiber (3/4),23,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,221986,Milrinone,23,1_resolu_et_route,1368671 milrinone [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,222056,Nitroglycerin,22,1_resolu_et_route,1361711 nitroglycerin [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225865,Doxycycline,21,1_resolu_et_route,1738521 doxycycline [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,221833,Hydromorphone (Dilaudid),20,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225835,Na Phos,17,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,222315,Vasopressin,17,3_nom_trouve_sans_Maps_to_standard,40779260 Vasopressin [LOINC],oui
+INPUTEVENTS_MV,itemid,220995,Sodium Bicarbonate 8.4%,17,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,226880,Nutren Pulmonary (Full),17,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225153,Labetalol,16,1_resolu_et_route,1386957 labetalol [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,223260,Insulin - Glargine,16,4_recuperable_casse_ponctuation,1502905 insulin glargine (1 candidat(s)),oui
+INPUTEVENTS_MV,itemid,225909,Lansoprazole (Prevacid),15,2_resolu_domaine_hors_5_tables,36310574 Lansoprazole (Prevacid) [LOINC/Meas Value],oui
+INPUTEVENTS_MV,itemid,225917,TPN without Lipids,15,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225934,Vivonex (Full),14,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,221824,Haloperidol (Haldol),14,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,221653,Dobutamine,14,1_resolu_et_route,1337720 dobutamine [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,223257,Insulin - 70/30,14,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225906,Enoxaparin (Lovenox),13,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225825,D5NS,13,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,227690,Fosphenytoin,13,1_resolu_et_route,713192 fosphenytoin [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,221555,Cisatracurium,12,1_resolu_et_route,19015726 cisatracurium [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,221468,Diltiazem,11,1_resolu_et_route,1328165 diltiazem [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225869,Fluconazole,11,1_resolu_et_route,1754994 fluconazole [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,226364,OR Crystalloid Intake,10,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225159,NaCl 0.45%,9,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225902,Tobramycin,9,1_resolu_et_route,902722 tobramycin [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,221036,Nutren Renal (Full),9,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225853,Ceftazidime,8,1_resolu_et_route,1776684 ceftazidime [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,220864,Albumin 5%,8,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225156,Pentobarbital,7,1_resolu_et_route,730729 pentobarbital [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225912,Carafate (Sucralfate),7,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225888,Nafcillin,7,1_resolu_et_route,1713930 nafcillin [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225845,Azithromycin,7,1_resolu_et_route,1734104 azithromycin [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,220952,Dextrose 50%,7,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225832,Folic Acid,7,1_resolu_et_route,19111620 folic acid [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225937,Ensure (Full),7,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225860,Clindamycin,7,1_resolu_et_route,997881 clindamycin [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225850,Cefazolin,6,1_resolu_et_route,1771162 cefazolin [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225911,Ranitidine (Prophylaxis),6,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,222042,Nicardipine,6,1_resolu_et_route,1318137 nicardipine [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225879,Levofloxacin,5,1_resolu_et_route,1742253 levofloxacin [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225830,Multivitamins,5,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225833,Thiamine,5,1_resolu_et_route,19137312 thiamine [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225899,Bactrim (SMX/TMP),5,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225843,Ampicillin/Sulbactam (Unasyn),4,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,226363,Cath Lab Intake,4,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225174,Hetastarch (Hespan) 6%,4,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225916,TPN w/ Lipids,3,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,221393,Atropine,3,1_resolu_et_route,914335 atropine [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225881,Linezolid,3,1_resolu_et_route,1736887 linezolid [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,228359,Glucerna (Full),3,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225863,Daptomycin,3,1_resolu_et_route,1786617 daptomycin [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,222062,Vecuronium,2,1_resolu_et_route,19012598 vecuronium [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,220950,Dextrose 10%,2,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,227694,Omeprazole (Prilosec),2,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,226367,OR FFP Intake,2,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,227533,Sodium Bicarbonate 8.4% (Amp),2,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225913,Coumadin (Warfarin),2,2_resolu_domaine_hors_5_tables,36310073 Coumadin (Warfarin) [LOINC/Meas Value],oui
+INPUTEVENTS_MV,itemid,225161,NaCl 3% (Hypertonic Saline),2,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,227531,Mannitol,2,1_resolu_et_route,994058 mannitol [RxNorm/Drug],oui
+INPUTEVENTS_MV,itemid,225941,D5 1/4NS,1,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225973,Meperidine (Demerol),1,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,227535,Vitamin K (Phytonadione),1,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,225171,Cryoprecipitate,1,2_resolu_domaine_hors_5_tables,36309989 Cryoprecipitate [LOINC/Meas Value],oui
+INPUTEVENTS_MV,itemid,226368,OR Packed RBC Intake,1,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,226365,OR Colloid Intake,1,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,227691,Keflex,1,3_nom_trouve_sans_Maps_to_standard,19045251 Keflex [RxNorm],oui
+INPUTEVENTS_MV,itemid,226375,PACU Crystalloid Intake,1,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,226372,OR Cell Saver Intake,1,8_aucun_candidat,,oui
+INPUTEVENTS_MV,itemid,228315,Acetaminophen-IV,1,8_aucun_candidat,,oui
+MICROBIOLOGYEVENTS,ab_itemid,90012,GENTAMICIN,90,1_resolu_et_route,45892419 gentamicin [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90008,TRIMETHOPRIM/SULFA,66,8_aucun_candidat,,oui
+MICROBIOLOGYEVENTS,ab_itemid,90017,CEFTAZIDIME,63,1_resolu_et_route,1776684 ceftazidime [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90013,TOBRAMYCIN,63,1_resolu_et_route,902722 tobramycin [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90028,CEFEPIME,63,1_resolu_et_route,1748975 cefepime [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90019,CIPROFLOXACIN,59,1_resolu_et_route,1797513 ciprofloxacin [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90029,MEROPENEM,57,1_resolu_et_route,1709170 meropenem [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90018,CEFTRIAXONE,45,1_resolu_et_route,1777806 ceftriaxone [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90026,PIPERACILLIN/TAZO,43,8_aucun_candidat,,oui
+MICROBIOLOGYEVENTS,ab_itemid,90025,LEVOFLOXACIN,41,1_resolu_et_route,1742253 levofloxacin [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90022,AMPICILLIN/SULBACTAM,41,8_aucun_candidat,,oui
+MICROBIOLOGYEVENTS,ab_itemid,90004,AMPICILLIN,34,1_resolu_et_route,1717327 ampicillin [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90005,CEFAZOLIN,34,1_resolu_et_route,1771162 cefazolin [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90015,VANCOMYCIN,33,1_resolu_et_route,1707687 vancomycin [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90016,OXACILLIN,28,1_resolu_et_route,1724703 oxacillin [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90006,ERYTHROMYCIN,28,1_resolu_et_route,1746940 erythromycin [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90011,TETRACYCLINE,26,1_resolu_et_route,1836948 tetracycline [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90023,CEFUROXIME,24,1_resolu_et_route,1778162 cefuroxime [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90002,PENICILLIN,21,3_nom_trouve_sans_Maps_to_standard,19126544 Penicillin [RxNorm],oui
+MICROBIOLOGYEVENTS,ab_itemid,90010,NITROFURANTOIN,21,1_resolu_et_route,920293 nitrofurantoin [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90027,RIFAMPIN,19,1_resolu_et_route,1763204 rifampin [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90020,IMIPENEM,18,1_resolu_et_route,1778262 imipenem [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90007,CLINDAMYCIN,18,1_resolu_et_route,997881 clindamycin [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90021,PIPERACILLIN,16,1_resolu_et_route,1746114 piperacillin [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90014,AMIKACIN,10,1_resolu_et_route,1790868 amikacin [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90003,PENICILLIN G,5,1_resolu_et_route,1728416 penicillin G [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90031,LINEZOLID,4,1_resolu_et_route,1736887 linezolid [RxNorm/Drug],oui
+MICROBIOLOGYEVENTS,ab_itemid,90009,CHLORAMPHENICOL,1,1_resolu_et_route,990069 chloramphenicol [RxNorm/Drug],oui
+OUTPUTEVENTS,itemid,40055,Urine Out Foley,4741,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226559,Foley,4138,7_nom_exact_dans_un_autre_vocabulaire,42043170 [OSM/Geography],oui
+OUTPUTEVENTS,itemid,40286,Ultrafiltrate Ultrafiltrate,274,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40054,Stool Out Stool,208,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,41683,Drain Out #2 JP Lateral,172,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,227510,TF Residual,143,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40071,Drain Out #1 Jackson Pratt,112,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,227489,GU Irrigant/Urine Volume Out,109,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,227488,GU Irrigant Volume In,97,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226579,Stool,93,2_resolu_domaine_hors_5_tables,37079480 Stool [LOINC/Meas Value],oui
+OUTPUTEVENTS,itemid,40076,Chest Tubes CTICU CT 1,80,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,44676,Drain Out #2 Lt Nephrostomy,80,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40052,Gastric Nasogastric,72,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40926,Drain Out #1 JP Medial,71,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226582,Ostomy (output),71,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40473,Urine Out IleoConduit,70,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226588,Chest Tube #1,68,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226560,Void,63,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226580,Fecal Bag,58,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40069,Urine Out Void,53,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226599,Jackson Pratt #1,45,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40292,Drain Out #2 T Tube,44,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,41707,Chest Tubes CTICU CT 2,43,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,41184,Drain Out #1 Lt Nephrostomy,37,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226576,Oral Gastric,32,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40059,Gastric Oral Gastric,25,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226575,Nasogastric,25,2_resolu_domaine_hors_5_tables,36310219 Nasogastric [LOINC/Meas Value],oui
+OUTPUTEVENTS,itemid,40956,paracentesis site,24,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226633,Pre-Admission,24,2_resolu_domaine_hors_5_tables,4083346 Pre-admission [SNOMED/Meas Value],oui
+OUTPUTEVENTS,itemid,226583,Rectal Tube,23,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,44612,Left Antecub Pouch,20,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226612,Pericardial,19,2_resolu_domaine_hors_5_tables,4298557 Pericardial structure [SNOMED/Spec Anatomic Site],oui
+OUTPUTEVENTS,itemid,40060,Pre-Admission Output Pre-Admission Output,16,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,227511,TF Residual Output,16,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,227701,Drainage Bag,15,2_resolu_domaine_hors_5_tables,4149275 Drainage bag [SNOMED/Device],oui
+OUTPUTEVENTS,itemid,226571,Emesis,14,6_recuperable_par_synonyme,441408 [SNOMED/Condition],oui
+OUTPUTEVENTS,itemid,40061,OR Out OR Urine,13,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40067,Gastric Emesis,11,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40049,Chest Tubes Right Pleural 1,10,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40064,OR Out EBL,10,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226573,Gastric Tube,9,2_resolu_domaine_hors_5_tables,652314 Gastric Tube [LOINC/Meas Value],oui
+OUTPUTEVENTS,itemid,226593,R Pleural #1,9,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226627,OR Urine,7,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226590,L Pleural #1,7,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40614,Drain Out #1 Jejunostomy Tube,6,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226626,OR EBL,5,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40065,OR Out PACU Urine,4,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40470,paracentesis,4,6_recuperable_par_synonyme,4313285 [SNOMED/Procedure],oui
+OUTPUTEVENTS,itemid,226608,Cerebral Subdural #1,4,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226604,Hemovac #1,4,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40051,Gastric Gastric Tube,3,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40367,Stool Out Rectal Tube,3,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226632,Cath Lab,3,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40087,Stool Out Colostomy,2,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40451,Paracentesis,2,6_recuperable_par_synonyme,4313285 [SNOMED/Procedure],oui
+OUTPUTEVENTS,itemid,40063,Stool Out Ileostomy,2,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226625,Tap,2,6_recuperable_par_synonyme,4313285 [SNOMED/Procedure],oui
+OUTPUTEVENTS,itemid,40085,Urine Out Incontinent,1,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,40053,Stool Out Fecal Bag,1,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226584,Ileoconduit,1,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226628,PACU Drains,1,8_aucun_candidat,,oui
+OUTPUTEVENTS,itemid,226631,PACU Urine,1,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225459,Chest X-Ray,101,1_resolu_et_route,4163872 Plain X-ray of chest [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,224275,20 Gauge,82,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,224277,18 Gauge,70,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225401,Blood Cultured,38,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,221214,CT scan,37,7_nom_exact_dans_un_autre_vocabulaire,36310704 [LOINC/Meas Value],oui
+PROCEDUREEVENTS_MV,itemid,225402,EKG,35,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,224263,Multi Lumen,34,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225752,Arterial Line,30,2_resolu_domaine_hors_5_tables,4118298 Arterial catheter [SNOMED/Device],oui
+PROCEDUREEVENTS_MV,itemid,225792,Invasive Ventilation,26,3_nom_trouve_sans_Maps_to_standard,3525059 Invasive ventilation [SNOMED],oui
+PROCEDUREEVENTS_MV,itemid,227194,Extubation,23,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225454,Urine Culture,18,1_resolu_et_route,4024509 Urine culture [SNOMED/Measurement],oui
+PROCEDUREEVENTS_MV,itemid,224385,Intubation,17,1_resolu_et_route,4202832 Intubation [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,225451,Sputum Culture,17,1_resolu_et_route,4015189 Microbial culture of sputum [SNOMED/Measurement],oui
+PROCEDUREEVENTS_MV,itemid,224274,22 Gauge,16,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225802,Dialysis - CRRT,16,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,221217,Ultrasound,14,6_recuperable_par_synonyme,4037672 [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,224264,PICC Line,13,6_recuperable_par_synonyme,4161814 [SNOMED/Device],oui
+PROCEDUREEVENTS_MV,itemid,225432,Transthoracic Echo,12,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225966,Nasal Swab,12,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,221223,EEG,10,6_recuperable_par_synonyme,4181917 [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,225400,Bronchoscopy,10,1_resolu_et_route,4032404 Bronchoscopy [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,225469,OR Received,9,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225814,Stool Culture,9,1_resolu_et_route,4024963 Stool culture [SNOMED/Measurement],oui
+PROCEDUREEVENTS_MV,itemid,225470,OR Sent,7,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,221216,X-ray,7,3_nom_trouve_sans_Maps_to_standard,4181922 X-ray [SNOMED],oui
+PROCEDUREEVENTS_MV,itemid,223253,Magnetic Resonance Imaging,6,1_resolu_et_route,4013636 Magnetic resonance imaging [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,224267,Cordis/Introducer,6,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,224276,16 Gauge,6,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225439,Endoscopy,5,1_resolu_et_route,4313889 Endoscopy [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,225466,Cardiac Arrest,5,1_resolu_et_route,321042 Cardiac arrest [SNOMED/Condition],oui
+PROCEDUREEVENTS_MV,itemid,225457,Abdominal X-Ray,4,1_resolu_et_route,4057900 Plain X-ray of abdomen [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,225399,Lumbar Puncture,4,1_resolu_et_route,4080549 Lumbar puncture [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,225794,Non-invasive Ventilation,4,1_resolu_et_route,4177224 Non-invasive ventilation [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,225202,Indwelling Port (PortaCath),4,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225204,Midline,3,1_resolu_et_route,4161551 Midline [SNOMED/Observation],oui
+PROCEDUREEVENTS_MV,itemid,225448,Percutaneous Tracheostomy,3,1_resolu_et_route,4143728 Percutaneous tracheostomy [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,225444,Pan Culture,3,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225816,Wound Culture,3,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225462,Interventional Radiology,2,1_resolu_et_route,4121042 Imaging guidance [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,225479,Thoracentesis,2,1_resolu_et_route,4240305 Thoracentesis [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,225440,Fluoroscopy,2,1_resolu_et_route,4195288 Fluoroscopy [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,225468,Unplanned Extubation (patient-initiated),2,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,224270,Dialysis Catheter,2,2_resolu_domaine_hors_5_tables,4265605 Dialysis catheter [SNOMED/Device],oui
+PROCEDUREEVENTS_MV,itemid,225441,Hemodialysis,2,1_resolu_et_route,4120120 Hemodialysis [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,224566,14 Gauge,2,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225430,Cardiac Cath,2,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225446,PEG Insertion,1,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,226476,Esophogeal Balloon,1,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,224273,Presep Catheter,1,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225428,Blakemore D/C,1,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225443,Nuclear Medicine,1,6_recuperable_par_synonyme,4155794 [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,225433,Chest Tube Placed,1,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225436,CRRT Filter Change,1,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225434,Colonoscopy,1,1_resolu_et_route,4249893 Colonoscopy [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,225475,Respiratory Arrest,1,1_resolu_et_route,317109 Respiratory arrest [SNOMED/Condition],oui
+PROCEDUREEVENTS_MV,itemid,227550,ERCP,1,7_nom_exact_dans_un_autre_vocabulaire,653190 [LOINC/Meas Value],oui
+PROCEDUREEVENTS_MV,itemid,225447,Percutaneous Drain Insertion,1,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,225465,Chest Pain,1,1_resolu_et_route,77670 Chest pain [SNOMED/Condition],oui
+PROCEDUREEVENTS_MV,itemid,225449,Pericardiocentesis,1,1_resolu_et_route,4149930 Pericardiocentesis [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,225789,Sheath,1,8_aucun_candidat,,oui
+PROCEDUREEVENTS_MV,itemid,224560,PA Catheter,1,6_recuperable_par_synonyme,4166563 [SNOMED/Device],oui
+PROCEDUREEVENTS_MV,itemid,225461,Pelvis,1,2_resolu_domaine_hors_5_tables,4041832 Entire pelvis [SNOMED/Spec Anatomic Site],oui
+PROCEDUREEVENTS_MV,itemid,225450,Radiation Therapy,1,1_resolu_et_route,1242725 Radiotherapy [SNOMED/Procedure],oui
+PROCEDUREEVENTS_MV,itemid,228129,Family updated by RN,1,8_aucun_candidat,,oui

@@ -1,0 +1,62 @@
+ #mapping test
+
+python3 /home/nl/Documents/MST/healthcare_multi_agent_etl/data/script/evaluate_mapping.py \
+  --gold /home/nl/Documents/MST/healthcare_multi_agent_etl/data/raw/hospital_a/gold_standard_scoped.csv \
+  --out-md /home/nl/Documents/MST/healthcare_multi_agent_etl/data/script/RUN-synthea_sample_allergie-65375db4.md\
+  --out-csv /home/nl/Documents/MST/healthcare_multi_agent_etl/data/script/RUN-synthea_sample_allergie-65375db4.csv\
+  --agent /home/nl/Documents/MST/healthcare_multi_agent_etl/runs/RUN-synthea_sample_allergie-65375db4/mapping/report.csv
+
+
+# data quality 
+ python scripts/compare_content.py --mode row_content \
+  --table condition_occurrence \
+  --fields condition_concept_id,condition_source_value,condition_source_concept_id,condition_start_date,condition_start_datetime,condition_end_date,condition_end_datetime \
+  --natural-key condition_source_value,condition_start_date,condition_concept_id \
+  --patients-csv data/raw/hospital_a/batch007/patients.csv \
+  --our-source-column Id --their-source-column Id \
+  --their-db-host localhost --their-db-name omop_cdm --their-schema cdm_synthea10 \
+  --their-db-user synthea_user --their-db-password changeme
+
+
+python scripts/compare_content.py --mode row_content \
+  --table person \
+  --fields gender_concept_id,year_of_birth,month_of_birth,day_of_birth,race_concept_id,ethnicity_concept_id,gender_source_value,race_source_value,ethnicity_source_value,person_source_value \
+  --natural-key person_source_value \
+  --patients-csv data/raw/hospital_a/batch007/patients.csv \
+  --our-source-column Id --their-source-column Id \
+  --their-db-host localhost --their-db-name omop_cdm --their-schema cdm_synthea10 \
+  --their-db-user synthea_user --their-db-password changeme
+
+python scripts/compare_content.py --mode row_content \
+  --table drug_exposure \
+  --fields drug_concept_id,drug_source_value,drug_source_concept_id,drug_exposure_start_date,drug_exposure_end_date,drug_type_concept_id,quantity \
+  --natural-key drug_concept_id,drug_exposure_start_date,drug_exposure_end_date,drug_source_value\
+  --patients-csv data/raw/hospital_a/batch007/patients.csv \
+  --our-source-column Id --their-source-column Id \
+  --their-db-host localhost --their-db-name omop_cdm --their-schema cdm_synthea10 \
+  --their-db-user synthea_user --their-db-password changeme
+
+
+  python scripts/compare_content.py --mode row_content \
+  --table procedure_occurrence \
+  --fields drug_concept_id,drug_source_value,drug_source_concept_id,drug_exposure_start_date,drug_exposure_end_date,drug_type_concept_id,quantity \
+  --natural-key procedure_concept_id,procedure_date,procedure_source_value
+  --patients-csv data/raw/hospital_a/batch007/patients.csv \
+  --our-source-column Id --their-source-column Id \
+  --their-db-host localhost --their-db-name omop_cdm --their-schema cdm_synthea10 \
+  --their-db-user synthea_user --their-db-password changeme
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  python scripts/run_full_comparison.py \
+  --patients-csv data/raw/hospital_a/synthea_sample_allergie/patients.csv \
+  --their-db-host localhost --their-db-name omop_cdm \
+  --their-schema cdm_synthea10 --their-db-user synthea_user --their-db-password changeme \
+  --output reports/synthea_sample_allergie/full_comparison.md

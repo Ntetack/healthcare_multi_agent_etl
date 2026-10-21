@@ -1,0 +1,26 @@
+# --- Orchestration ---
+langgraph>=0.2.0
+langchain-core>=0.3.0
+
+# --- LLM providers ---
+langchain-groq>=0.2.0
+langchain-mistralai>=0.2.0
+langchain-openrouter>=0.1.0
+
+# --- Data & DB ---
+pandas>=2.2.0
+pyarrow>=17.0.0
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+pyyaml>=6.0
+python-dateutil>=2.9.0
+
+# --- Validation / schemas ---
+pydantic>=2.8.0
+
+# --- Config ---
+python-dotenv>=1.0.0
+
+# --- Testing ---
+pytest>=8.0.0
+pytest-mock>=3.14.0
