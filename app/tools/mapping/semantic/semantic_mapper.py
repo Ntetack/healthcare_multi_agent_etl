@@ -21,6 +21,7 @@ STANDARD_TO_VOCABULARY = {
     "ICD9CM": ["ICD9CM"],       # diagnoses - distinct from ICD9Proc below
     "ICD9Proc": ["ICD9Proc"],   # procedures - a DIFFERENT OMOP vocabulary than ICD9CM
     "CPT4": ["CPT4"],
+    "CPT": ["CPT4"],            # the usual name of the same vocabulary; OMOP calls it CPT4
     "NDC": ["NDC"],
     "LOINC": ["LOINC"],
     "SNOMED": ["SNOMED"],

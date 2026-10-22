@@ -23,9 +23,10 @@ Two independent comparisons - use either or both:
 How a row-level comparison is scored (see compare_frames):
   - A field is either CONTENT (what the row means: concept ids, dates, measured
     values, units) or PROVENANCE (how the source wrote it: *_source_value,
-    *_source_concept_id). Only the content fields make up the agreement score.
-    A provenance field legitimately differs between two representations of the
-    same data ('female' and 'F'), so it is reported apart and never lowers the score.
+    *_source_concept_id). Both kinds are compared and both enter the per-field
+    agreement rate and its mean per table. The kind is kept in the report because
+    a provenance field often differs between two correct ETLs ('female' and 'F'),
+    which the cause analysis uses.
   - Two values are compared with the rule of their kind (see values_agree): a
     date by its day, a measured value within the rounding of the less precise
     side, a label without regard to case or spacing, a concept by its id.
@@ -139,6 +140,36 @@ def compare_coverage(b1_schema: str, b0_session_scope, b0_schema: str) -> list[s
     return lines
 
 
+def pick_source_column(patients: pd.DataFrame, spec: str, person_source_values, system: str) -> str:
+    """The column of patients.csv that holds the identifier a system wrote in person_source_value.
+
+    `spec` is a column name (used as is), a comma-separated list of candidates, or "auto" (every
+    column of the file). With several candidates the one whose values are found most often in
+    person_source_value is chosen: a pipeline may keep SUBJECT_ID in one run and ROW_ID in another,
+    and the comparison must follow what this run wrote. A tie, or no match at all, is an error."""
+    by_lower = {c.lower(): c for c in patients.columns}          # column names are matched ignoring case
+
+    def actual(name: str) -> str:
+        found = by_lower.get(name.strip().lower())
+        if found is None:
+            raise ValueError(f"{system}: column {name!r} not in patients.csv (columns: {list(patients.columns)})")
+        return found
+
+    if spec != "auto" and "," not in spec:
+        return actual(spec)
+    candidates = list(patients.columns) if spec == "auto" else [actual(c) for c in spec.split(",")]
+    wanted = {str(v) for v in person_source_values if v is not None and str(v) != "nan"}
+    score = {c: int(patients[c].dropna().astype(str).isin(wanted).sum()) for c in candidates}
+    best = max(score.values())
+    winners = [c for c, n in score.items() if n == best]
+    if best == 0:
+        raise ValueError(f"{system}: no column of patients.csv matches person_source_value ({score})")
+    if len(winners) > 1:
+        raise ValueError(f"{system}: columns {winners} match equally ({best} patients); name the column")
+    print(f"  {system}: person_source_value corresponds to patients.csv column {winners[0]} ({best} patients; {score})")
+    return winners[0]
+
+
 def build_crosswalk(
     patients_csv: str, b1_source_column: str, b0_source_column: str,
     b1_schema: str, b0_session_scope, b0_schema: str,
@@ -157,6 +188,9 @@ def build_crosswalk(
         b0_person = pd.read_sql(
             text(f"SELECT person_id, person_source_value FROM {b0_schema}.person"), b0_session.connection()
         )
+
+    b1_source_column = pick_source_column(patients, b1_source_column, b1_person["person_source_value"], "B1")
+    b0_source_column = pick_source_column(patients, b0_source_column, b0_person["person_source_value"], "B0")
 
     # Built with explicitly distinct names, even when
     # b1_source_column and b0_source_column happen to be the SAME
@@ -246,6 +280,23 @@ def infer_kind(field: str) -> str:
     if field.endswith("_source_value") or field in {"value_as_string", "stop_reason"}:
         return "text"
     return "exact"
+
+
+def holds_only_placeholder(values, kind: str) -> bool:
+    """True if every filled value of a field is a 0 (or "0"): the baseline writes a constant 0 in a
+    field it does not map (quantity, refills, lot_number in ETL-Synthea), which is no data. For a
+    concept, is_missing already treats the id 0 as missing."""
+    if kind == "concept":
+        return False
+    filled = [v for v in values if not is_missing(v, kind)]
+    if not filled:
+        return False
+    def zero(v):
+        try:
+            return float(str(v).strip()) == 0.0
+        except (TypeError, ValueError):
+            return False
+    return all(zero(v) for v in filled)
 
 
 def is_missing(value, kind: str = "exact") -> bool:
@@ -555,15 +606,25 @@ def compare_frames(
             present_b1 = np.array([not is_missing(v, kind) for v in b1_values], dtype=bool)
             present_b0 = np.array([not is_missing(v, kind) for v in b0_values], dtype=bool)
             n_ours, n_theirs = int(present_b1.sum()), int(present_b0.sum())
+            # The comparison is made on the fields the BASELINE fills. A field it leaves empty, or
+            # fills with a constant 0 because it has no valid mapping, is outside its scope: it is
+            # listed, not scored, whatever B1 does with it. A field the baseline fills and B1 never
+            # does is scored (0 %).
+            whole_b0 = b0_rows[field].tolist() if field in b0_rows.columns else b0_values   # every B0 row, not only the matched ones
+            if n_theirs and holds_only_placeholder(whole_b0, kind):
+                n_theirs = 0
+                baseline_gap = "outside the baseline scope (it holds only 0)"
+            else:
+                baseline_gap = "outside the baseline scope (not populated)"
             if n_ours == 0 and n_theirs == 0:
-                summary["gaps"][field] = "empty on both sides"
+                summary["gaps"][field] = "empty on both sides" if baseline_gap.endswith("(not populated)") else baseline_gap
                 status = "empty_both"
-            elif n_ours == 0:
-                summary["gaps"][field] = "never populated in B1"
-                status = "never_b1"
             elif n_theirs == 0:
-                summary["gaps"][field] = "populated only in B1"
+                summary["gaps"][field] = f"populated only in B1, {baseline_gap}"
                 status = "only_b1"
+            elif n_ours == 0:
+                scored[role][field] = (kind, states)
+                status = "never_b1"
             else:
                 scored[role][field] = (kind, states)
                 status = "compared"
@@ -578,7 +639,7 @@ def compare_frames(
                 "matched_rows": len(matched), "present_b1": n_ours, "present_b0": n_theirs,
                 "both_present": int((present_b1 & present_b0).sum()), "agree": agree,
                 "differ": int(len(differ_idx)), "only_b1": only_b1, "only_b0": only_b0,
-                "agree_pct": _pct(agree, compared_rows) if status == "compared" else None,
+                "agree_pct": _pct(agree, compared_rows) if status in ("compared", "never_b1") else None,
                 "cause_auto": auto_cause(
                     role, status, int(len(differ_idx)), only_b1, only_b0,
                     {_normalise_text(b0_values[i]) for i in differ_idx[:2000]}),
@@ -603,8 +664,8 @@ def compare_frames(
                 lines.append(f"    ex: B1={row[f'{field}_b1']!r} vs B0={row[f'{field}_b0']!r}")
             lines.append("")
 
-    field_lines("content", "# Content fields (what the row means) - they make up the score")
-    field_lines("provenance", "# Provenance fields (how the source writes it) - reported apart, not scored")
+    field_lines("content", "# Content fields (what the row means)")
+    field_lines("provenance", "# Provenance fields (how the source writes it)")
 
     if summary["gaps"]:
         lines += ["# Scope gaps (fields left out of the score)", ""]
@@ -627,7 +688,7 @@ def compare_frames(
         agree_rows = int((~bad_row).sum())
         summary.update(content_agree_rows=agree_rows, content_agree_pct=_pct(agree_rows, len(matched)),
                        content_cells=cells, content_cell_pct=_pct(agree_cells, cells))
-    field_pcts = [v["pct"] for v in summary["per_field"].values() if v["role"] == "content" and v["pct"] is not None]
+    field_pcts = [v["pct"] for v in summary["per_field"].values() if v["pct"] is not None]
     if field_pcts:
         summary["field_mean_pct"] = round(sum(field_pcts) / len(field_pcts), 1)
     prov = scored["provenance"]
@@ -643,12 +704,12 @@ def compare_frames(
         lines.append(f"  Row-level agreement (matched rows whose content fields ALL agree) : "
                      f"{summary['content_agree_rows']}/{len(matched)} ({summary['content_agree_pct']}%)")
         lines.append(f"  Content agreement by value (all compared values) : {summary['content_cell_pct']}%")
-        lines.append(f"  Mean field agreement (unweighted mean of the {len(field_pcts)} compared content fields) : "
+        lines.append(f"  Mean field agreement (unweighted mean of the {len(field_pcts)} compared fields) : "
                      f"{summary['field_mean_pct']}%")
     else:
         lines.append("  Content agreement: no comparable content field.")
     if prov:
-        lines.append(f"  Provenance agreement (not scored) : {summary['provenance_cell_pct']}%")
+        lines.append(f"  Provenance fields, agreement by value : {summary['provenance_cell_pct']}%")
     lines.append("")
     return lines, summary
 
@@ -731,8 +792,8 @@ def main():
     parser.add_argument("--exclude-fields", default="",
                          help="Comma-separated fields to skip even if requested (e.g. a fixed type_concept_id)")
     parser.add_argument("--patients-csv", default=None, help="Required for --mode content/row_content")
-    parser.add_argument("--b1-source-column", "--our-source-column", dest="b1_source_column", default="Id", help="Column in patients.csv matching the person_source_value of B1")
-    parser.add_argument("--b0-source-column", "--their-source-column", dest="b0_source_column", default="Id", help="Column in patients.csv matching the person_source_value of B0")
+    parser.add_argument("--b1-source-column", "--our-source-column", dest="b1_source_column", default="Id", help="Column in patients.csv matching the person_source_value of B1: a name, a comma-separated list of candidates (ROW_ID,SUBJECT_ID), or auto")
+    parser.add_argument("--b0-source-column", "--their-source-column", dest="b0_source_column", default="Id", help="Column in patients.csv matching the person_source_value of B0: a name, a list of candidates, or auto")
     parser.add_argument("--output", default=None)
     args = parser.parse_args()
 

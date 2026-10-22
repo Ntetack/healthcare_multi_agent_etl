@@ -135,12 +135,33 @@ def test_a_row_with_the_right_meaning_agrees_even_if_the_source_wrote_it_differe
     assert summary["content_agree_rows"] == 3 and summary["content_agree_pct"] == 100.0
 
 
-def test_the_provenance_fields_are_reported_but_never_lower_the_score():
+def test_the_provenance_fields_enter_the_mean_like_any_other_field():
     lines, summary = cc.compare_frames(PERSON_SPEC, *_person_frames(), CROSSWALK)
-    assert summary["per_field"]["gender_source_value"]["pct"] == 0.0
-    assert summary["per_field"]["gender_source_value"]["role"] == "provenance"
-    assert summary["provenance_cell_pct"] is not None and summary["provenance_cell_pct"] < 100
-    assert "reported apart, not scored" in "\n".join(lines)
+    per_field = summary["per_field"]
+    assert per_field["gender_source_value"]["pct"] == 0.0
+    assert per_field["gender_source_value"]["role"] == "provenance"
+    pcts = [v["pct"] for v in per_field.values() if v["pct"] is not None]
+    assert summary["field_mean_pct"] == round(sum(pcts) / len(pcts), 1)
+    content_only = [v["pct"] for v in per_field.values() if v["role"] == "content" and v["pct"] is not None]
+    assert summary["field_mean_pct"] < round(sum(content_only) / len(content_only), 1)
+    assert "compared fields" in "\n".join(lines)
+
+
+def test_person_is_compared_without_the_patient_identifier_the_two_systems_may_keep_differently():
+    """MIMIC case: B1 wrote ROW_ID in person_source_value, B0 wrote SUBJECT_ID. The patient bridge
+    already pairs the persons, so the identifier is neither a key nor a compared field."""
+    spec = next(c for c in runner.TABLE_CONFIGS if c["table"] == "person")
+    assert spec["key"] == [] and "person_source_value" in spec["ignored"]
+    b1, b0 = _frames(
+        {"person_source_value": ["9557", "9550", "9527"], "gender_concept_id": [8532, 8507, 8532],
+         "year_of_birth": [1990, 1980, 1975]},
+        {"person_source_value": ["10098", "10035", "10093"], "gender_concept_id": [8532, 8507, 8532],
+         "year_of_birth": [1990, 1980, 1975]},
+    )
+    _, summary = cc.compare_frames(spec, b1, b0, CROSSWALK)
+    assert summary["matched_rows"] == 3 and summary["coverage_pct"] == 100.0
+    assert summary["per_field"]["gender_concept_id"]["pct"] == 100.0
+    assert "person_source_value" not in summary["per_field"]
 
 
 def test_a_real_content_difference_lowers_the_score():
@@ -191,17 +212,17 @@ def test_a_rounded_value_agrees_with_its_precise_counterpart():
     assert summary["per_field"]["value_as_number"]["pct"] == 100.0       # 19.38 against 19.4
 
 
-def test_a_field_we_never_fill_is_a_gap_of_scope_and_stays_out_of_the_score():
+def test_a_field_the_baseline_fills_and_we_never_do_is_scored_at_zero():
     lines, summary = cc.compare_frames(MEASUREMENT_SPEC, *_measurements([None] * 3, [8582, 8582, 9529]), CROSSWALK)
-    assert summary["gaps"] == {"unit_concept_id": "never populated in B1"}
-    assert "unit_concept_id" not in summary["per_field"]
-    assert summary["content_agree_pct"] == 100.0
-    assert "Scope gaps" in "\n".join(lines)
+    assert summary["gaps"] == {}
+    assert summary["per_field"]["unit_concept_id"]["pct"] == 0.0 and summary["per_field"]["unit_concept_id"]["total"] == 3
+    assert _detail(summary, "unit_concept_id")["status"] == "never_b1" and _detail(summary, "unit_concept_id")["agree_pct"] == 0.0
+    assert summary["content_agree_pct"] == 0.0
 
 
-def test_a_field_only_we_fill_is_a_gap_too_and_does_not_count_against_us():
+def test_a_field_only_we_fill_is_outside_the_baseline_scope_and_does_not_count_against_us():
     _, summary = cc.compare_frames(MEASUREMENT_SPEC, *_measurements([8582, 8582, 9529], [None] * 3), CROSSWALK)
-    assert summary["gaps"] == {"unit_concept_id": "populated only in B1"}
+    assert summary["gaps"] == {"unit_concept_id": "populated only in B1, outside the baseline scope (not populated)"}
     assert summary["content_agree_pct"] == 100.0
 
 
@@ -324,6 +345,17 @@ def test_a_column_missing_from_one_schema_is_skipped_and_reported(monkeypatch):
     assert summary["content_agree_pct"] == 100.0
 
 
+def test_a_table_without_a_key_is_read_and_compared_through_the_database_path(monkeypatch):
+    b1, b0 = _frames({"person_source_value": ["9557", "9550", "9527"], "gender_concept_id": [8532, 8507, 8532]},
+                     {"person_source_value": ["10098", "10035", "10093"], "gender_concept_id": [8532, 8507, 8532]})
+    spec = {"table": "person", "key": [], "content": {"gender_concept_id": "concept"},
+            "provenance": {"person_source_value": "text"}}
+    _patch_database(monkeypatch, b1.columns, b0.columns, b1, b0)
+    lines, summary = cc.compare_table(spec, CROSSWALK, "omop_fhir", lambda: _fake_scope(), "omop_csv")
+    assert "error" not in summary and summary["matched_rows"] == 3
+    assert summary["per_field"]["gender_concept_id"]["pct"] == 100.0
+
+
 def test_a_missing_key_column_stops_the_comparison_of_that_table_only(monkeypatch):
     b1, b0 = _frames({"person_source_value": ["a"]}, {"other": ["a"]})
     spec = {"table": "person", "key": ["person_source_value"], "content": {}, "provenance": {}}
@@ -337,7 +369,8 @@ def test_a_missing_key_column_stops_the_comparison_of_that_table_only(monkeypatc
 def test_every_table_of_the_standard_configuration_is_complete_and_consistent():
     assert sorted(c["table"] for c in runner.TABLE_CONFIGS) == sorted(cc.OUR_TABLES)
     for config in runner.TABLE_CONFIGS:
-        assert config["key"], config["table"]
+        # person is already one row per patient, paired by the patient bridge: it needs no further key
+        assert config["key"] or config["table"] == "person", config["table"]
         assert config["content"], f"{config['table']} has no content field"
         for field, kind in {**config["content"], **config["provenance"]}.items():
             assert kind in cc.KINDS, f"{config['table']}.{field}: unknown kind {kind}"
@@ -403,9 +436,9 @@ def test_a_table_that_failed_is_shown_without_breaking_the_totals():
     assert "2/2 (100.0%)" in text
 
 
-def test_the_provenance_note_states_that_it_is_outside_every_figure():
+def test_the_provenance_note_says_the_content_score_leaves_them_out():
     text = "\n".join(runner.build_executive_summary([_summary_for("t1", [1], [1], {"v": "exact"})]))
-    assert "not part of any figure above" in text
+    assert "Content agreement above covers the content fields only" in text
 
 
 # ------------------------------------------------ every field, and the cause of each gap
@@ -434,10 +467,28 @@ def _detail(summary, field):
     return next(d for d in summary["field_details"] if d["field"] == field)
 
 
-def test_a_constant_of_the_baseline_is_told_apart_from_a_difference_to_review():
+def test_a_field_the_baseline_fills_only_with_zero_is_outside_its_scope():
+    """ETL-Synthea writes 0 in quantity, refills, lot_number: no valid mapping, so no data."""
     spec = {"table": "drug", "key": ["k"], "content": {"quantity": "number", "dose": "number"}, "provenance": {}}
     b1 = pd.DataFrame({"person_id": [1, 2, 3], "k": [1, 2, 3], "quantity": [1.0, 1.0, 1.0], "dose": [5, 6, 7]})
     b0 = pd.DataFrame({"person_id": [10, 20, 30], "k": [1, 2, 3], "quantity": [0.0, 0.0, 0.0], "dose": [9, 6, 1]})
+    summary = cc.compare_frames(spec, b1, b0, CROSSWALK)[1]
+    assert "quantity" not in summary["per_field"] and "outside the baseline scope" in summary["gaps"]["quantity"]
+    assert _detail(summary, "quantity")["status"] == "only_b1" and _detail(summary, "quantity")["agree_pct"] is None
+    assert summary["per_field"]["dose"]["pct"] == pytest.approx(33.3, abs=0.1)
+
+
+def test_a_zero_is_a_value_when_the_baseline_also_writes_other_values():
+    spec = {"table": "m", "key": ["k"], "content": {"value_as_number": "number"}, "provenance": {}}
+    b1 = pd.DataFrame({"person_id": [1, 2], "k": [1, 2], "value_as_number": [0.0, 5.0]})
+    b0 = pd.DataFrame({"person_id": [10, 20], "k": [1, 2], "value_as_number": [0.0, 5.0]})
+    assert cc.compare_frames(spec, b1, b0, CROSSWALK)[1]["per_field"]["value_as_number"]["pct"] == 100.0
+
+
+def test_a_constant_of_the_baseline_is_told_apart_from_a_difference_to_review():
+    spec = {"table": "drug", "key": ["k"], "content": {"quantity": "number", "dose": "number"}, "provenance": {}}
+    b1 = pd.DataFrame({"person_id": [1, 2, 3], "k": [1, 2, 3], "quantity": [1.0, 1.0, 1.0], "dose": [5, 6, 7]})
+    b0 = pd.DataFrame({"person_id": [10, 20, 30], "k": [1, 2, 3], "quantity": [2.0, 2.0, 2.0], "dose": [9, 6, 1]})
     summary = cc.compare_frames(spec, b1, b0, CROSSWALK)[1]
     assert _detail(summary, "quantity")["cause_auto"] == "baseline_constant"
     assert _detail(summary, "dose")["cause_auto"] == "to_review" and _detail(summary, "dose")["agree"] == 1
@@ -504,3 +555,61 @@ def test_the_main_report_gives_the_field_mean_per_table_and_no_single_overall_fi
     summary = _summary_for("t1", [1, 2], [1, 2], {"v": "exact"})
     text = "\n".join(runner.field_agreement_section([summary]))
     assert "| t1 | 1 | 100.0% | - |" in text and "overall" not in text.lower()
+
+
+# ------------------------------------------------------ output for scripts/aggregate_runs.py
+def test_append_run_rows_writes_one_value_per_table_and_replaces_a_rerun(tmp_path):
+    import csv
+    path = tmp_path / "runs.csv"
+    summaries = [{"table": "person", "field_mean_pct": 99.9}, {"table": "death", "field_mean_pct": None},
+                 {"table": "visit_occurrence", "field_mean_pct": 88.5, "error": "boom"}]
+    assert runner.append_run_rows(summaries, path, "S1", 1) == 1
+    runner.append_run_rows([{"table": "person", "field_mean_pct": 97.0}], path, "S1", 1)   # rerun of run 1
+    runner.append_run_rows([{"table": "person", "field_mean_pct": 98.0}], path, "S1", 2)
+    rows = list(csv.DictReader(path.open()))
+    assert [(r["scenario"], r["unit"], r["run"], r["value"]) for r in rows] == [
+        ("S1", "person", "1", "0.970000"), ("S1", "person", "2", "0.980000")]
+    assert rows[0]["metric"] == "field_agreement" and rows[0]["batch"] == ""
+
+
+def test_runs_csv_feeds_the_aggregation(tmp_path):
+    spec = importlib.util.spec_from_file_location("agg", Path(__file__).resolve().parents[2] / "scripts" / "aggregate_runs.py")
+    agg = importlib.util.module_from_spec(spec); spec.loader.exec_module(agg)
+    path = tmp_path / "runs.csv"
+    for run, v in enumerate([97.0, 98.0, 96.5, 97.5, 98.2], start=1):
+        runner.append_run_rows([{"table": "person", "field_mean_pct": v}], path, "S1", run)
+    res = agg.analyse(agg.read_runs(str(path)))
+    assert res["H2"][("S1", "person")]["n"] == 5 and res["H2"][("S1", "person")]["reject"] is True
+
+
+# ------------------------------------------------------ the identifier B1 wrote may change from one run to another
+def _patients():
+    return pd.DataFrame({"ROW_ID": ["9467", "9468", "9469"], "SUBJECT_ID": ["10006", "10011", "10013"]})
+
+
+def test_pick_source_column_follows_what_each_run_wrote():
+    pk = cc.pick_source_column
+    assert pk(_patients(), "ROW_ID,SUBJECT_ID", ["9467", "9468", "9469"], "B1") == "ROW_ID"
+    assert pk(_patients(), "ROW_ID,SUBJECT_ID", ["10006", "10011"], "B1") == "SUBJECT_ID"
+    assert pk(_patients(), "auto", ["10006", "10011", "10013"], "B1") == "SUBJECT_ID"
+
+
+def test_pick_source_column_names_are_used_as_given_and_ambiguity_is_refused():
+    pk = cc.pick_source_column
+    assert pk(_patients(), "SUBJECT_ID", ["9467"], "B1") == "SUBJECT_ID"
+    assert pk(_patients(), "subject_id", ["9467"], "B1") == "SUBJECT_ID"
+    with pytest.raises(ValueError):
+        pk(_patients(), "ROW_ID,SUBJECT_ID", ["zzz"], "B1")
+    same = pd.DataFrame({"A": ["1", "2"], "B": ["1", "2"]})
+    with pytest.raises(ValueError):
+        pk(same, "auto", ["1", "2"], "B1")
+    with pytest.raises(ValueError):
+        pk(_patients(), "ROW_ID,NOPE", ["9467"], "B1")
+
+
+def test_pick_source_column_ignores_case_of_names_and_returns_the_real_column():
+    lower = _patients().rename(columns=str.lower)
+    assert cc.pick_source_column(lower, "ROW_ID,SUBJECT_ID", ["10006", "10011"], "B1") == "subject_id"
+    assert cc.pick_source_column(lower, "Row_Id", ["9467"], "B1") == "row_id"
+    with pytest.raises(ValueError):
+        cc.pick_source_column(lower, "NOPE", ["9467"], "B1")

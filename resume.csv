@@ -1,0 +1,2 @@
+run,n_checks,passed,failed,not_applicable,error,unknown,applicable,pass_rate,completeness_passed,completeness_failed,completeness_rate,conformance_passed,conformance_failed,conformance_rate,plausibility_passed,plausibility_failed,plausibility_rate,viewer_pct_passed
+hmae-etl-20261005042158,2374,1078,15,1281,0,0,1093,0.9862763037511436,220,5,0.9777777777777777,620,3,0.9951845906902087,238,7,0.9714285714285714,99.37

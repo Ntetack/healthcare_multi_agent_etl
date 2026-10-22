@@ -52,7 +52,10 @@ from compare_content import build_crosswalk, compare_table, _remote_session_scop
 TABLE_CONFIGS = [
     {
         "table": "person",
-        "key": ["person_source_value"],
+        # One row per person, already paired by the patient bridge: no further key.
+        # person_source_value is ignored: it is the patient identifier that links B1 and B0,
+        # and the two systems may keep a different one (SUBJECT_ID or ROW_ID).
+        "key": [],
         "content": {
             "gender_concept_id": "concept", "year_of_birth": "exact", "month_of_birth": "exact",
             "day_of_birth": "exact", "birth_datetime": "datetime",
@@ -63,7 +66,7 @@ TABLE_CONFIGS = [
             "gender_source_concept_id": "concept", "race_source_concept_id": "concept",
             "ethnicity_source_concept_id": "concept",
         },
-        "ignored": [],
+        "ignored": ["person_source_value"],
     },
     {
         "table": "visit_occurrence",
@@ -167,21 +170,47 @@ def write_field_details(all_summaries: list[dict], path: Path) -> int:
 
 
 def field_agreement_section(all_summaries: list[dict]) -> list[str]:
-    """Per table, the unweighted mean of the agreement of the compared content
-    fields (the main figure), and the number of fields behind it. Never one
-    overall figure: a table with many fields would weigh more than one with few."""
-    lines = ["## Field agreement by table (unweighted mean over the compared content fields)", "",
+    """Per table, the unweighted mean of the agreement of the compared fields
+    (the main figure), and the number of fields behind it. Never one overall
+    figure: a table with many fields would weigh more than one with few."""
+    lines = ["## Field agreement by table (unweighted mean over the compared fields)", "",
              "| Table | Fields compared | Mean field agreement | Fields below 100% |", "|---|---|---|---|"]
     for s in all_summaries:
         if s.get("error"):
             continue
-        fields = [(f, v) for f, v in s.get("per_field", {}).items() if v["role"] == "content"]
+        fields = [(f, v) for f, v in s.get("per_field", {}).items() if v["pct"] is not None]
         below = [f for f, v in fields if v["pct"] is not None and v["pct"] < 100]
         mean = f"{s['field_mean_pct']}%" if s.get("field_mean_pct") is not None else "n/a"
         lines.append(f"| {s['table']} | {len(fields)} | {mean} | {', '.join(below) if below else '-'} |")
     lines += ["", "The per-field detail with the cause of each disagreement is in the `*_fields.csv` file next to this report. "
-              "Provenance fields are in that file too, flagged `provenance`, and are not part of the mean.", ""]
+              "Content and provenance fields both enter the mean; the file flags each field `content` or `provenance`.", ""]
     return lines
+
+
+RUNS_HEADER = ["scenario", "metric", "unit", "run", "batch", "value"]
+
+
+def append_run_rows(all_summaries: list[dict], path: Path, scenario: str, run: int, batch: str = "") -> int:
+    """Append the mean field agreement of each table (a value in [0, 1]) to the long CSV read by
+    scripts/aggregate_runs.py. A table without a mean is skipped. A row already written for the same
+    (scenario, table, run, batch) is replaced, so a comparison can be rerun."""
+    import csv
+    new = [{"scenario": scenario, "metric": "field_agreement", "unit": s["table"], "run": str(run),
+            "batch": str(batch), "value": f"{s['field_mean_pct'] / 100:.6f}"}
+           for s in all_summaries if not s.get("error") and s.get("field_mean_pct") is not None]
+    old = []
+    if path.exists():
+        with path.open(newline="", encoding="utf-8") as fh:
+            old = list(csv.DictReader(fh))
+    ids = {(r["scenario"], r["unit"], r["run"], r["batch"]) for r in new}
+    kept = [r for r in old if r["metric"] != "field_agreement"
+            or (r["scenario"], r["unit"], r["run"], r["batch"]) not in ids]
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", newline="", encoding="utf-8") as fh:
+        w = csv.DictWriter(fh, fieldnames=RUNS_HEADER)
+        w.writeheader()
+        w.writerows([{k: r.get(k, "") for k in RUNS_HEADER} for r in kept + new])
+    return len(new)
 
 
 def _fraction(part, whole) -> str:
@@ -198,7 +227,7 @@ def build_executive_summary(all_summaries: list[dict]) -> list[str]:
                  same thing: the one figure that needs both."""
     lines = ["# Full Comparison Report", "", "## Executive Summary", ""]
     lines.append("| Table | Rows (B1) | Rows (B0) | Matched | Coverage of B0 | "
-                 "Content agreement | Provenance (not scored) | Note |")
+                 "Content agreement | Provenance fields | Note |")
     lines.append("|---|---|---|---|---|---|---|---|")
     for s in all_summaries:
         if s.get("error"):
@@ -239,8 +268,9 @@ def build_executive_summary(all_summaries: list[dict]) -> list[str]:
         lines.append(f"**B0 rows reproduced with the same content (found AND agreeing): "
                      f"{_fraction(agreeing, sum(s['b0_rows'] for s in scored))}**")
         lines.append("")
-    lines.append("Provenance fields (`*_source_value`, `*_source_concept_id`) are listed per table but are not part of "
-                 "any figure above: they record how the source wrote a value, which two faithful exports may do differently.")
+    lines.append("Content agreement above covers the content fields only. Provenance fields (`*_source_value`, "
+                 "`*_source_concept_id`) keep the way the source wrote a value, which two faithful exports may do "
+                 "differently; they are in the per-field table below, with the content fields.")
     lines.append("")
     return lines
 
@@ -261,7 +291,15 @@ def main():
     parser.add_argument("--listed-fields-only", action="store_true",
                         help="compare only the fields listed in TABLE_CONFIGS (default: every field of the tables, "
                              "except record types, out-of-scope foreign keys and surrogate identifiers)")
+    parser.add_argument("--runs-csv", default=None,
+                        help="long CSV to which the mean field agreement of each table is appended, for "
+                             "scripts/aggregate_runs.py (needs --scenario and --run)")
+    parser.add_argument("--scenario", default=None, help="scenario of this comparison (S1, S2, S3, S4)")
+    parser.add_argument("--run", type=int, default=None, help="run number")
+    parser.add_argument("--batch", default="", help="S4 only: 1 (first batch) or 2 (second batch)")
     args = parser.parse_args()
+    if args.runs_csv and (not args.scenario or args.run is None):
+        parser.error("--runs-csv needs --scenario and --run")
 
     password = args.b0_db_password or os.environ.get("DB_PASSWORD", "")
     b0_url = f"postgresql://{args.b0_db_user}:{password}@{args.b0_db_host}:{args.b0_db_port}/{args.b0_db_name}"
@@ -294,6 +332,9 @@ def main():
     output_path.write_text("\n".join(report), encoding="utf-8")
     fields_path = output_path.with_name(output_path.stem + "_fields.csv")
     n = write_field_details(all_summaries, fields_path)
+    if args.runs_csv:
+        k = append_run_rows(all_summaries, Path(args.runs_csv), args.scenario, args.run, args.batch)
+        print(f"{k} table values appended to {args.runs_csv}")
     print(f"\nFull report written: {output_path}\nField detail ({n} rows): {fields_path}")
 
 

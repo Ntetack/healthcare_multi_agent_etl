@@ -1,0 +1,6 @@
+scenario,run,batch,folder,execution_id,exit_code,seconds,dqd_json
+S1,1,1,synthea_csv1,S1-run1-b1,0,547.2,results/S1/run1/batch1_dqd.json
+S1,2,1,synthea_csv1,S1-run2-b1,0,582.2,results/S1/run2/batch1_dqd.json
+S1,3,1,synthea_csv1,S1-run3-b1,0,563.7,results/S1/run3/batch1_dqd.json
+S1,4,1,synthea_csv1,S1-run4-b1,0,577.5,results/S1/run4/batch1_dqd.json
+S1,5,1,synthea_csv1,S1-run5-b1,0,564.2,results/S1/run5/batch1_dqd.json

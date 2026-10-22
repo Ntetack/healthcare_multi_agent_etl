@@ -1,0 +1,16 @@
+run,category,check,table,field,pct_violated_rows,num_violated_rows,threshold
+hmae-etl-20261005042158,Completeness,measurePersonCompleteness,DRUG_ERA,,1,114,95
+hmae-etl-20261005042158,Completeness,measurePersonCompleteness,CONDITION_ERA,,1,114,95
+hmae-etl-20261005042158,Completeness,measureConditionEraCompleteness,CONDITION_ERA,,1,113,0
+hmae-etl-20261005042158,Plausibility,measureObservationPeriodOverlap,OBSERVATION_PERIOD,,0.1754,20,0
+hmae-etl-20261005042158,Conformance,fkDomain,DRUG_EXPOSURE,ROUTE_CONCEPT_ID,0.3835,2921,0
+hmae-etl-20261005042158,Conformance,fkClass,DRUG_STRENGTH,INGREDIENT_CONCEPT_ID,0.0012,3587,0
+hmae-etl-20261005042158,Conformance,isStandardValidConcept,OBSERVATION,OBSERVATION_TYPE_CONCEPT_ID,1,39850,0
+hmae-etl-20261005042158,Completeness,standardConceptRecordCompleteness,MEASUREMENT,UNIT_CONCEPT_ID,0.2253,12597,5
+hmae-etl-20261005042158,Completeness,standardConceptRecordCompleteness,OBSERVATION,UNIT_CONCEPT_ID,0.9035,36005,5
+hmae-etl-20261005042158,Plausibility,plausibleUnitConceptIds,MEASUREMENT,MEASUREMENT_CONCEPT_ID,1,52,5
+hmae-etl-20261005042158,Plausibility,plausibleUnitConceptIds,MEASUREMENT,MEASUREMENT_CONCEPT_ID,1,2707,5
+hmae-etl-20261005042158,Plausibility,plausibleUnitConceptIds,MEASUREMENT,MEASUREMENT_CONCEPT_ID,0.6186,566,5
+hmae-etl-20261005042158,Plausibility,plausibleUnitConceptIds,MEASUREMENT,MEASUREMENT_CONCEPT_ID,1,6,5
+hmae-etl-20261005042158,Plausibility,plausibleUnitConceptIds,MEASUREMENT,MEASUREMENT_CONCEPT_ID,1,1,5
+hmae-etl-20261005042158,Plausibility,plausibleUnitConceptIds,MEASUREMENT,MEASUREMENT_CONCEPT_ID,0.6867,263,5
